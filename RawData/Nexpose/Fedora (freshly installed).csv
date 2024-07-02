@@ -1,0 +1,31 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Fedora,freshly installed
+Laptop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Fedora,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Laptop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Fedora,freshly installed
+Laptop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Fedora,freshly installed
+Desktop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Fedora,freshly installed
+Desktop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Fedora,freshly installed
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Desktop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Fedora,freshly installed
+Desktop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Fedora,freshly installed
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Fedora,freshly installed
+Server,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Fedora,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,freshly installed
+Server,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Fedora,freshly installed
+Server,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Fedora,freshly installed

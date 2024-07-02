@@ -1,0 +1,25 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Red Hat Enterprise Linux,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Laptop,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Red Hat Enterprise Linux,fully updated
+Laptop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Red Hat Enterprise Linux,fully updated
+Laptop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Red Hat Enterprise Linux,fully updated
+Laptop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Red Hat Enterprise Linux,fully updated
+Laptop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Red Hat Enterprise Linux,fully updated
+Desktop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Red Hat Enterprise Linux,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Desktop,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Red Hat Enterprise Linux,fully updated
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Red Hat Enterprise Linux,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,fully updated
+Server,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Red Hat Enterprise Linux,fully updated
+Server,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Red Hat Enterprise Linux,fully updated
+Server,0,ve,generic-tcp-timestamp,,1,TCP timestamp response,Red Hat Enterprise Linux,fully updated
+Server,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Red Hat Enterprise Linux,fully updated
+Server,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Red Hat Enterprise Linux,fully updated
+Server,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Red Hat Enterprise Linux,fully updated

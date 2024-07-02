@@ -1,0 +1,11 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Red Hat Enterprise Linux,freshly installed
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,freshly installed
+Server,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Red Hat Enterprise Linux,freshly installed
+Server,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Red Hat Enterprise Linux,freshly installed
+Server,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Red Hat Enterprise Linux,freshly installed
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Red Hat Enterprise Linux,freshly installed
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Red Hat Enterprise Linux,freshly installed
+Laptop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Red Hat Enterprise Linux,freshly installed
+Laptop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Red Hat Enterprise Linux,freshly installed
+Laptop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Red Hat Enterprise Linux,freshly installed

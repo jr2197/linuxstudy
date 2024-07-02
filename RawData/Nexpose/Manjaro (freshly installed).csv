@@ -1,0 +1,10 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Manjaro,freshly installed
+Laptop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Manjaro,freshly installed
+Laptop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Manjaro,freshly installed
+Desktop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Manjaro,freshly installed
+Desktop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Manjaro,freshly installed
+Desktop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Manjaro,freshly installed
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Manjaro,freshly installed
+Server,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Manjaro,freshly installed
+Server,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Manjaro,freshly installed

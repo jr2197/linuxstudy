@@ -1,0 +1,2411 @@
+Plugin ID,CVE,CVSS v2.0 Base Score,Risk,Host,Protocol,Port,Name,Synopsis,Description,Solution,See Also,Plugin Output,CVSS v3.0 Base Score,Distribution,State
+10114,CVE-1999-0524,0,None,Laptop,icmp,0,ICMP Timestamp Request Remote Date Disclosure,It is possible to determine the exact time set on the remote host.,"The remote host answers to an ICMP timestamp request.  This allows an
+attacker to know the date that is set on the targeted machine, which
+may assist an unauthenticated, remote attacker in defeating time-based
+authentication protocols.
+
+Timestamps returned from machines running Windows Vista / 7 / 2008 /
+2008 R2 are deliberately incorrect, but usually within 1000 seconds of
+the actual system time.","Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+timestamp replies (14).",,"The difference between the local and remote clocks is -2 seconds.
+",0,Kali Linux,fully updated
+10267,,,None,Laptop,tcp,22,SSH Server Type and Version Information,An SSH server is listening on this port.,"It is possible to obtain information about the remote SSH server by
+sending an empty authentication request.",n/a,,"
+SSH version : SSH-2.0-OpenSSH_9.6p1 Debian-4
+SSH supported authentication : publickey,password
+",,Kali Linux,fully updated
+10287,,,None,Laptop,udp,0,Traceroute Information,It was possible to obtain traceroute information.,Makes a traceroute to the remote host.,n/a,,"For your information, here is the traceroute from 10.0.1.11 to 10.0.1.21 : 
+10.0.1.11
+10.0.1.21
+
+Hop Count: 1
+",,Kali Linux,fully updated
+10881,,,None,Laptop,tcp,22,SSH Protocol Versions Supported,A SSH server is running on the remote host.,"This plugin determines the versions of the SSH protocol supported by
+the remote SSH daemon.",n/a,,"The remote SSH daemon supports the following versions of the
+SSH protocol :
+
+  - 1.99
+  - 2.0
+",,Kali Linux,fully updated
+11219,,,None,Laptop,tcp,22,Nessus SYN scanner,It is possible to determine which TCP ports are open.,"This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.",Protect your target with an IP filter.,,Port 22/tcp was found to be open,,Kali Linux,fully updated
+11936,,,None,Laptop,tcp,0,OS Identification,It is possible to guess the remote operating system.,"Using a combination of remote probes (e.g., TCP/IP, SMB, HTTP, NTP,
+SNMP, etc.), it is possible to guess the name of the remote operating
+system in use. It is also possible sometimes to guess the version of
+the operating system.",n/a,,"
+Remote operating system : Linux Kernel 2.6
+Confidence level : 65
+Method : SinFP
+
+ 
+The remote host is running Linux Kernel 2.6",,Kali Linux,fully updated
+19506,,,None,Laptop,tcp,0,Nessus Scan Information,This plugin displays information about the Nessus scan.,"This plugin displays, for each tested host, information about the
+scan itself :
+
+  - The version of the plugin set.
+  - The type of scanner (Nessus or Nessus Home).
+  - The version of the Nessus Engine.
+  - The port scanner(s) used.
+  - The port range scanned.
+  - The ping round trip time 
+  - Whether credentialed or third-party patch management
+    checks are possible.
+  - Whether the display of superseded patches is enabled
+  - The date of the scan.
+  - The duration of the scan.
+  - The number of hosts scanned in parallel.
+  - The number of checks done in parallel.",n/a,,"Information about this scan : 
+
+Nessus version : 10.7.1
+Nessus build : 20016
+Plugin feed version : 202404071510
+Scanner edition used : Nessus Home
+Scanner OS : LINUX
+Scanner distribution : ubuntu1404-x86-64
+Scan type : Normal
+Scan name : Kali Linux (post-scan)
+Scan policy used : Basic Network Scan
+Scanner IP : 10.0.1.11
+Port scanner(s) : nessus_syn_scanner 
+Port range : default
+Ping RTT : 125.302 ms
+Thorough tests : no
+Experimental tests : no
+Plugin debugging enabled : no
+Paranoia level : 1
+Report verbosity : 1
+Safe checks : yes
+Optimize the test : no
+Credentialed checks : no
+Patch management checks : None
+Display superseded patches : yes (supersedence plugin did not launch)
+CGI scanning : disabled
+Web application tests : disabled
+Max hosts : 30
+Max checks : 4
+Recv timeout : 5
+Backports : None
+Allow post-scan editing : Yes
+Nessus Plugin Signature Checking : Enabled
+Audit File Signature Checking : Disabled
+Scan Start Date : 2024/4/9 11:41 EDT
+Scan duration : 1762 sec
+Scan for malware : no
+",,Kali Linux,fully updated
+21745,,,None,Laptop,tcp,0,OS Security Patch Assessment Failed,Errors prevented OS Security Patch Assessment.,"OS Security Patch Assessment is not available for this host because
+either the credentials supplied in the scan policy did not allow
+Nessus to log into it or some other problem occurred.",Fix the problem(s) so that OS Security Patch Assessment is possible.,,"
+The following service errors were logged :
+
+  - Plugin      : ssh_get_info.nasl
+    Plugin ID   : 12634
+    Plugin Name : Authenticated Check : OS Name and Installed Package Enumeration
+    Protocol    : SSH
+    Message     : 
+Remote SSH server does not support ssh-rsa or ssh-dss server host key algorithms.
+",,Kali Linux,fully updated
+22964,,,None,Laptop,tcp,22,Service Detection,The remote service could be identified.,"Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,An SSH server is running on this port.,,Kali Linux,fully updated
+25220,,,None,Laptop,tcp,0,TCP/IP Timestamps Supported,The remote service implements TCP timestamps.,"The remote host implements TCP timestamps, as defined by RFC1323.  A
+side effect of this feature is that the uptime of the remote host can
+sometimes be computed.",n/a,http://www.ietf.org/rfc/rfc1323.txt,,,Kali Linux,fully updated
+35716,,,None,Laptop,tcp,0,Ethernet Card Manufacturer Detection,The manufacturer can be identified from the Ethernet OUI.,"Each ethernet MAC address starts with a 24-bit Organizationally 
+Unique Identifier (OUI). These OUIs are registered by IEEE.",n/a,"https://standards.ieee.org/faqs/regauth.html
+http://www.nessus.org/u?794673b4","
+The following card manufacturers were identified :
+
+F0:76:1C:8C:33:11 : COMPAL INFORMATION (KUNSHAN) CO., LTD.
+",,Kali Linux,fully updated
+45590,,,None,Laptop,tcp,0,Common Platform Enumeration (CPE),"It was possible to enumerate CPE names that matched on the remote
+system.","By using information obtained from a Nessus scan, this plugin reports
+CPE (Common Platform Enumeration) matches for various hardware and
+software products found on a host. 
+
+Note that if an official CPE is not available for the product, this
+plugin computes the best possible CPE based on the information
+available from the scan.",n/a,"http://cpe.mitre.org/
+https://nvd.nist.gov/products/cpe","
+The remote operating system matched the following CPE : 
+
+  cpe:/o:linux:linux_kernel -> Linux Kernel
+
+Following application CPE's matched on the remote system : 
+
+  cpe:/a:openbsd:openssh:9.6 -> OpenBSD OpenSSH
+  cpe:/a:openbsd:openssh:9.6p1 -> OpenBSD OpenSSH
+",,Kali Linux,fully updated
+54615,,,None,Laptop,tcp,0,Device Type,It is possible to guess the remote device type.,"Based on the remote operating system, it is possible to determine
+what the remote system type is (eg: a printer, router, general-purpose
+computer, etc).",n/a,,"Remote device type : general-purpose
+Confidence level : 65
+",,Kali Linux,fully updated
+70657,,,None,Laptop,tcp,22,SSH Algorithms and Languages Supported,An SSH server is listening on this port.,"This script detects which algorithms and languages are supported by
+the remote service for encrypting communications.",n/a,,"
+Nessus negotiated the following encryption algorithm with the server : 
+
+The server supports the following options for kex_algorithms : 
+
+  curve25519-sha256
+  curve25519-sha256@libssh.org
+  diffie-hellman-group-exchange-sha256
+  diffie-hellman-group14-sha256
+  diffie-hellman-group16-sha512
+  diffie-hellman-group18-sha512
+  ecdh-sha2-nistp256
+  ecdh-sha2-nistp384
+  ecdh-sha2-nistp521
+  ext-info-s
+  kex-strict-s-v00@openssh.com
+  sntrup761x25519-sha512@openssh.com
+
+The server supports the following options for server_host_key_algorithms : 
+
+  ecdsa-sha2-nistp256
+  rsa-sha2-256
+  rsa-sha2-512
+  ssh-ed25519
+
+The server supports the following options for encryption_algorithms_client_to_server : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for encryption_algorithms_server_to_client : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for mac_algorithms_client_to_server : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for mac_algorithms_server_to_client : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for compression_algorithms_client_to_server : 
+
+  none
+  zlib@openssh.com
+
+The server supports the following options for compression_algorithms_server_to_client : 
+
+  none
+  zlib@openssh.com
+",,Kali Linux,fully updated
+86420,,,None,Laptop,tcp,0,Ethernet MAC Addresses,"This plugin gathers MAC addresses from various sources and
+consolidates them into a list.","This plugin gathers MAC addresses discovered from both remote probing
+of the host (e.g. SNMP and Netbios) and from running local checks
+(e.g. ifconfig). It then consolidates the MAC addresses into a single,
+unique, and uniform list.",n/a,,"The following is a consolidated list of detected MAC addresses:
+  - F0:76:1C:8C:33:11
+",,Kali Linux,fully updated
+102094,,,None,Laptop,tcp,0,SSH Commands Require Privilege Escalation,"This plugin reports the SSH commands that failed with a response
+indicating that privilege escalation is required to run them.","This plugin reports the SSH commands that failed with a response
+indicating that privilege escalation is required to run them. Either
+privilege escalation credentials were not provided, or the command
+failed to run with the provided privilege escalation credentials. 
+
+NOTE: Due to limitations inherent to the majority of SSH servers, 
+this plugin may falsely report failures for commands containing 
+error output expected by sudo, such as 'incorrect password', 
+'not in the sudoers file', or 'not allowed to execute'.",n/a,,"
+Login account : user
+Commands failed due to privilege escalation failure:
+- Escalation account : root + root
+  Escalation method  : su + sudo
+  Plugins :
+  - Plugin Filename : ssh_get_info2.nasl
+    Plugin ID       : 97993
+    Plugin Name     : OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library)
+    - Command  : ""printf \""command_start_%s\"" \""TEST\""""
+      Response : ""su: Authentication failure""
+      Error    : ""sh_shell_handler [channel 0]: Privilege escalation appears to have failed. Removing privilege escalation from credential set.\nsh_shell_handler [channel 0]: ERROR - unable to get back to command prompt.""",,Kali Linux,fully updated
+117885,,,None,Laptop,tcp,22,Target Credential Issues by Authentication Protocol - Intermittent Authentication Failure,"Nessus was able to log in to the remote host using the provided
+credentials, but there were intermittent authentication failures.","Nessus was able to successfully authenticate to the remote host on an
+authentication protocol at least once using credentials provided in
+the scan policy.
+
+However, one or more plugins failed to authenticate to the remote host
+on the same port and protocol using the same credential set that was
+previously successful. This may indicate an intermittent
+authentication problem with the remote host, which could be caused by
+session rate limits, session concurrency limits, or other issues
+preventing consistent authentication success.
+
+These intermittent authentication failures may have affected the
+results of some plugins. See plugin output for failure details.",n/a,,"
+Nessus was able to successfully log into the remote host as :
+
+User:       'user'
+Port:       22
+Proto:      SSH
+Method:     password
+
+
+Successful authentication was reported by the following plugin :
+
+  Plugin      : ssh_rate_limiting.nasl
+  Plugin ID   : 122501
+  Plugin Name : SSH Rate Limited Device
+
+However, one or more subsequent plugins failed to authenticate to the
+remote host on the same port and protocol using the same credential
+set that previously succeeded. This may indicate an intermittent
+authentication problem with the remote host which may have affected
+the results of the following plugins.
+
+Error message statistics :
+
+  1 Remote SSH server does not support ssh-rsa or ssh-dss server host key algorithms.
+
+
+Failure Details :
+
+  - Plugin      : ssh_get_info.nasl
+    Plugin ID   : 12634
+    Plugin Name : Authenticated Check : OS Name and Installed Package Enumeration
+    Message     : 
+Remote SSH server does not support ssh-rsa or ssh-dss server host key algorithms.
+",,Kali Linux,fully updated
+141118,,,None,Laptop,tcp,22,Target Credential Status by Authentication Protocol - Valid Credentials Provided,Valid credentials were provided for an available authentication protocol.,"Nessus was able to determine that valid credentials were provided for
+an authentication protocol available on the remote target because it
+was able to successfully authenticate directly to the remote target
+using that authentication protocol at least once. Authentication was
+successful because the authentication protocol service was available
+remotely, the service was able to be identified, the authentication
+protocol was able to be negotiated successfully, and a set of
+credentials provided in the scan policy for that authentication
+protocol was accepted by the remote service. See plugin output for
+details, including protocol, port, and account.
+
+Please note the following :
+
+- This plugin reports per protocol, so it is possible for
+  valid credentials to be provided for one protocol and not
+  another. For example, authentication may succeed via SSH
+  but fail via SMB, while no credentials were provided for
+  an available SNMP service.
+
+- Providing valid credentials for all available
+  authentication protocols may improve scan coverage, but
+  the value of successful authentication for a given
+  protocol may vary from target to target depending upon
+  what data (if any) is gathered from the target via that
+  protocol. For example, successful authentication via SSH
+  is more valuable for Linux targets than for Windows
+  targets, and likewise successful authentication via SMB
+  is more valuable for Windows targets than for Linux
+  targets.",n/a,,"
+Nessus was able to log in to the remote host via the following :
+
+User:       'user'
+Port:       22
+Proto:      SSH
+Method:     password
+",,Kali Linux,fully updated
+149334,,,None,Laptop,tcp,22,SSH Password Authentication Accepted,The SSH server on the remote host accepts password authentication.,The SSH server on the remote host accepts password authentication.,n/a,https://tools.ietf.org/html/rfc4252#section-8,,,Kali Linux,fully updated
+150799,,,None,Laptop,tcp,22,Target Access Problems by Authentication Protocol - Maximum Privilege Account Used in Scan,"Nessus scanned the target host with the highest available privilege
+level. Yet Nessus encountered permissions issues while accessing one
+or more items during the scan.","Nessus was able to log in to the remote host using the provided
+credentials. The provided credentials have the highest privilege
+possible on the remote host.  Yet Nessus encountered permissions
+issues while accessing items during the scan.
+
+It is likely that this condition is caused by one or more of the
+following:
+
+1)  A plugin tried to access a resource that requires a special
+    privilege level such as NT_AUTHORITY on Windows.  The resource
+    may have had its permissions altered since the plugin was
+    written.
+2)  Environmental issues may have caused an intermittent failure
+    in authentication that caused Nessus to stop attempting
+    privilege escalation.
+3)  A resource on the host that Nessus attempts to access multiple
+    times may be configured with access limits.  Related lockouts may
+    look like permissions failures.
+4)  Nessus may have tried to access a resource that does not exist
+    on a target that fails to properly report permissions issues.
+    For instance, on some legacy unix systems such as AIX or HP-UX
+    there is no way to distinguish a missing resource from a
+    permissions error.
+
+If you believe that the plugin indicated attempted to access the
+wrong resource or a resource that has recently received special OS
+protection, please contact Tenable Support.",n/a,,"
+Nessus was able to log in to the remote host via the following
+protocol as user. During the scan Nessus encountered
+the following permissions issues while performing the planned checks:
+
+  Protocol        : SSH
+  Port            : 22
+
+See the output of the following plugin for details :
+
+  Plugin ID   : 102094
+  Plugin Name : SSH Commands Require Privilege Escalation
+
+
+Note: Nessus was unable to determine the privilege of
+ the logged in user and therefore is reporting permissions 
+ problems here.  Please check to see whether privilege escalation
+ failed or whether the scan can be configured to supply more access.
+",,Kali Linux,fully updated
+153588,,,None,Laptop,tcp,22,SSH SHA-1 HMAC Algorithms Enabled,The remote SSH server is configured to enable SHA-1 HMAC algorithms.,"The remote SSH server is configured to enable SHA-1 HMAC algorithms.
+
+Although NIST has formally deprecated use of SHA-1 for digital signatures, SHA-1 is still considered secure for HMAC as
+the security of HMAC does not rely on the underlying hash function being resistant to collisions.
+
+Note that this plugin only checks for the options of the remote SSH server.",n/a,,"
+The following client-to-server SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+
+The following server-to-client SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+",,Kali Linux,fully updated
+181418,,,None,Laptop,tcp,22,OpenSSH Detection,An OpenSSH-based SSH server was detected on the remote host.,An OpenSSH-based SSH server was detected on the remote host.,n/a,https://www.openssh.com/,"
+  Service : ssh
+  Version : 9.6p1
+  Banner  : SSH-2.0-OpenSSH_9.6p1 Debian-4
+",,Kali Linux,fully updated
+10114,CVE-1999-0524,0,None,Desktop,icmp,0,ICMP Timestamp Request Remote Date Disclosure,It is possible to determine the exact time set on the remote host.,"The remote host answers to an ICMP timestamp request.  This allows an
+attacker to know the date that is set on the targeted machine, which
+may assist an unauthenticated, remote attacker in defeating time-based
+authentication protocols.
+
+Timestamps returned from machines running Windows Vista / 7 / 2008 /
+2008 R2 are deliberately incorrect, but usually within 1000 seconds of
+the actual system time.","Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+timestamp replies (14).",,"The difference between the local and remote clocks is -2 seconds.
+",0,Kali Linux,fully updated
+10267,,,None,Desktop,tcp,22,SSH Server Type and Version Information,An SSH server is listening on this port.,"It is possible to obtain information about the remote SSH server by
+sending an empty authentication request.",n/a,,"
+SSH version : SSH-2.0-OpenSSH_9.6p1 Debian-4
+SSH supported authentication : publickey,password
+",,Kali Linux,fully updated
+10287,,,None,Desktop,udp,0,Traceroute Information,It was possible to obtain traceroute information.,Makes a traceroute to the remote host.,n/a,,"For your information, here is the traceroute from 10.0.1.11 to 10.0.1.22 : 
+10.0.1.11
+10.0.1.22
+
+Hop Count: 1
+",,Kali Linux,fully updated
+10881,,,None,Desktop,tcp,22,SSH Protocol Versions Supported,A SSH server is running on the remote host.,"This plugin determines the versions of the SSH protocol supported by
+the remote SSH daemon.",n/a,,"The remote SSH daemon supports the following versions of the
+SSH protocol :
+
+  - 1.99
+  - 2.0
+",,Kali Linux,fully updated
+11219,,,None,Desktop,tcp,22,Nessus SYN scanner,It is possible to determine which TCP ports are open.,"This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.",Protect your target with an IP filter.,,Port 22/tcp was found to be open,,Kali Linux,fully updated
+11936,,,None,Desktop,tcp,0,OS Identification,It is possible to guess the remote operating system.,"Using a combination of remote probes (e.g., TCP/IP, SMB, HTTP, NTP,
+SNMP, etc.), it is possible to guess the name of the remote operating
+system in use. It is also possible sometimes to guess the version of
+the operating system.",n/a,,"
+Remote operating system : Linux Kernel 2.6
+Confidence level : 65
+Method : SinFP
+
+ 
+The remote host is running Linux Kernel 2.6",,Kali Linux,fully updated
+19506,,,None,Desktop,tcp,0,Nessus Scan Information,This plugin displays information about the Nessus scan.,"This plugin displays, for each tested host, information about the
+scan itself :
+
+  - The version of the plugin set.
+  - The type of scanner (Nessus or Nessus Home).
+  - The version of the Nessus Engine.
+  - The port scanner(s) used.
+  - The port range scanned.
+  - The ping round trip time 
+  - Whether credentialed or third-party patch management
+    checks are possible.
+  - Whether the display of superseded patches is enabled
+  - The date of the scan.
+  - The duration of the scan.
+  - The number of hosts scanned in parallel.
+  - The number of checks done in parallel.",n/a,,"Information about this scan : 
+
+Nessus version : 10.7.1
+Nessus build : 20016
+Plugin feed version : 202404071510
+Scanner edition used : Nessus Home
+Scanner OS : LINUX
+Scanner distribution : ubuntu1404-x86-64
+Scan type : Normal
+Scan name : Kali Linux (post-scan)
+Scan policy used : Basic Network Scan
+Scanner IP : 10.0.1.11
+Port scanner(s) : nessus_syn_scanner 
+Port range : default
+Ping RTT : 130.601 ms
+Thorough tests : no
+Experimental tests : no
+Plugin debugging enabled : no
+Paranoia level : 1
+Report verbosity : 1
+Safe checks : yes
+Optimize the test : no
+Credentialed checks : no
+Patch management checks : None
+Display superseded patches : yes (supersedence plugin did not launch)
+CGI scanning : disabled
+Web application tests : disabled
+Max hosts : 30
+Max checks : 4
+Recv timeout : 5
+Backports : None
+Allow post-scan editing : Yes
+Nessus Plugin Signature Checking : Enabled
+Audit File Signature Checking : Disabled
+Scan Start Date : 2024/4/9 11:41 EDT
+Scan duration : 1695 sec
+Scan for malware : no
+",,Kali Linux,fully updated
+21745,,,None,Desktop,tcp,0,OS Security Patch Assessment Failed,Errors prevented OS Security Patch Assessment.,"OS Security Patch Assessment is not available for this host because
+either the credentials supplied in the scan policy did not allow
+Nessus to log into it or some other problem occurred.",Fix the problem(s) so that OS Security Patch Assessment is possible.,,"
+The following service errors were logged :
+
+  - Plugin      : ssh_get_info.nasl
+    Plugin ID   : 12634
+    Plugin Name : Authenticated Check : OS Name and Installed Package Enumeration
+    Protocol    : SSH
+    Message     : 
+Remote SSH server does not support ssh-rsa or ssh-dss server host key algorithms.
+",,Kali Linux,fully updated
+22964,,,None,Desktop,tcp,22,Service Detection,The remote service could be identified.,"Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,An SSH server is running on this port.,,Kali Linux,fully updated
+25220,,,None,Desktop,tcp,0,TCP/IP Timestamps Supported,The remote service implements TCP timestamps.,"The remote host implements TCP timestamps, as defined by RFC1323.  A
+side effect of this feature is that the uptime of the remote host can
+sometimes be computed.",n/a,http://www.ietf.org/rfc/rfc1323.txt,,,Kali Linux,fully updated
+35716,,,None,Desktop,tcp,0,Ethernet Card Manufacturer Detection,The manufacturer can be identified from the Ethernet OUI.,"Each ethernet MAC address starts with a 24-bit Organizationally 
+Unique Identifier (OUI). These OUIs are registered by IEEE.",n/a,"https://standards.ieee.org/faqs/regauth.html
+http://www.nessus.org/u?794673b4","
+The following card manufacturers were identified :
+
+14:DA:E9:71:C4:FA : ASUSTek COMPUTER INC.
+",,Kali Linux,fully updated
+45590,,,None,Desktop,tcp,0,Common Platform Enumeration (CPE),"It was possible to enumerate CPE names that matched on the remote
+system.","By using information obtained from a Nessus scan, this plugin reports
+CPE (Common Platform Enumeration) matches for various hardware and
+software products found on a host. 
+
+Note that if an official CPE is not available for the product, this
+plugin computes the best possible CPE based on the information
+available from the scan.",n/a,"http://cpe.mitre.org/
+https://nvd.nist.gov/products/cpe","
+The remote operating system matched the following CPE : 
+
+  cpe:/o:linux:linux_kernel -> Linux Kernel
+
+Following application CPE's matched on the remote system : 
+
+  cpe:/a:openbsd:openssh:9.6 -> OpenBSD OpenSSH
+  cpe:/a:openbsd:openssh:9.6p1 -> OpenBSD OpenSSH
+",,Kali Linux,fully updated
+54615,,,None,Desktop,tcp,0,Device Type,It is possible to guess the remote device type.,"Based on the remote operating system, it is possible to determine
+what the remote system type is (eg: a printer, router, general-purpose
+computer, etc).",n/a,,"Remote device type : general-purpose
+Confidence level : 65
+",,Kali Linux,fully updated
+70657,,,None,Desktop,tcp,22,SSH Algorithms and Languages Supported,An SSH server is listening on this port.,"This script detects which algorithms and languages are supported by
+the remote service for encrypting communications.",n/a,,"
+Nessus negotiated the following encryption algorithm with the server : 
+
+The server supports the following options for kex_algorithms : 
+
+  curve25519-sha256
+  curve25519-sha256@libssh.org
+  diffie-hellman-group-exchange-sha256
+  diffie-hellman-group14-sha256
+  diffie-hellman-group16-sha512
+  diffie-hellman-group18-sha512
+  ecdh-sha2-nistp256
+  ecdh-sha2-nistp384
+  ecdh-sha2-nistp521
+  ext-info-s
+  kex-strict-s-v00@openssh.com
+  sntrup761x25519-sha512@openssh.com
+
+The server supports the following options for server_host_key_algorithms : 
+
+  ecdsa-sha2-nistp256
+  rsa-sha2-256
+  rsa-sha2-512
+  ssh-ed25519
+
+The server supports the following options for encryption_algorithms_client_to_server : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for encryption_algorithms_server_to_client : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for mac_algorithms_client_to_server : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for mac_algorithms_server_to_client : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for compression_algorithms_client_to_server : 
+
+  none
+  zlib@openssh.com
+
+The server supports the following options for compression_algorithms_server_to_client : 
+
+  none
+  zlib@openssh.com
+",,Kali Linux,fully updated
+86420,,,None,Desktop,tcp,0,Ethernet MAC Addresses,"This plugin gathers MAC addresses from various sources and
+consolidates them into a list.","This plugin gathers MAC addresses discovered from both remote probing
+of the host (e.g. SNMP and Netbios) and from running local checks
+(e.g. ifconfig). It then consolidates the MAC addresses into a single,
+unique, and uniform list.",n/a,,"The following is a consolidated list of detected MAC addresses:
+  - 14:DA:E9:71:C4:FA
+",,Kali Linux,fully updated
+102094,,,None,Desktop,tcp,0,SSH Commands Require Privilege Escalation,"This plugin reports the SSH commands that failed with a response
+indicating that privilege escalation is required to run them.","This plugin reports the SSH commands that failed with a response
+indicating that privilege escalation is required to run them. Either
+privilege escalation credentials were not provided, or the command
+failed to run with the provided privilege escalation credentials. 
+
+NOTE: Due to limitations inherent to the majority of SSH servers, 
+this plugin may falsely report failures for commands containing 
+error output expected by sudo, such as 'incorrect password', 
+'not in the sudoers file', or 'not allowed to execute'.",n/a,,"
+Login account : user
+Commands failed due to privilege escalation failure:
+- Escalation account : root + root
+  Escalation method  : su + sudo
+  Plugins :
+  - Plugin Filename : ssh_get_info2.nasl
+    Plugin ID       : 97993
+    Plugin Name     : OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library)
+    - Command  : ""printf \""command_start_%s\"" \""TEST\""""
+      Response : ""su: Authentication failure""
+      Error    : ""sh_shell_handler [channel 0]: Privilege escalation appears to have failed. Removing privilege escalation from credential set.\nsh_shell_handler [channel 0]: ERROR - unable to get back to command prompt.""",,Kali Linux,fully updated
+117885,,,None,Desktop,tcp,22,Target Credential Issues by Authentication Protocol - Intermittent Authentication Failure,"Nessus was able to log in to the remote host using the provided
+credentials, but there were intermittent authentication failures.","Nessus was able to successfully authenticate to the remote host on an
+authentication protocol at least once using credentials provided in
+the scan policy.
+
+However, one or more plugins failed to authenticate to the remote host
+on the same port and protocol using the same credential set that was
+previously successful. This may indicate an intermittent
+authentication problem with the remote host, which could be caused by
+session rate limits, session concurrency limits, or other issues
+preventing consistent authentication success.
+
+These intermittent authentication failures may have affected the
+results of some plugins. See plugin output for failure details.",n/a,,"
+Nessus was able to successfully log into the remote host as :
+
+User:       'user'
+Port:       22
+Proto:      SSH
+Method:     password
+
+
+Successful authentication was reported by the following plugin :
+
+  Plugin      : ssh_rate_limiting.nasl
+  Plugin ID   : 122501
+  Plugin Name : SSH Rate Limited Device
+
+However, one or more subsequent plugins failed to authenticate to the
+remote host on the same port and protocol using the same credential
+set that previously succeeded. This may indicate an intermittent
+authentication problem with the remote host which may have affected
+the results of the following plugins.
+
+Error message statistics :
+
+  1 Remote SSH server does not support ssh-rsa or ssh-dss server host key algorithms.
+
+
+Failure Details :
+
+  - Plugin      : ssh_get_info.nasl
+    Plugin ID   : 12634
+    Plugin Name : Authenticated Check : OS Name and Installed Package Enumeration
+    Message     : 
+Remote SSH server does not support ssh-rsa or ssh-dss server host key algorithms.
+",,Kali Linux,fully updated
+141118,,,None,Desktop,tcp,22,Target Credential Status by Authentication Protocol - Valid Credentials Provided,Valid credentials were provided for an available authentication protocol.,"Nessus was able to determine that valid credentials were provided for
+an authentication protocol available on the remote target because it
+was able to successfully authenticate directly to the remote target
+using that authentication protocol at least once. Authentication was
+successful because the authentication protocol service was available
+remotely, the service was able to be identified, the authentication
+protocol was able to be negotiated successfully, and a set of
+credentials provided in the scan policy for that authentication
+protocol was accepted by the remote service. See plugin output for
+details, including protocol, port, and account.
+
+Please note the following :
+
+- This plugin reports per protocol, so it is possible for
+  valid credentials to be provided for one protocol and not
+  another. For example, authentication may succeed via SSH
+  but fail via SMB, while no credentials were provided for
+  an available SNMP service.
+
+- Providing valid credentials for all available
+  authentication protocols may improve scan coverage, but
+  the value of successful authentication for a given
+  protocol may vary from target to target depending upon
+  what data (if any) is gathered from the target via that
+  protocol. For example, successful authentication via SSH
+  is more valuable for Linux targets than for Windows
+  targets, and likewise successful authentication via SMB
+  is more valuable for Windows targets than for Linux
+  targets.",n/a,,"
+Nessus was able to log in to the remote host via the following :
+
+User:       'user'
+Port:       22
+Proto:      SSH
+Method:     password
+",,Kali Linux,fully updated
+149334,,,None,Desktop,tcp,22,SSH Password Authentication Accepted,The SSH server on the remote host accepts password authentication.,The SSH server on the remote host accepts password authentication.,n/a,https://tools.ietf.org/html/rfc4252#section-8,,,Kali Linux,fully updated
+150799,,,None,Desktop,tcp,22,Target Access Problems by Authentication Protocol - Maximum Privilege Account Used in Scan,"Nessus scanned the target host with the highest available privilege
+level. Yet Nessus encountered permissions issues while accessing one
+or more items during the scan.","Nessus was able to log in to the remote host using the provided
+credentials. The provided credentials have the highest privilege
+possible on the remote host.  Yet Nessus encountered permissions
+issues while accessing items during the scan.
+
+It is likely that this condition is caused by one or more of the
+following:
+
+1)  A plugin tried to access a resource that requires a special
+    privilege level such as NT_AUTHORITY on Windows.  The resource
+    may have had its permissions altered since the plugin was
+    written.
+2)  Environmental issues may have caused an intermittent failure
+    in authentication that caused Nessus to stop attempting
+    privilege escalation.
+3)  A resource on the host that Nessus attempts to access multiple
+    times may be configured with access limits.  Related lockouts may
+    look like permissions failures.
+4)  Nessus may have tried to access a resource that does not exist
+    on a target that fails to properly report permissions issues.
+    For instance, on some legacy unix systems such as AIX or HP-UX
+    there is no way to distinguish a missing resource from a
+    permissions error.
+
+If you believe that the plugin indicated attempted to access the
+wrong resource or a resource that has recently received special OS
+protection, please contact Tenable Support.",n/a,,"
+Nessus was able to log in to the remote host via the following
+protocol as user. During the scan Nessus encountered
+the following permissions issues while performing the planned checks:
+
+  Protocol        : SSH
+  Port            : 22
+
+See the output of the following plugin for details :
+
+  Plugin ID   : 102094
+  Plugin Name : SSH Commands Require Privilege Escalation
+
+
+Note: Nessus was unable to determine the privilege of
+ the logged in user and therefore is reporting permissions 
+ problems here.  Please check to see whether privilege escalation
+ failed or whether the scan can be configured to supply more access.
+",,Kali Linux,fully updated
+153588,,,None,Desktop,tcp,22,SSH SHA-1 HMAC Algorithms Enabled,The remote SSH server is configured to enable SHA-1 HMAC algorithms.,"The remote SSH server is configured to enable SHA-1 HMAC algorithms.
+
+Although NIST has formally deprecated use of SHA-1 for digital signatures, SHA-1 is still considered secure for HMAC as
+the security of HMAC does not rely on the underlying hash function being resistant to collisions.
+
+Note that this plugin only checks for the options of the remote SSH server.",n/a,,"
+The following client-to-server SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+
+The following server-to-client SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+",,Kali Linux,fully updated
+181418,,,None,Desktop,tcp,22,OpenSSH Detection,An OpenSSH-based SSH server was detected on the remote host.,An OpenSSH-based SSH server was detected on the remote host.,n/a,https://www.openssh.com/,"
+  Service : ssh
+  Version : 9.6p1
+  Banner  : SSH-2.0-OpenSSH_9.6p1 Debian-4
+",,Kali Linux,fully updated
+10114,CVE-1999-0524,0,None,Server,icmp,0,ICMP Timestamp Request Remote Date Disclosure,It is possible to determine the exact time set on the remote host.,"The remote host answers to an ICMP timestamp request.  This allows an
+attacker to know the date that is set on the targeted machine, which
+may assist an unauthenticated, remote attacker in defeating time-based
+authentication protocols.
+
+Timestamps returned from machines running Windows Vista / 7 / 2008 /
+2008 R2 are deliberately incorrect, but usually within 1000 seconds of
+the actual system time.","Filter out the ICMP timestamp requests (13), and the outgoing ICMP
+timestamp replies (14).",,"The difference between the local and remote clocks is -2 seconds.
+",0,Kali Linux,fully updated
+10267,,,None,Server,tcp,22,SSH Server Type and Version Information,An SSH server is listening on this port.,"It is possible to obtain information about the remote SSH server by
+sending an empty authentication request.",n/a,,"
+SSH version : SSH-2.0-OpenSSH_9.6p1 Debian-4
+SSH supported authentication : publickey,password
+",,Kali Linux,fully updated
+10287,,,None,Server,udp,0,Traceroute Information,It was possible to obtain traceroute information.,Makes a traceroute to the remote host.,n/a,,"For your information, here is the traceroute from 10.0.1.11 to 10.0.1.23 : 
+10.0.1.11
+10.0.1.23
+
+Hop Count: 1
+",,Kali Linux,fully updated
+10881,,,None,Server,tcp,22,SSH Protocol Versions Supported,A SSH server is running on the remote host.,"This plugin determines the versions of the SSH protocol supported by
+the remote SSH daemon.",n/a,,"The remote SSH daemon supports the following versions of the
+SSH protocol :
+
+  - 1.99
+  - 2.0
+",,Kali Linux,fully updated
+11219,,,None,Server,tcp,22,Nessus SYN scanner,It is possible to determine which TCP ports are open.,"This plugin is a SYN 'half-open' port scanner.  It shall be reasonably
+quick even against a firewalled target. 
+
+Note that SYN scans are less intrusive than TCP (full connect) scans
+against broken services, but they might cause problems for less robust
+firewalls and also leave unclosed connections on the remote target, if
+the network is loaded.",Protect your target with an IP filter.,,Port 22/tcp was found to be open,,Kali Linux,fully updated
+11936,,,None,Server,tcp,0,OS Identification,It is possible to guess the remote operating system.,"Using a combination of remote probes (e.g., TCP/IP, SMB, HTTP, NTP,
+SNMP, etc.), it is possible to guess the name of the remote operating
+system in use. It is also possible sometimes to guess the version of
+the operating system.",n/a,,"
+Remote operating system : Linux Kernel 6.6.9-amd64
+Confidence level : 99
+Method : uname
+
+ 
+The remote host is running Linux Kernel 6.6.9-amd64",,Kali Linux,fully updated
+19506,,,None,Server,tcp,0,Nessus Scan Information,This plugin displays information about the Nessus scan.,"This plugin displays, for each tested host, information about the
+scan itself :
+
+  - The version of the plugin set.
+  - The type of scanner (Nessus or Nessus Home).
+  - The version of the Nessus Engine.
+  - The port scanner(s) used.
+  - The port range scanned.
+  - The ping round trip time 
+  - Whether credentialed or third-party patch management
+    checks are possible.
+  - Whether the display of superseded patches is enabled
+  - The date of the scan.
+  - The duration of the scan.
+  - The number of hosts scanned in parallel.
+  - The number of checks done in parallel.",n/a,,"Information about this scan : 
+
+Nessus version : 10.7.1
+Nessus build : 20016
+Plugin feed version : 202404071510
+Scanner edition used : Nessus Home
+Scanner OS : LINUX
+Scanner distribution : ubuntu1404-x86-64
+Scan type : Normal
+Scan name : Kali Linux (post-scan)
+Scan policy used : Basic Network Scan
+Scanner IP : 10.0.1.11
+Port scanner(s) : nessus_syn_scanner 
+Port range : default
+Ping RTT : 121.333 ms
+Thorough tests : no
+Experimental tests : no
+Plugin debugging enabled : no
+Paranoia level : 1
+Report verbosity : 1
+Safe checks : yes
+Optimize the test : no
+Credentialed checks : yes, as 'user' via ssh
+Attempt Least Privilege : no
+Patch management checks : None
+Display superseded patches : yes (supersedence plugin did not launch)
+CGI scanning : disabled
+Web application tests : disabled
+Max hosts : 30
+Max checks : 4
+Recv timeout : 5
+Backports : None
+Allow post-scan editing : Yes
+Nessus Plugin Signature Checking : Enabled
+Audit File Signature Checking : Disabled
+Scan Start Date : 2024/4/9 11:41 EDT
+Scan duration : 193 sec
+Scan for malware : no
+",,Kali Linux,fully updated
+22869,,,None,Server,tcp,0,Software Enumeration (SSH),"It was possible to enumerate installed software on the remote host via
+SSH.","Nessus was able to list the software installed on the remote host by
+calling the appropriate command (e.g., 'rpm -qa' on RPM-based Linux
+distributions, qpkg, dpkg, etc.).","Remove any software that is not in compliance with your organization's
+acceptable use and security policies.",,"
+Here is the list of packages installed on the remote Debian Linux system : 
+
+  ii   7zip  23.01+dfsg-8  amd64  7-Zip file archiver with a high compression ratio
+  ii   accountsservice  23.13.9-6  amd64  query and manipulate user account information
+  ii   acl  2.3.2-1  amd64  access control list - utilities
+  ii   adduser  3.137  all  add and remove users and groups
+  ii   adwaita-icon-theme  46.0-1  all  default icon theme of GNOME
+  ii   alsa-topology-conf  1.2.5.1-2  all  ALSA topology configuration files
+  ii   alsa-ucm-conf  1.2.11-1  all  ALSA Use Case Manager configuration files
+  ii   amd64-microcode  3.20240116.2  amd64  Platform firmware and microcode for AMD CPUs and SoCs
+  ii   apparmor  3.0.13-2  amd64  user-space parser utility for AppArmor
+  ii   apt  2.7.12+kali1  amd64  commandline package manager
+  ii   apt-file  3.3  all  search for files within Debian packages (command-line interface)
+  ii   apt-utils  2.7.12+kali1  amd64  package management related utility programs
+  ii   aspell  0.60.8.1-1+b1  amd64  GNU Aspell spell-checker
+  ii   aspell-en  2020.12.07-0-1  all  English dictionary for GNU Aspell
+  ii   at-spi2-common  2.50.0-1  all  Assistive Technology Service Provider Interface (common files)
+  ii   at-spi2-core  2.50.0-1+b1  amd64  Assistive Technology Service Provider Interface (D-Bus core)
+  ii   atril  1.26.2-1  amd64  MATE document viewer
+  ii   atril-common  1.26.2-1  all  MATE document viewer (common files)
+  ii   avahi-daemon  0.8-13+b1  amd64  Avahi mDNS/DNS-SD daemon
+  ii   base-files  1:2024.1.0  amd64  Debian base system miscellaneous files
+  ii   base-passwd  3.6.3  amd64  Debian base system master password and group files
+  ii   bash  5.2.21-2  amd64  GNU Bourne Again SHell
+  ii   bash-completion  1:2.11-8  all  programmable completion for the bash shell
+  ii   bind9-dnsutils  1:9.19.21-1  amd64  Clients provided with BIND 9
+  ii   bind9-host  1:9.19.21-1  amd64  DNS Lookup Utility
+  ii   bind9-libs  1:9.19.21-1  amd64  Shared Libraries used by BIND 9
+  ii   blueman  2.3.5-3  amd64  Graphical bluetooth manager
+  ii   bluez  5.71-1+kali1  amd64  Bluetooth tools and daemons
+  ii   bluez-firmware  1.2-9  all  Firmware for Bluetooth devices
+  ii   bluez-obexd  5.71-1+kali1  amd64  bluez obex daemon
+  ii   bsdextrautils  2.39.3-6  amd64  extra utilities from 4.4BSD-Lite
+  ii   bsdutils  1:2.39.3-6  amd64  basic utilities from 4.4BSD-Lite
+  ii   bubblewrap  0.9.0-1  amd64  utility for unprivileged chroot and namespace manipulation
+  ii   busybox  1:1.36.1-6  amd64  Tiny utilities for small and embedded systems
+  ii   bzip2  1.0.8-5.1  amd64  high-quality block-sorting file compressor - utilities
+  ii   ca-certificates  20240203  all  Common CA certificates
+  ii   catfish  4.16.4-2  all  File searching tool which is configurable via the command line
+  ii   colord  1.4.7-1  amd64  system service to manage device colour profiles -- system daemon
+  ii   colord-data  1.4.7-1  all  system service to manage device colour profiles -- data files
+  ii   command-not-found  23.04.0-1+kali3  all  Suggest installation of packages in interactive bash sessions
+  ii   console-setup  1.226  all  console font and keymap setup program
+  ii   console-setup-linux  1.226  all  Linux specific part of console-setup
+  ii   coreutils  9.4-3+b1  amd64  GNU core utilities
+  ii   cpio  2.15+dfsg-1  amd64  GNU cpio -- a program to manage archives of files
+  ii   cpp  4:13.2.0-7  amd64  GNU C preprocessor (cpp)
+  ii   cpp-13  13.2.0-13  amd64  GNU C preprocessor
+  ii   cpp-13-x86-64-linux-gnu  13.2.0-13  amd64  GNU C preprocessor for x86_64-linux-gnu
+  ii   cpp-x86-64-linux-gnu  4:13.2.0-7  amd64  GNU C preprocessor (cpp) for the amd64 architecture
+  ii   cracklib-runtime  2.9.6-5.1+b1  amd64  runtime support for password checker library cracklib2
+  ii   cron  3.0pl1-189  amd64  process scheduling daemon
+  ii   cron-daemon-common  3.0pl1-189  all  process scheduling daemon's configuration files
+  ii   dash  0.5.12-6  amd64  POSIX-compliant shell
+  ii   dbus  1.14.10-4  amd64  simple interprocess messaging system (system message bus)
+  ii   dbus-bin  1.14.10-4  amd64  simple interprocess messaging system (command line utilities)
+  ii   dbus-daemon  1.14.10-4  amd64  simple interprocess messaging system (reference message bus)
+  ii   dbus-session-bus-common  1.14.10-4  all  simple interprocess messaging system (session bus configuration)
+  ii   dbus-system-bus-common  1.14.10-4  all  simple interprocess messaging system (system bus configuration)
+  ii   dbus-user-session  1.14.10-4  amd64  simple interprocess messaging system (systemd --user integration)
+  ii   dbus-x11  1.14.10-4  amd64  simple interprocess messaging system (X11 deps)
+  ii   dconf-gsettings-backend  0.40.0-4+b1  amd64  simple configuration storage system - GSettings back-end
+  ii   dconf-service  0.40.0-4+b1  amd64  simple configuration storage system - D-Bus service
+  ii   debconf  1.5.86  all  Debian configuration management system
+  ii   debconf-i18n  1.5.86  all  full internationalization support for debconf
+  ii   debian-archive-keyring  2023.4  all  GnuPG archive keys of the Debian archive
+  ii   debianutils  5.17  amd64  Miscellaneous utilities specific to Debian
+  ii   debtags  2.1.5  all  Debian Package Tags support tools
+  ii   desktop-base  12.0.6+nmu1+kali1  all  common files for the Debian Desktop
+  ii   desktop-file-utils  0.27-1  amd64  Utilities for .desktop files
+  ii   dictionaries-common  1.29.7  all  spelling dictionaries - common utilities
+  ii   diffutils  1:3.10-1  amd64  File comparison utilities
+  ii   dirmngr  2.2.40-1.1+b1  amd64  GNU privacy guard - network certificate management service
+  ii   distro-info-data  0.60  all  information about the distributions' releases (data files)
+  ii   dmidecode  3.5-3  amd64  SMBIOS/DMI table decoder
+  ii   dmsetup  2:1.02.196-1+b1  amd64  Linux Kernel Device Mapper userspace library
+  ii   dns-root-data  2023010101  all  DNS root data including root zone and DNSSEC key
+  ii   dnsmasq-base  2.90-2  amd64  Small caching DNS proxy and DHCP/TFTP server - executable
+  ii   docbook-xml  4.5-12  all  standard XML documentation system for software and systems
+  ii   dosfstools  4.2-1.1  amd64  utilities for making and checking MS-DOS FAT filesystems
+  ii   dpkg  1.22.4+kali2  amd64  Debian package management system
+  ii   e2fsprogs  1.47.0-2+b1  amd64  ext2/ext3/ext4 file system utilities
+  ii   easy-rsa  3.1.7-2  all  Simple shell based CA utility
+  ii   efibootmgr  18-1  amd64  Interact with the EFI Boot Manager
+  ii   eject  2.39.3-6  amd64  ejects CDs and operates CD-Changers under Linux
+  ii   emacsen-common  3.0.5  all  Common facilities for all emacsen
+  ii   enchant-2  2.3.3-2+b1  amd64  Wrapper for various spell checker engines (binary programs)
+  ii   engrampa  1.26.2-3  amd64  archive manager for MATE
+  ii   engrampa-common  1.26.2-3  all  archive manager for MATE (common files)
+  ii   espeak-ng-data  1.51+dfsg-12  amd64  Multi-lingual software speech synthesizer: speech data files
+  ii   exfatprogs  1.2.2-1  amd64  exFAT file system utilities
+  ii   exo-utils  4.18.0-1+b1  amd64  Utility files for libexo
+  ii   fdisk  2.39.3-6  amd64  collection of partitioning utilities
+  ii   file  1:5.45-2+b1  amd64  Recognize the type of data in a file using ""magic"" numbers
+  ii   findutils  4.9.0-5  amd64  utilities for finding files--find, xargs
+  ii   firefox-esr  115.8.0esr-1  amd64  Mozilla Firefox web browser - Extended Support Release (ESR)
+  ii   firmware-amd-graphics  20230625-2+kali1  all  Binary firmware for AMD/ATI graphics chips
+  ii   firmware-ath9k-htc  1.4.0-108-gd856466+dfsg1-2+kali2  all  firmware for AR7010 and AR9271 USB wireless adapters
+  ii   firmware-atheros  20230625-2+kali1  all  Binary firmware for Qualcomm Atheros wireless cards
+  ii   firmware-brcm80211  20230625-2+kali1  all  Binary firmware for Broadcom/Cypress 802.11 wireless cards
+  ii   firmware-intel-sound  20230625-2+kali1  all  Binary firmware for Intel sound DSPs
+  ii   firmware-iwlwifi  20230625-2+kali1  all  Binary firmware for Intel Wireless cards
+  ii   firmware-libertas  20230625-2+kali1  all  Binary firmware for Marvell wireless cards
+  ii   firmware-linux  20230625-2+kali1  all  Binary firmware for various drivers in the Linux kernel (metapackage)
+  ii   firmware-linux-free  20200122-4  all  Binary firmware for various drivers in the Linux kernel
+  ii   firmware-linux-nonfree  20230625-2+kali1  all  Binary firmware for various drivers in the Linux kernel (metapackage)
+  ii   firmware-misc-nonfree  20230625-2+kali1  all  Binary firmware for various drivers in the Linux kernel
+  ii   firmware-realtek  20230625-2+kali1  all  Binary firmware for Realtek wired/Wi-Fi/BT adapters
+  ii   firmware-sof-signed  2023.12.1-1  all  Intel SOF firmware - signed
+  ii   firmware-ti-connectivity  20230625-2+kali1  all  Binary firmware for TI Connectivity Wi-Fi and BT/FM/GPS adapters
+  ii   firmware-zd1211  1:1.5-10  all  binary firmware for the zd1211rw wireless driver
+  ii   fontconfig  2.15.0-1.1  amd64  generic font configuration library - support binaries
+  ii   fontconfig-config  2.15.0-1.1  amd64  generic font configuration library - configuration
+  ii   fonts-cantarell  0.303.1-1  all  sans serif font family designed for on-screen readability
+  ii   fonts-dejavu  2.37-8  all  metapackage to pull in fonts-dejavu-core, -mono and -extra
+  ii   fonts-dejavu-core  2.37-8  all  Vera font family derivate with additional characters
+  ii   fonts-dejavu-extra  2.37-8  all  Vera font family derivate with additional characters (extra variants)
+  ii   fonts-dejavu-mono  2.37-8  all  Vera font family derivate with additional characters
+  ii   fonts-droid-fallback  1:6.0.1r16-1.1  all  handheld device font with extensive style and language support (fallback)
+  ii   fonts-firacode  6.2-2  all  Monospaced font with programming ligatures
+  ii   fonts-hack  3.003-3  all  Typeface designed for source code
+  ii   fonts-liberation  1:2.1.5-3  all  fonts with the same metrics as Times, Arial and Courier
+  ii   fonts-liberation-sans-narrow  1:1.07.6-4  all  Sans-serif Narrow fonts to replace commonly used Arial Narrow
+  ii   fonts-mathjax  2.7.9+dfsg-1  all  JavaScript display engine for LaTeX and MathML (fonts)
+  ii   fonts-noto-color-emoji  2.042-1  all  color emoji font from Google
+  ii   fonts-noto-mono  20201225-2  all  ""No Tofu"" monospaced font family with large Unicode coverage
+  ii   fonts-quicksand  0.2016-2.1  all  sans-serif font with round attributes
+  ii   fonts-urw-base35  20200910-8  all  font set metric-compatible with the 35 PostScript Level 2 Base Fonts
+  ii   ftp  20230507-2  all  dummy transitional package for tnftp
+  ii   fuse3  3.14.0-5  amd64  Filesystem in Userspace (3.x version)
+  ii   gcc-13-base  13.2.0-13  amd64  GCC, the GNU Compiler Collection (base package)
+  ii   gcc-14-base  14-20240201-3  amd64  GCC, the GNU Compiler Collection (base package)
+  ii   gcr  3.41.2-1  amd64  GNOME crypto services (daemon and tools)
+  ii   gcr4  4.2.0-3  amd64  GNOME crypto services (daemon and tools)
+  ii   gettext-base  0.21-14+b1  amd64  GNU Internationalization utilities for the base system
+  ii   ghostscript  10.02.1~dfsg-3  amd64  interpreter for the PostScript language and for PDF
+  ii   gir1.2-atk-1.0  2.50.0-1+b1  amd64  ATK accessibility toolkit (GObject introspection)
+  ii   gir1.2-atspi-2.0  2.50.0-1+b1  amd64  Assistive Technology Service Provider (GObject introspection)
+  ii   gir1.2-ayatanaappindicator3-0.1  0.5.93-1  amd64  Typelib files for libayatana-appindicator3-1 (GTK-3+ version)
+  ii   gir1.2-freedesktop  1.78.1-15  amd64  Introspection data for some FreeDesktop components
+  ii   gir1.2-gdkpixbuf-2.0  2.42.10+dfsg-3+b1  amd64  GDK Pixbuf library - GObject-Introspection
+  ii   gir1.2-girepository-2.0  1.78.1-15  amd64  Introspection data for GIRepository library
+  ii   gir1.2-glib-2.0  1.78.1-15  amd64  Introspection data for GLib, GObject, Gio and GModule
+  ii   gir1.2-gstreamer-1.0  1.22.10-1  amd64  GObject introspection data for the GStreamer library
+  ii   gir1.2-gtk-3.0  3.24.41-1  amd64  GTK graphical user interface library -- gir bindings
+  ii   gir1.2-harfbuzz-0.0  8.3.0-2  amd64  OpenType text shaping engine (GObject introspection data)
+  ii   gir1.2-libxfce4ui-2.0  4.18.4-1  amd64  Typelib file for libxfce4ui
+  ii   gir1.2-libxfce4util-1.0  4.18.1-2  amd64  Typelib file for libxfce4util
+  ii   gir1.2-nm-1.0  1.46.0-1  amd64  GObject introspection data for the libnm library
+  ii   gir1.2-pango-1.0  1.52.0+ds-1  amd64  Layout and rendering of internationalized text - gir bindings
+  ii   gir1.2-wnck-3.0  43.0-3  amd64  GObject introspection data for the WNCK library
+  ii   gir1.2-xfconf-0  4.18.1-1+b1  amd64  utilities for managing settings in Xfce - introspection support
+  ii   git  1:2.43.0-1  amd64  fast, scalable, distributed revision control system
+  ii   git-man  1:2.43.0-1  all  fast, scalable, distributed revision control system (manual pages)
+  ii   glib-networking  2.80~alpha-1  amd64  network-related giomodules for GLib
+  ii   glib-networking-common  2.80~alpha-1  all  network-related giomodules for GLib - data files
+  ii   glib-networking-services  2.80~alpha-1  amd64  network-related giomodules for GLib - D-Bus services
+  ii   gnome-accessibility-themes  3.28-2  all  High Contrast GTK 2 theme and icons
+  ii   gnome-disk-utility  45.1-1  amd64  manage and configure disk drives and media
+  ii   gnome-icon-theme  3.12.0-5  all  This package contains the default icon theme used by the GNOME
+  ii   gnome-keyring  42.1-1+b2  amd64  GNOME keyring services (daemon and tools)
+  ii   gnome-keyring-pkcs11  42.1-1+b2  amd64  GNOME keyring module for the PKCS#11 module loading library
+  ii   gnome-system-tools  3.0.0-9.1  amd64  Cross-platform configuration utilities
+  ii   gnome-themes-extra  3.28-2+b1  amd64  Adwaita GTK 2 theme — engine
+  ii   gnome-themes-extra-data  3.28-2  all  Adwaita GTK 2 theme and Adwaita-dark GTK 3 theme — common files
+  ii   gnupg  2.2.40-1.1  all  GNU privacy guard - a free PGP replacement
+  ii   gnupg-l10n  2.2.40-1.1  all  GNU privacy guard - localization files
+  ii   gnupg-utils  2.2.40-1.1+b1  amd64  GNU privacy guard - utility programs
+  ii   gpg  2.2.40-1.1+b1  amd64  GNU Privacy Guard -- minimalist public key operations
+  ii   gpg-agent  2.2.40-1.1+b1  amd64  GNU privacy guard - cryptographic agent
+  ii   gpg-wks-client  2.2.40-1.1+b1  amd64  GNU privacy guard - Web Key Service client
+  ii   gpg-wks-server  2.2.40-1.1+b1  amd64  GNU privacy guard - Web Key Service server
+  ii   gpgconf  2.2.40-1.1+b1  amd64  GNU privacy guard - core configuration utilities
+  ii   gpgsm  2.2.40-1.1+b1  amd64  GNU privacy guard - S/MIME version
+  ii   gpgv  2.2.40-1.1+b1  amd64  GNU privacy guard - signature verification tool
+  ii   grep  3.11-4  amd64  GNU grep, egrep and fgrep
+  ii   groff-base  1.23.0-3  amd64  GNU troff text-formatting system (base system components)
+  ii   grub-common  2.12-1+kali2  amd64  GRand Unified Bootloader (common files)
+  ii   grub-efi-amd64  2.12-1+kali2  amd64  GRand Unified Bootloader, version 2 (EFI-AMD64 version)
+  ii   grub-efi-amd64-bin  2.12-1+kali2  amd64  GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+  ii   grub2-common  2.12-1+kali2  amd64  GRand Unified Bootloader (common files for version 2)
+  ii   gsettings-desktop-schemas  46.0-1  all  GSettings desktop-wide schemas
+  ii   gsfonts  2:20200910-8  all  transitional dummy package (gsfonts -> fonts-urw-base35)
+  ii   gstreamer1.0-gl  1.22.10-1  amd64  GStreamer plugins for GL
+  ii   gstreamer1.0-libav  1.22.10-1  amd64  ffmpeg plugin for GStreamer
+  ii   gstreamer1.0-plugins-bad  1.22.10-1  amd64  GStreamer plugins from the ""bad"" set
+  ii   gstreamer1.0-plugins-base  1.22.10-1  amd64  GStreamer plugins from the ""base"" set
+  ii   gstreamer1.0-plugins-good  1.22.10-1  amd64  GStreamer plugins from the ""good"" set
+  ii   gstreamer1.0-x  1.22.10-1  amd64  GStreamer plugins for X11 and Pango
+  ii   gtk-update-icon-cache  3.24.41-1  amd64  icon theme caching utility
+  ii   gtk2-engines-pixbuf  2.24.33-3  amd64  pixbuf-based theme for GTK 2
+  ii   gtkhash  1.5-1  amd64  GTK+ utility for computing checksums and more
+  ii   gvfs  1.53.90-2  amd64  userspace virtual filesystem - GIO module
+  ii   gvfs-backends  1.53.90-2  amd64  userspace virtual filesystem - backends
+  ii   gvfs-common  1.53.90-2  all  userspace virtual filesystem - common data files
+  ii   gvfs-daemons  1.53.90-2  amd64  userspace virtual filesystem - servers
+  ii   gvfs-fuse  1.53.90-2  amd64  userspace virtual filesystem - fuse server
+  ii   gvfs-libs  1.53.90-2  amd64  userspace virtual filesystem - private libraries
+  ii   gzip  1.12-1.1  amd64  GNU compression utilities
+  ii   haveged  1.9.14-1+b2  amd64  Linux entropy source using the HAVEGE algorithm
+  ii   hicolor-icon-theme  0.17-2  all  default fallback theme for FreeDesktop.org icon themes
+  ii   hostname  3.23+nmu2  amd64  utility to set/show the host name or domain name
+  ii   hunspell-en-us  1:2020.12.07-2  all  English_american dictionary for hunspell
+  ii   i965-va-driver  2.4.1+dfsg1-1  amd64  VAAPI driver for Intel G45 & HD Graphics family
+  ii   ifupdown  0.8.43  amd64  high level tools to configure network interfaces
+  ii   imagemagick-6-common  8:6.9.12.98+dfsg1-5  all  image manipulation programs -- infrastructure
+  ii   inetutils-telnet  2:2.5-3  amd64  telnet client
+  ii   init  1.66+kali1  amd64  metapackage ensuring an init system is installed
+  ii   init-system-helpers  1.66+kali1  all  helper tools for all init systems
+  ii   initramfs-tools  0.142  all  generic modular initramfs generator (automation)
+  ii   initramfs-tools-core  0.142  all  generic modular initramfs generator (core tools)
+  ii   intel-media-va-driver  24.1.0+dfsg1-1  amd64  VAAPI driver for the Intel GEN8+ Graphics family
+  ii   intel-microcode  3.20240312.1  amd64  Processor microcode firmware for Intel CPUs
+  ii   ipp-usb  0.9.23-1+b7  amd64  Daemon for IPP over USB printer support
+  ii   iproute2  6.7.0-2  amd64  networking and traffic control tools
+  ii   iputils-ping  3:20240117-1  amd64  Tools to test the reachability of network hosts
+  ii   isc-dhcp-client  4.4.3-P1-5  amd64  DHCP client for automatically obtaining an IP address
+  ii   isc-dhcp-common  4.4.3-P1-5  amd64  common manpages relevant to all of the isc-dhcp packages
+  ii   iso-codes  4.16.0-1  all  ISO language, territory, currency, script codes and their translations
+  ii   iucode-tool  2.3.1-3  amd64  Intel processor microcode tool
+  ii   kali-archive-keyring  2024.1  all  GnuPG archive keys of the Kali archive
+  ii   kali-debtags  0.4  all  Kali-specific debtags
+  ii   kali-defaults  2024.1.2  all  Kali default settings
+  ii   kali-defaults-desktop  2024.1.2  all  Kali default settings for graphical desktops
+  ii   kali-desktop-base  2024.1.6  all  Kali version of Debian's desktop-base package
+  ii   kali-desktop-core  2024.1.1  amd64  Metapackage with dependencies common to all Kali's desktops
+  ii   kali-desktop-xfce  2024.1.1  all  Xfce based Kali desktop
+  ii   kali-grant-root  2022.4.0  all  Configuration controlling privilege escalation to root
+  ii   kali-hidpi-mode  2024.2.0  all  HiDPI Mode switcher for Kali
+  ii   kali-linux-core  2024.1.1  amd64  Kali's core packages
+  ii   kali-linux-firmware  2024.1.1  amd64  Kali's default firmware files
+  ii   kali-menu  2023.4.7  all  Kali Linux custom menu
+  ii   kali-system-core  2024.1.1  amd64  Kali's core packages
+  ii   kali-themes  2024.1.6  all  Configure all desktops to use the Kali theme
+  ii   kali-themes-common  2024.1.6  all  Kali Themes (data files)
+  ii   kali-tweaks  2023.3.2  all  tool to adjust advanced configuration settings for Kali Linux
+  ii   kali-undercover  2023.4.1  all  Kali Undercover Mode
+  ii   kali-wallpapers-2023  2024.1.1  all  Default wallpapers for Kali Linux 2023 and newer
+  ii   kali-wallpapers-2024  2024.1.1  all  Default wallpapers for Kali Linux 2024 and newer
+  ii   kbd  2.6.4-2  amd64  Linux console font and keytable utilities
+  ii   keyboard-configuration  1.226  all  system-wide keyboard preferences
+  ii   klibc-utils  2.0.13-4  amd64  small utilities built with klibc for early boot
+  ii   kmod  31+20240202-2  amd64  tools for managing Linux kernel modules
+  ii   krb5-locales  1.20.1-5  all  internationalization support for MIT Kerberos
+  ii   laptop-detect  0.16  all  system chassis type checker
+  ii   less  590-2  amd64  pager program similar to more
+  ii   libaa1  1.4p5-51.1  amd64  ASCII art library
+  ii   libaacs0  0.11.1-3+b1  amd64  free-and-libre implementation of AACS
+  ii   libabsl20220623  20220623.1-3  amd64  extensions to the C++ standard library
+  ii   libaccountsservice0  23.13.9-6  amd64  query and manipulate user account information - shared libraries
+  ii   libacl1  2.3.2-1  amd64  access control list - shared library
+  ii   libadwaita-1-0  1.5~beta-1kali1  amd64  Library with GTK widgets for mobile phones
+  ii   libao-common  1.2.2+20180113-1.1  all  Cross Platform Audio Output Library (Common files)
+  ii   libao4  1.2.2+20180113-1.1  amd64  Cross Platform Audio Output Library
+  ii   libaom3  3.8.2-2  amd64  AV1 Video Codec Library
+  ii   libapparmor1  3.0.13-2  amd64  changehat AppArmor library
+  ii   libappstream5  1.0.2-1  amd64  Library to access AppStream services
+  ii   libapt-pkg-perl  0.1.40+b3  amd64  Perl interface to libapt-pkg
+  ii   libapt-pkg6.0  2.7.12+kali1  amd64  package management runtime library
+  ii   libarchive13  3.7.2-1  amd64  Multi-format archive and compression library (shared library)
+  ii   libargon2-1  0~20190702+dfsg-4+b1  amd64  memory-hard hashing function - runtime library
+  ii   libasound2  1.2.10-3  amd64  shared library for ALSA applications
+  ii   libasound2-data  1.2.10-3  all  Configuration files and profiles for ALSA drivers
+  ii   libasound2-plugins  1.2.7.1-1+b1  amd64  ALSA library additional plugins
+  ii   libaspell15  0.60.8.1-1+b1  amd64  GNU Aspell spell-checker runtime library
+  ii   libass9  1:0.17.1-2  amd64  library for SSA/ASS subtitles rendering
+  ii   libassuan0  2.5.6-1  amd64  IPC library for the GnuPG components
+  ii   libasyncns0  0.8-6+b3  amd64  Asynchronous name service query library
+  ii   libatasmart4  0.19-5  amd64  ATA S.M.A.R.T. reading and parsing library
+  ii   libatk-adaptor  2.50.0-1+b1  amd64  AT-SPI 2 toolkit bridge
+  ii   libatk-bridge2.0-0  2.50.0-1+b1  amd64  AT-SPI 2 toolkit bridge - shared library
+  ii   libatk1.0-0  2.50.0-1+b1  amd64  ATK accessibility toolkit
+  ii   libatkmm-1.6-1v5  2.28.4-1  amd64  C++ wrappers for ATK accessibility toolkit (shared libraries)
+  ii   libatomic1  14-20240201-3  amd64  support library providing __atomic built-in functions
+  ii   libatrildocument3  1.26.2-1  amd64  MATE document rendering library
+  ii   libatrilview3  1.26.2-1  amd64  MATE document viewing library
+  ii   libatspi2.0-0  2.50.0-1+b1  amd64  Assistive Technology Service Provider Interface - shared library
+  ii   libattr1  1:2.5.2-1  amd64  extended attribute handling - shared library
+  ii   libaudio2  1.9.4-7+b1  amd64  Network Audio System - shared libraries
+  ii   libaudit-common  1:3.1.2-2  all  Dynamic library for security auditing - common files
+  ii   libaudit1  1:3.1.2-2  amd64  Dynamic library for security auditing
+  ii   libauthen-sasl-perl  2.1700-1  all  Authen::SASL - SASL Authentication framework
+  ii   libavahi-client3  0.8-13+b1  amd64  Avahi client library
+  ii   libavahi-common-data  0.8-13+b1  amd64  Avahi common data files
+  ii   libavahi-common3  0.8-13+b1  amd64  Avahi common library
+  ii   libavahi-core7  0.8-13+b1  amd64  Avahi's embeddable mDNS/DNS-SD library
+  ii   libavahi-glib1  0.8-13+b1  amd64  Avahi GLib integration library
+  ii   libavc1394-0  0.5.4-5  amd64  control IEEE 1394 audio/video devices
+  ii   libavcodec60  7:6.1.1-1  amd64  FFmpeg library with de/encoders for audio/video codecs - runtime files
+  ii   libavfilter9  7:6.1.1-1  amd64  FFmpeg library containing media filters - runtime files
+  ii   libavformat60  7:6.1.1-1  amd64  FFmpeg library with (de)muxers for multimedia containers - runtime files
+  ii   libavif16  1.0.4-1  amd64  Library for handling .avif files
+  ii   libavtp0  0.2.0-1+b1  amd64  Audio Video Transport Protocol (shared library)
+  ii   libavutil58  7:6.1.1-1  amd64  FFmpeg library with functions for simplifying programming - runtime files
+  ii   libayatana-appindicator3-1  0.5.93-1  amd64  Ayatana Application Indicators (GTK-3+ version)
+  ii   libayatana-ido3-0.4-0  0.10.1-1+b1  amd64  Widgets and other objects used for Ayatana Indicators
+  ii   libayatana-indicator3-7  0.9.3-1.1  amd64  panel indicator applet - shared library (GTK-3+ variant)
+  ii   libb2-1  0.98.1-1.1  amd64  BLAKE2 family of hash functions
+  ii   libbdplus0  0.2.0-3  amd64  implementation of BD+ for reading Blu-ray Discs
+  ii   libblas3  3.12.0-3  amd64  Basic Linear Algebra Reference implementations, shared library
+  ii   libblkid1  2.39.3-6  amd64  block device ID library
+  ii   libblockdev-crypto3  3.1.0-1  amd64  Crypto plugin for libblockdev
+  ii   libblockdev-fs3  3.1.0-1  amd64  file system plugin for libblockdev
+  ii   libblockdev-loop3  3.1.0-1  amd64  Loop device plugin for libblockdev
+  ii   libblockdev-mdraid3  3.1.0-1  amd64  MD RAID plugin for libblockdev
+  ii   libblockdev-nvme3  3.1.0-1  amd64  NVMe plugin for libblockdev
+  ii   libblockdev-part3  3.1.0-1  amd64  Partitioning plugin for libblockdev
+  ii   libblockdev-swap3  3.1.0-1  amd64  Swap plugin for libblockdev
+  ii   libblockdev-utils3  3.1.0-1  amd64  Utility functions for libblockdev
+  ii   libblockdev3  3.1.0-1  amd64  Library for manipulating block devices
+  ii   libbluetooth3  5.71-1+kali1  amd64  Library to use the BlueZ Linux Bluetooth stack
+  ii   libbluray2  1:1.3.4-1  amd64  Blu-ray disc playback support library (shared library)
+  ii   libbpf1  1:1.3.0-2  amd64  eBPF helper library (shared library)
+  ii   libbrlapi0.8  6.6-4+b3  amd64  braille display access via BRLTTY - shared library
+  ii   libbrotli1  1.1.0-2+b3  amd64  library implementing brotli encoder and decoder (shared libraries)
+  ii   libbs2b0  3.1.0+dfsg-8  amd64  Bauer stereophonic-to-binaural DSP library
+  ii   libbsd0  0.12.2-1  amd64  utility functions from BSD systems - shared library
+  ii   libbytesize-common  2.10-1  all  library for common operations with sizes in bytes - translations
+  ii   libbytesize1  2.10-1  amd64  library for common operations with sizes in bytes
+  ii   libbz2-1.0  1.0.8-5.1  amd64  high-quality block-sorting file compressor library - runtime
+  ii   libc-bin  2.37-15  amd64  GNU C Library: Binaries
+  ii   libc-l10n  2.37-15  all  GNU C Library: localization files
+  ii   libc6  2.37-15  amd64  GNU C Library: Shared libraries
+  ii   libcaca0  0.99.beta20-4  amd64  colour ASCII art library
+  ii   libcairo-gobject2  1.18.0-1+b1  amd64  Cairo 2D vector graphics library (GObject library)
+  ii   libcairo-script-interpreter2  1.18.0-1+b1  amd64  Cairo 2D vector graphics library (script interpreter)
+  ii   libcairo2  1.18.0-1+b1  amd64  Cairo 2D vector graphics library
+  ii   libcairomm-1.0-1v5  1.14.5-1  amd64  C++ wrappers for Cairo (shared libraries)
+  ii   libcaja-extension1  1.26.3-1  amd64  libraries for Caja components
+  ii   libcanberra-gtk3-0  0.30-11  amd64  GTK+ 3.0 helper for playing widget event sounds with libcanberra
+  ii   libcanberra-gtk3-module  0.30-11  amd64  translates GTK3 widgets signals to event sounds
+  ii   libcanberra0  0.30-11  amd64  simple abstract interface for playing event sounds
+  ii   libcap-ng0  0.8.4-2  amd64  alternate POSIX capabilities library
+  ii   libcap2  1:2.66-5  amd64  POSIX 1003.1e capabilities (library)
+  ii   libcap2-bin  1:2.66-5  amd64  POSIX 1003.1e capabilities (utilities)
+  ii   libcbor0.10  0.10.2-1.1  amd64  library for parsing and generating CBOR (RFC 7049)
+  ii   libccid  1.5.5-1  amd64  PC/SC driver for USB CCID smart card readers
+  ii   libcdio-cdda2  10.2+2.0.1-1  amd64  library to read and control digital audio CDs
+  ii   libcdio-paranoia2  10.2+2.0.1-1  amd64  library to read digital audio CDs with error correction
+  ii   libcdio19  2.1.0-4  amd64  library to read and control CD-ROM
+  ii   libcdparanoia0  3.10.2+debian-14+b1  amd64  audio extraction tool for sampling CDs (library)
+  ii   libcharon-extauth-plugins  5.9.13-2  amd64  strongSwan charon library (extended authentication plugins)
+  ii   libchromaprint1  1.5.1-5  amd64  audio fingerprint library
+  ii   libcjson1  1.7.17-2  amd64  Ultralightweight JSON parser in ANSI C
+  ii   libclone-perl  0.46-1+b1  amd64  module for recursively copying Perl datatypes
+  ii   libcloudproviders0  0.3.5-1  amd64  cloud provider library
+  ii   libcodec2-1.2  1.2.0-2+b1  amd64  Codec2 runtime library
+  ii   libcolord2  1.4.7-1  amd64  system service to manage device colour profiles -- runtime
+  ii   libcolorhug2  1.4.7-1  amd64  library to access the ColorHug colourimeter -- runtime
+  ii   libcom-err2  1.47.0-2+b1  amd64  common error description library
+  ii   libconfig++9v5  1.5-0.4  amd64  parsing/manipulation of structured configuration files (C++ binding)
+  ii   libcrack2  2.9.6-5.1+b1  amd64  pro-active password checker library
+  ii   libcrypt1  1:4.4.36-4  amd64  libcrypt shared library
+  ii   libcryptsetup12  2:2.6.1-6+b1  amd64  disk encryption support - shared library
+  ii   libcups2  2.4.7-1+b1  amd64  Common UNIX Printing System(tm) - Core library
+  ii   libcurl3-gnutls  8.5.0-2  amd64  easy-to-use client-side URL transfer library (GnuTLS flavour)
+  ii   libcurl4  8.5.0-2  amd64  easy-to-use client-side URL transfer library (OpenSSL flavour)
+  ii   libdaemon0  0.14-7.1  amd64  lightweight C library for daemons - runtime library
+  ii   libdata-dump-perl  1.25-1  all  Perl module to help dump data structures
+  ii   libdatrie1  0.2.13-3  amd64  Double-array trie library
+  ii   libdav1d7  1.4.1-1  amd64  fast a",,Kali Linux,fully updated
+22964,,,None,Server,tcp,22,Service Detection,The remote service could be identified.,"Nessus was able to identify the remote service by its banner or by
+looking at the error message it sends when it receives an HTTP
+request.",n/a,,An SSH server is running on this port.,,Kali Linux,fully updated
+25202,,,None,Server,tcp,0,Enumerate IPv6 Interfaces via SSH,Nessus was able to enumerate the IPv6 interfaces on the remote host.,"Nessus was able to enumerate the network interfaces configured with
+IPv6 addresses by connecting to the remote host via SSH using the
+supplied credentials.","Disable IPv6 if you are not actually using it. Otherwise, disable any
+unused IPv6 interfaces.",,"
+The following IPv6 interfaces are set on the remote host :
+
+ - ::1 (on interface lo)
+ - fe80::e81:18f4:5722:5a2e (on interface eth0)
+",,Kali Linux,fully updated
+25203,,,None,Server,tcp,0,Enumerate IPv4 Interfaces via SSH,Nessus was able to enumerate the IPv4 interfaces on the remote host.,"Nessus was able to enumerate the network interfaces configured with
+IPv4 addresses by connecting to the remote host via SSH using the
+supplied credentials.",Disable any unused IPv4 interfaces.,,"
+The following IPv4 addresses are set on the remote host :
+
+ - 127.0.0.1 (on interface lo)
+ - 10.0.1.23 (on interface eth0)
+",,Kali Linux,fully updated
+25220,,,None,Server,tcp,0,TCP/IP Timestamps Supported,The remote service implements TCP timestamps.,"The remote host implements TCP timestamps, as defined by RFC1323.  A
+side effect of this feature is that the uptime of the remote host can
+sometimes be computed.",n/a,http://www.ietf.org/rfc/rfc1323.txt,,,Kali Linux,fully updated
+33276,,,None,Server,tcp,0,Enumerate MAC Addresses via SSH,Nessus was able to enumerate MAC addresses on the remote host.,"Nessus was able to enumerate MAC addresses by connecting to the remote
+host via SSH with the supplied credentials.",Disable any unused interfaces.,,"
+The following MAC addresses exist on the remote host :
+
+  - 44:a8:42:46:92:90 (interface eth0)
+  - 44:a8:42:46:92:92 (interface eth2)
+  - 44:a8:42:46:92:91 (interface eth1)
+  - 44:a8:42:46:92:93 (interface eth3)
+",,Kali Linux,fully updated
+34098,,,None,Server,tcp,0,BIOS Info (SSH),BIOS info could be read.,"Using SMBIOS and UEFI, it was possible to get BIOS info.",N/A,,"Vendor       : Dell Inc.
+Release Date : 12/04/2018
+Secure boot  : disabled
+",,Kali Linux,fully updated
+35716,,,None,Server,tcp,0,Ethernet Card Manufacturer Detection,The manufacturer can be identified from the Ethernet OUI.,"Each ethernet MAC address starts with a 24-bit Organizationally 
+Unique Identifier (OUI). These OUIs are registered by IEEE.",n/a,"https://standards.ieee.org/faqs/regauth.html
+http://www.nessus.org/u?794673b4","
+The following card manufacturers were identified :
+
+44:A8:42:46:92:90 : Dell Inc.
+44:A8:42:46:92:92 : Dell Inc.
+44:A8:42:46:92:91 : Dell Inc.
+44:A8:42:46:92:93 : Dell Inc.
+",,Kali Linux,fully updated
+45590,,,None,Server,tcp,0,Common Platform Enumeration (CPE),"It was possible to enumerate CPE names that matched on the remote
+system.","By using information obtained from a Nessus scan, this plugin reports
+CPE (Common Platform Enumeration) matches for various hardware and
+software products found on a host. 
+
+Note that if an official CPE is not available for the product, this
+plugin computes the best possible CPE based on the information
+available from the scan.",n/a,"http://cpe.mitre.org/
+https://nvd.nist.gov/products/cpe","
+The remote operating system matched the following CPE : 
+
+  cpe:/o:linux:linux_kernel -> Linux Kernel
+
+Following application CPE's matched on the remote system : 
+
+  cpe:/a:gnupg:libgcrypt:1.10.3 -> GnuPG Libgcrypt
+  cpe:/a:haxx:libcurl:8.5.0 -> Haxx libcurl
+  cpe:/a:openbsd:openssh:9.6 -> OpenBSD OpenSSH
+  cpe:/a:openbsd:openssh:9.6p1 -> OpenBSD OpenSSH
+  cpe:/a:openssl:openssl:3.1.5 -> OpenSSL Project OpenSSL
+  cpe:/a:tukaani:xz:5.6.1 -> Tukaani XZ
+  cpe:/a:vim:vim:9.1 -> Vim
+",,Kali Linux,fully updated
+54615,,,None,Server,tcp,0,Device Type,It is possible to guess the remote device type.,"Based on the remote operating system, it is possible to determine
+what the remote system type is (eg: a printer, router, general-purpose
+computer, etc).",n/a,,"Remote device type : general-purpose
+Confidence level : 99
+",,Kali Linux,fully updated
+55472,,,None,Server,tcp,0,Device Hostname,It was possible to determine the remote system hostname.,This plugin reports a device's hostname collected via SSH or WMI.,n/a,,"
+  Hostname : kali
+    kali (hostname command)",,Kali Linux,fully updated
+56468,,,None,Server,tcp,0,Time of Last System Startup,The system has been started.,"Using the supplied credentials, Nessus was able to determine when the
+host was last started.",n/a,,"
+  reboot   system boot  6.6.9-amd64      Tue Apr  9 11:35   still running
+  reboot   system boot  6.5.0-kali3-amd6 Mon Apr  8 18:00 - 11:34  (17:34)
+  
+  wtmp begins Mon Apr  8 18:00:20 2024",,Kali Linux,fully updated
+70657,,,None,Server,tcp,22,SSH Algorithms and Languages Supported,An SSH server is listening on this port.,"This script detects which algorithms and languages are supported by
+the remote service for encrypting communications.",n/a,,"
+Nessus negotiated the following encryption algorithm with the server : 
+
+The server supports the following options for kex_algorithms : 
+
+  curve25519-sha256
+  curve25519-sha256@libssh.org
+  diffie-hellman-group-exchange-sha256
+  diffie-hellman-group14-sha256
+  diffie-hellman-group16-sha512
+  diffie-hellman-group18-sha512
+  ecdh-sha2-nistp256
+  ecdh-sha2-nistp384
+  ecdh-sha2-nistp521
+  ext-info-s
+  kex-strict-s-v00@openssh.com
+  sntrup761x25519-sha512@openssh.com
+
+The server supports the following options for server_host_key_algorithms : 
+
+  ecdsa-sha2-nistp256
+  rsa-sha2-256
+  rsa-sha2-512
+  ssh-ed25519
+
+The server supports the following options for encryption_algorithms_client_to_server : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for encryption_algorithms_server_to_client : 
+
+  aes128-ctr
+  aes128-gcm@openssh.com
+  aes192-ctr
+  aes256-ctr
+  aes256-gcm@openssh.com
+  chacha20-poly1305@openssh.com
+
+The server supports the following options for mac_algorithms_client_to_server : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for mac_algorithms_server_to_client : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+  hmac-sha2-256
+  hmac-sha2-256-etm@openssh.com
+  hmac-sha2-512
+  hmac-sha2-512-etm@openssh.com
+  umac-128-etm@openssh.com
+  umac-128@openssh.com
+  umac-64-etm@openssh.com
+  umac-64@openssh.com
+
+The server supports the following options for compression_algorithms_client_to_server : 
+
+  none
+  zlib@openssh.com
+
+The server supports the following options for compression_algorithms_server_to_client : 
+
+  none
+  zlib@openssh.com
+",,Kali Linux,fully updated
+86420,,,None,Server,tcp,0,Ethernet MAC Addresses,"This plugin gathers MAC addresses from various sources and
+consolidates them into a list.","This plugin gathers MAC addresses discovered from both remote probing
+of the host (e.g. SNMP and Netbios) and from running local checks
+(e.g. ifconfig). It then consolidates the MAC addresses into a single,
+unique, and uniform list.",n/a,,"The following is a consolidated list of detected MAC addresses:
+  - 44:A8:42:46:92:90
+  - 44:A8:42:46:92:92
+  - 44:A8:42:46:92:91
+  - 44:A8:42:46:92:93
+",,Kali Linux,fully updated
+90707,,,None,Server,tcp,22,SSH SCP Protocol Detection,The remote host supports the SCP protocol over SSH.,The remote host supports the Secure Copy (SCP) protocol over SSH.,n/a,https://en.wikipedia.org/wiki/Secure_copy,,,Kali Linux,fully updated
+95928,,,None,Server,tcp,0,Linux User List Enumeration,Nessus was able to enumerate local users and groups on the remote Linux host.,"Using the supplied credentials, Nessus was able to enumerate the local users and groups on the remote Linux host.",None,,"
+-----------[ User Accounts ]-----------
+
+User         : user
+Home folder  : /home/user
+Start script : /usr/bin/zsh
+Groups       : dip
+               scanner
+               netdev
+               users
+               dialout
+               wireshark
+               video
+               user
+               cdrom
+               adm
+               audio
+               sudo
+               kaboxer
+               bluetooth
+               plugdev
+               floppy
+
+----------[ System Accounts ]----------
+
+User         : root
+Home folder  : /root
+Start script : /usr/bin/zsh
+Groups       : root
+
+User         : daemon
+Home folder  : /usr/sbin
+Start script : /usr/sbin/nologin
+Groups       : daemon
+
+User         : bin
+Home folder  : /bin
+Start script : /usr/sbin/nologin
+Groups       : bin
+
+User         : sys
+Home folder  : /dev
+Start script : /usr/sbin/nologin
+Groups       : sys
+
+User         : sync
+Home folder  : /bin
+Start script : /bin/sync
+Groups       : nogroup
+
+User         : games
+Home folder  : /usr/games
+Start script : /usr/sbin/nologin
+Groups       : games
+
+User         : man
+Home folder  : /var/cache/man
+Start script : /usr/sbin/nologin
+Groups       : man
+
+User         : lp
+Home folder  : /var/spool/lpd
+Start script : /usr/sbin/nologin
+Groups       : lp
+
+User         : mail
+Home folder  : /var/mail
+Start script : /usr/sbin/nologin
+Groups       : mail
+
+User         : news
+Home folder  : /var/spool/news
+Start script : /usr/sbin/nologin
+Groups       : news
+
+User         : uucp
+Home folder  : /var/spool/uucp
+Start script : /usr/sbin/nologin
+Groups       : uucp
+
+User         : proxy
+Home folder  : /bin
+Start script : /usr/sbin/nologin
+Groups       : proxy
+
+User         : www-data
+Home folder  : /var/www
+Start script : /usr/sbin/nologin
+Groups       : www-data
+
+User         : backup
+Home folder  : /var/backups
+Start script : /usr/sbin/nologin
+Groups       : backup
+
+User         : list
+Home folder  : /var/list
+Start script : /usr/sbin/nologin
+Groups       : list
+
+User         : irc
+Home folder  : /run/ircd
+Start script : /usr/sbin/nologin
+Groups       : irc
+
+User         : _apt
+Home folder  : /nonexistent
+Start script : /usr/sbin/nologin
+Groups       : nogroup
+
+User         : nobody
+Home folder  : /nonexistent
+Start script : /usr/sbin/nologin
+Groups       : nogroup
+
+User         : systemd-network
+Home folder  : /
+Start script : /usr/sbin/nologin
+Groups       : systemd-network
+
+User         : tss
+Home folder  : /var/lib/tpm
+Start script : /bin/false
+Groups       : tss
+
+User         : strongswan
+Home folder  : /var/lib/strongswan
+Start script : /usr/sbin/nologin
+Groups       : nogroup
+
+User         : systemd-timesync
+Home folder  : /
+Start script : /usr/sbin/nologin
+Groups       : systemd-timesync
+
+User         : messagebus
+Home folder  : /nonexistent
+Start script : /usr/sbin/nologin
+Groups       : messagebus
+
+User         : usbmux
+Home folder  : /var/lib/usbmux
+Start script : /usr/sbin/nologin
+Groups       : plugdev
+
+User         : tcpdump
+Home folder  : /nonexistent
+Start script : /usr/sbin/nologin
+Groups       : tcpdump
+
+User         : sshd
+Home folder  : /run/sshd
+Start script : /usr/sbin/nologin
+Groups       : nogroup
+
+User         : dnsmasq
+Home folder  : /var/lib/misc
+Start script : /usr/sbin/nologin
+Groups       : nogroup
+
+User         : avahi
+Home folder  : /run/avahi-daemon
+Start script : /usr/sbin/nologin
+Groups       : avahi
+
+User         : speech-dispatcher
+Home folder  : /run/speech-dispatcher
+Start script : /bin/false
+Groups       : audio
+
+User         : pulse
+Home folder  : /run/pulse
+Start script : /usr/sbin/nologin
+Groups       : pulse
+               audio
+
+User         : lightdm
+Home folder  : /var/lib/lightdm
+Start script : /bin/false
+Groups       : lightdm
+
+User         : saned
+Home folder  : /var/lib/saned
+Start script : /usr/sbin/nologin
+Groups       : saned
+               scanner
+
+User         : polkitd
+Home folder  : /nonexistent
+Start script : /usr/sbin/nologin
+Groups       : polkitd
+
+User         : rtkit
+Home folder  : /proc
+Start script : /usr/sbin/nologin
+Groups       : rtkit
+
+User         : colord
+Home folder  : /var/lib/colord
+Start script : /usr/sbin/nologin
+Groups       : colord
+
+User         : nm-openvpn
+Home folder  : /var/lib/openvpn/chroot
+Start script : /usr/sbin/nologin
+Groups       : nm-openvpn
+
+User         : nm-openconnect
+Home folder  : /var/lib/NetworkManager
+Start script : /usr/sbin/nologin
+Groups       : nm-openconnect
+
+",,Kali Linux,fully updated
+97993,,,None,Server,tcp,0,OS Identification and Installed Software Enumeration over SSH v2 (Using New SSH Library),"Information about the remote host can be disclosed via an
+authenticated session.","Nessus was able to login to the remote host using SSH or local
+commands and extract the list of installed packages.",n/a,,"
+It was possible to log into the remote host via SSH using 'password' authentication.
+
+Local checks have been enabled for this host.
+The remote Debian system is :
+kali-rolling
+
+This is a Kali Linux system
+
+OS Security Patch Assessment is available for this host.
+Note, though, that an attempt to elevate privileges using 'su+sudo' failed
+for the following reason :
+
+
+sh_shell_handler [channel 0]: ERROR - unable to get back to command prompt.
+Command did not complete due to timeout or other error.
+
+Further commands will be run as the user specified in the scan policy.
+
+Runtime : 17.293406 seconds
+",,Kali Linux,fully updated
+102094,,,None,Server,tcp,0,SSH Commands Require Privilege Escalation,"This plugin reports the SSH commands that failed with a response
+indicating that privilege escalation is required to run them.","This plugin reports the SSH commands that failed with a response
+indicating that privilege escalation is required to run them. Either
+privilege escalation credentials were not provided, or the command
+failed to run with the provided privilege escalation credentials. 
+
+NOTE: Due to limitations inherent to the majority of SSH servers, 
+this plugin may falsely report failures for commands containing 
+error output expected by sudo, such as 'incorrect password', 
+'not in the sudoers file', or 'not allowed to execute'.",n/a,,"
+Login account : user
+Commands failed due to lack of privilege escalation :
+- Escalation account : (none)
+  Escalation method  : (none)
+  Plugins :
+  - Plugin Filename : bios_get_info_ssh.nasl
+    Plugin ID       : 34098
+    Plugin Name     : BIOS Info (SSH)
+    - Command  : ""LC_ALL=C dmidecode""
+      Response : ""# dmidecode 3.5\nScanning /dev/mem for entry point.""
+      Error    : ""/sys/firmware/dmi/tables/smbios_entry_point: Permission denied\nCan't read memory from /dev/mem""
+    - Command  : ""LC_ALL=C /usr/sbin/dmidecode""
+      Response : ""# dmidecode 3.5\nScanning /dev/mem for entry point.""
+      Error    : ""/sys/firmware/dmi/tables/smbios_entry_point: Permission denied\nCan't read memory from /dev/mem""
+    - Command  : ""LC_ALL=C /sbin/dmidecode""
+      Response : ""# dmidecode 3.5\nScanning /dev/mem for entry point.""
+      Error    : ""/sys/firmware/dmi/tables/smbios_entry_point: Permission denied\nCan't read memory from /dev/mem""
+  - Plugin Filename : linux_kernel_speculative_execution_detect.nbin
+    Plugin ID       : 125216
+    Plugin Name     : Processor Speculative Execution Vulnerabilities (Linux)
+    - Command  : ""head /sys/kernel/debug/x86/pti_enabled""
+      Response : null
+      Error    : ""head: cannot open '/sys/kernel/debug/x86/pti_enabled' for reading: Permission denied""
+    - Command  : ""head /sys/kernel/debug/x86/retp_enabled""
+      Response : null
+      Error    : ""head: cannot open '/sys/kernel/debug/x86/retp_enabled' for reading: Permission denied""
+    - Command  : ""head /sys/kernel/debug/x86/ibrs_enabled""
+      Response : null
+      Error    : ""head: cannot open '/sys/kernel/debug/x86/ibrs_enabled' for reading: Permission denied""
+Commands failed due to privilege escalation failure:
+- Escalation account : root + root
+  Escalation method  : su + sudo
+  Plugins :
+  - Plugin Filename : netstat_portscan.nasl
+    Plugin ID       : 14272
+    Plugin Name     : Netstat Portscanner (SSH)
+    - Command  : ""netstat -a -n""
+      Response : ""su: Authentication failure""
+      Error    : ""sh_shell_handler [channel 0]: Privilege escalation appears to have failed. Removing privilege escalation from credential set.\nsh_shell_handler [channel 0]: ERROR - unable to get back to command prompt.""",,Kali Linux,fully updated
+110385,,,None,Server,tcp,22,Target Credential Issues by Authentication Protocol - Insufficient Privilege,"Nessus was able to log in to the remote host using the provided
+credentials. The provided credentials were not sufficient to complete
+all requested checks.","Nessus was able to execute credentialed checks because it was
+possible to log in to the remote host using provided credentials,
+however the credentials were not sufficiently privileged to complete
+all requested checks.",n/a,,"
+Nessus was able to log into the remote host, however this credential
+did not have sufficient privileges for all planned checks :
+
+User:       'user'
+Port:       22
+Proto:      SSH
+Method:     password
+
+
+See the output of the following plugin for details :
+
+  Plugin ID   : 102094
+  Plugin Name : SSH Commands Require Privilege Escalation
+",,Kali Linux,fully updated
+110483,,,None,Server,tcp,0,Unix / Linux Running Processes Information,Uses /bin/ps auxww command to obtain the list of running processes on the target machine at scan time.,"Generated report details the running processes on the target machine at scan time.
+  This plugin is informative only and could be used for forensic
+  investigation, malware detection, and to confirm that your system
+  processes conform to your system policies.",n/a,,"USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.4  0.0  22416 11520 ?        Ss   11:35   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    11:35   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    11:35   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/0:1-events_freezable]
+root          11  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u96:0-poll_megasas0_status]
+root          12  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    11:35   0:00 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/1:0-events]
+root          26  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/3:0-events]
+root          38  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/3:0H-kblockd]
+root          39  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/4]
+root          41  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/4]
+root          42  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/4:0-events]
+root          44  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/4:0H-events_highpri]
+root          45  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/5]
+root          47  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/5:0-mm_percpu_wq]
+root          50  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/5:0H-kblockd]
+root          51  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/6]
+root          53  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/6]
+root          54  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/6]
+root          55  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/6:0-events]
+root          56  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/6:0H-events_highpri]
+root          57  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/7]
+root          59  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/7]
+root          60  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/7:0H-events_highpri]
+root          63  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/8]
+root          64  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/8]
+root          65  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/8]
+root          66  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/8]
+root          67  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/8:0-events]
+root          68  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/8:0H-events_highpri]
+root          69  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/9]
+root          70  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/9]
+root          71  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/9]
+root          72  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/9]
+root          74  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/9:0H-events_highpri]
+root          75  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/10]
+root          76  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/10]
+root          77  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/10]
+root          78  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/10]
+root          79  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/10:0-events]
+root          80  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/10:0H-events_highpri]
+root          81  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/11]
+root          82  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/11]
+root          83  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/11]
+root          84  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/11]
+root          85  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/11:0-events]
+root          86  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/11:0H-kblockd]
+root          87  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/12]
+root          88  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/12]
+root          89  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/12]
+root          90  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/12]
+root          92  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/12:0H-events_highpri]
+root          93  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/13]
+root          94  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/13]
+root          95  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/13]
+root          96  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/13]
+root          97  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/13:0-events]
+root          98  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/13:0H-kblockd]
+root          99  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/14]
+root         100  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/14]
+root         101  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/14]
+root         102  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/14]
+root         103  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/14:0-events]
+root         104  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/14:0H-events_highpri]
+root         105  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/15]
+root         106  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/15]
+root         107  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/15]
+root         108  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/15]
+root         110  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/15:0H-events_highpri]
+root         111  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/16]
+root         112  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/16]
+root         113  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/16]
+root         114  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/16]
+root         115  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/16:0-events]
+root         116  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/16:0H-events_highpri]
+root         117  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/17]
+root         118  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/17]
+root         119  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/17]
+root         120  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/17]
+root         122  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/17:0H-events_highpri]
+root         123  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/18]
+root         124  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/18]
+root         125  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/18]
+root         126  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/18]
+root         128  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/18:0H-events_highpri]
+root         129  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/19]
+root         130  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/19]
+root         131  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/19]
+root         132  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/19]
+root         134  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/19:0H-events_highpri]
+root         135  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/20]
+root         136  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/20]
+root         137  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/20]
+root         138  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/20]
+root         140  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/20:0H-events_highpri]
+root         141  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/21]
+root         142  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/21]
+root         143  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/21]
+root         144  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/21]
+root         145  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/21:0-events]
+root         146  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/21:0H-kblockd]
+root         147  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/22]
+root         148  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/22]
+root         149  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/22]
+root         150  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/22]
+root         152  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/22:0H-events_highpri]
+root         153  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/23]
+root         154  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/23]
+root         155  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/23]
+root         156  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/23]
+root         158  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/23:0H-events_highpri]
+root         159  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/24]
+root         160  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/24]
+root         161  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/24]
+root         162  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/24]
+root         164  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/24:0H-events_highpri]
+root         165  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/25]
+root         166  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/25]
+root         167  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/25]
+root         168  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/25]
+root         169  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/25:0-slub_flushwq]
+root         170  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/25:0H-events_highpri]
+root         171  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/26]
+root         172  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/26]
+root         173  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/26]
+root         174  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/26]
+root         175  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/26:0-events]
+root         176  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/26:0H-kblockd]
+root         177  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/27]
+root         178  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/27]
+root         179  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/27]
+root         180  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/27]
+root         181  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/27:0-slub_flushwq]
+root         182  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/27:0H-events_highpri]
+root         183  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/28]
+root         184  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/28]
+root         185  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/28]
+root         186  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/28]
+root         188  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/28:0H-events_highpri]
+root         189  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/29]
+root         190  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/29]
+root         191  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/29]
+root         192  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/29]
+root         193  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/29:0-events]
+root         194  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/29:0H-events_highpri]
+root         195  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/30]
+root         196  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/30]
+root         197  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/30]
+root         198  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/30]
+root         199  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/30:0-events]
+root         200  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/30:0H-events_highpri]
+root         201  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/31]
+root         202  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/31]
+root         203  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/31]
+root         204  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/31]
+root         205  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/31:0-slub_flushwq]
+root         206  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/31:0H-kblockd]
+root         207  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/32]
+root         208  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/32]
+root         209  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/32]
+root         210  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/32]
+root         211  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/32:0-cgroup_destroy]
+root         212  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/32:0H-events_highpri]
+root         213  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/33]
+root         214  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/33]
+root         215  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/33]
+root         216  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/33]
+root         217  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/33:0-cgroup_destroy]
+root         218  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/33:0H-events_highpri]
+root         219  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/34]
+root         220  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/34]
+root         221  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/34]
+root         222  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/34]
+root         223  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/34:0-events]
+root         224  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/34:0H-kblockd]
+root         225  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/35]
+root         226  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/35]
+root         227  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/35]
+root         228  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/35]
+root         229  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/35:0-events]
+root         230  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/35:0H-events_highpri]
+root         231  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/36]
+root         232  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/36]
+root         233  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/36]
+root         234  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/36]
+root         235  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/36:0-rcu_par_gp]
+root         236  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/36:0H-events_highpri]
+root         237  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/37]
+root         238  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/37]
+root         239  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/37]
+root         240  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/37]
+root         242  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/37:0H-events_highpri]
+root         243  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/38]
+root         244  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/38]
+root         245  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/38]
+root         246  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/38]
+root         247  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/38:0-events]
+root         248  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/38:0H-events_highpri]
+root         249  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/39]
+root         250  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/39]
+root         251  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/39]
+root         252  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/39]
+root         253  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/39:0-rcu_par_gp]
+root         254  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/39:0H-events_highpri]
+root         255  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/40]
+root         256  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/40]
+root         257  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/40]
+root         258  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/40]
+root         260  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/40:0H-events_highpri]
+root         261  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/41]
+root         262  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/41]
+root         263  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/41]
+root         264  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/41]
+root         265  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/41:0-events]
+root         266  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/41:0H-events_highpri]
+root         267  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/42]
+root         268  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/42]
+root         269  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/42]
+root         270  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/42]
+root         271  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/42:0-events]
+root         272  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/42:0H-events_highpri]
+root         273  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/43]
+root         274  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/43]
+root         275  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/43]
+root         276  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/43]
+root         277  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/43:0-events]
+root         278  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/43:0H-events_highpri]
+root         279  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/44]
+root         280  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/44]
+root         281  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/44]
+root         282  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/44]
+root         283  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/44:0-events]
+root         284  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/44:0H-events_highpri]
+root         285  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/45]
+root         286  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/45]
+root         287  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/45]
+root         288  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/45]
+root         289  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/45:0-events]
+root         290  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/45:0H-events_highpri]
+root         291  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/46]
+root         292  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/46]
+root         293  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/46]
+root         294  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/46]
+root         295  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/46:0-rcu_par_gp]
+root         296  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/46:0H-kblockd]
+root         297  0.0  0.0      0     0 ?        S    11:35   0:00 [cpuhp/47]
+root         298  0.0  0.0      0     0 ?        S    11:35   0:00 [idle_inject/47]
+root         299  0.0  0.0      0     0 ?        S    11:35   0:00 [migration/47]
+root         300  0.0  0.0      0     0 ?        S    11:35   0:00 [ksoftirqd/47]
+root         302  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/47:0H-events_highpri]
+root         303  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:0-flush-8:16]
+root         307  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:1-flush-8:16]
+root         309  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:2-events_unbound]
+root         310  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:3-events_unbound]
+root         314  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:3-events_unbound]
+root         315  0.1  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:6-events_unbound]
+root         316  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:7-events_unbound]
+root         317  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:4-events_unbound]
+root         318  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:5-events_unbound]
+root         319  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:8-events_unbound]
+root         322  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:7-events_unbound]
+root         323  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:10-events_unbound]
+root         324  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u97:11-flush-8:16]
+root         334  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:14-events_unbound]
+root         335  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:15-events_unbound]
+root         336  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:16-events_unbound]
+root         337  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:17-events_unbound]
+root         338  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u98:18-events_unbound]
+root         343  0.0  0.0      0     0 ?        S    11:35   0:00 [kdevtmpfs]
+root         344  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-inet_]
+root         345  0.0  0.0      0     0 ?        S    11:35   0:00 [kauditd]
+root         347  0.0  0.0      0     0 ?        S    11:35   0:00 [khungtaskd]
+root         348  0.0  0.0      0     0 ?        S    11:35   0:00 [oom_reaper]
+root         349  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-write]
+root         350  0.0  0.0      0     0 ?        S    11:35   0:00 [kcompactd0]
+root         351  0.0  0.0      0     0 ?        S    11:35   0:00 [kcompactd1]
+root         352  0.0  0.0      0     0 ?        SN   11:35   0:00 [ksmd]
+root         353  0.0  0.0      0     0 ?        SN   11:35   0:00 [khugepaged]
+root         354  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-kinte]
+root         355  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-kbloc]
+root         356  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-blkcg]
+root         357  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/5:1-events]
+root         358  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/7:1-mm_percpu_wq]
+root         361  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/15:1-events]
+root         362  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/19:1-events]
+root         364  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/25:1-mm_percpu_wq]
+root         365  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/24:1-events]
+root         366  0.0  0.0      0     0 ?        D    11:35   0:00 [kworker/31:1+events]
+root         367  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/41:1-mm_percpu_wq]
+root         368  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/27:1-events]
+root         369  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/47:1-events]
+root         370  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-tpm_d]
+root         371  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-edac-]
+root         372  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/u96:1]
+root         373  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-devfr]
+root         374  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/24:1H-kblockd]
+root         376  0.0  0.0      0     0 ?        S    11:35   0:00 [kswapd0]
+root         377  0.0  0.0      0     0 ?        S    11:35   0:00 [kswapd1]
+root         384  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-kthro]
+root         386  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/25-aerdrv]
+root         387  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/26-aerdrv]
+root         388  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/2:1-events]
+root         389  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/27-aerdrv]
+root         390  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/28-aerdrv]
+root         391  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/29-aerdrv]
+root         392  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/31-aerdrv]
+root         393  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/1:1-cgroup_destroy]
+root         394  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/33-aerdrv]
+root         395  0.0  0.0      0     0 ?        S    11:35   0:00 [irq/34-aerdrv]
+root         396  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-acpi_]
+root         398  0.0  0.0      0     0 ?        I    11:35   0:00 [kworker/4:2-events]
+root         399  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/R-mld]
+root         400  0.0  0.0      0     0 ?        I<   11:35   0:00 [kworker/4:1H-kblockd]
+root         401  0.0  0.0      0     0 ?        I<   11:35   0:0",,Kali Linux,fully updated
+117887,,,None,Server,tcp,0,OS Security Patch Assessment Available,"Nessus was able to log in to the remote host using the provided
+credentials and enumerate OS security patch levels.","Nessus was able to determine OS security patch levels by logging
+into the remote host and running commands to determine the version
+of the operating system and its components.  The remote host was
+identified as an operating system or device that Nessus supports for
+patch and update assessment.  The necessary information was obtained
+to perform these checks.",n/a,,"OS Security Patch Assessment is available.
+
+Account  : user
+Protocol : SSH
+",,Kali Linux,fully updated
+141118,,,None,Server,tcp,22,Target Credential Status by Authentication Protocol - Valid Credentials Provided,Valid credentials were provided for an available authentication protocol.,"Nessus was able to determine that valid credentials were provided for
+an authentication protocol available on the remote target because it
+was able to successfully authenticate directly to the remote target
+using that authentication protocol at least once. Authentication was
+successful because the authentication protocol service was available
+remotely, the service was able to be identified, the authentication
+protocol was able to be negotiated successfully, and a set of
+credentials provided in the scan policy for that authentication
+protocol was accepted by the remote service. See plugin output for
+details, including protocol, port, and account.
+
+Please note the following :
+
+- This plugin reports per protocol, so it is possible for
+  valid credentials to be provided for one protocol and not
+  another. For example, authentication may succeed via SSH
+  but fail via SMB, while no credentials were provided for
+  an available SNMP service.
+
+- Providing valid credentials for all available
+  authentication protocols may improve scan coverage, but
+  the value of successful authentication for a given
+  protocol may vary from target to target depending upon
+  what data (if any) is gathered from the target via that
+  protocol. For example, successful authentication via SSH
+  is more valuable for Linux targets than for Windows
+  targets, and likewise successful authentication via SMB
+  is more valuable for Windows targets than for Linux
+  targets.",n/a,,"
+Nessus was able to log in to the remote host via the following :
+
+User:       'user'
+Port:       22
+Proto:      SSH
+Method:     password
+",,Kali Linux,fully updated
+149334,,,None,Server,tcp,22,SSH Password Authentication Accepted,The SSH server on the remote host accepts password authentication.,The SSH server on the remote host accepts password authentication.,n/a,https://tools.ietf.org/html/rfc4252#section-8,,,Kali Linux,fully updated
+151883,,,None,Server,tcp,0,Libgcrypt Installed (Linux/UNIX),Libgcrypt is installed on this host.,"Libgcrypt, a cryptography library, was found on the
+remote host.",n/a,https://gnupg.org/download/index.html,"
+Nessus detected 4 installs of Libgcrypt:
+
+  Path    : /usr/lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+  Version : 1.10.3
+
+  Path    : /usr/lib/x86_64-linux-gnu/libgcrypt.so.20
+  Version : 1.10.3
+
+  Path    : /lib/x86_64-linux-gnu/libgcrypt.so.20.4.3
+  Version : 1.10.3
+
+  Path    : /lib/x86_64-linux-gnu/libgcrypt.so.20
+  Version : 1.10.3
+",,Kali Linux,fully updated
+152743,,,None,Server,tcp,0,Unix Software Discovery Commands Not Available,"Nessus was able to log in to the remote host using the provided
+credentials, but encountered difficulty running commands used to find
+unmanaged software.","Nessus found problems running commands on the target host which are
+used to find software that is not managed by the operating system.
+Details of the issues encountered are reported by this plugin.
+
+Failure to properly execute commands used to find and characterize
+unmanaged software on the target host can lead to scans that do not
+report known vulnerabilities.  There may be little in the scan
+results of unmanaged software plugins to indicate the missing
+availability of the source commands except audit trail messages.
+
+Commands used to find unmanaged software installations might fail for
+a variety of reasons, including:
+
+   * Inadequate scan user permissions,
+   * Failed privilege escalation,
+   * Intermittent network disruption, or
+   * Missing or corrupt executables on the target host.
+
+Please address the issues reported here and redo the scan.",n/a,,"Failures in commands used to assess Unix software:
+
+  strings -v                  :
+    zsh:1: command not found: strings
+
+
+Account  : user
+Protocol : SSH
+",,Kali Linux,fully updated
+153588,,,None,Server,tcp,22,SSH SHA-1 HMAC Algorithms Enabled,The remote SSH server is configured to enable SHA-1 HMAC algorithms.,"The remote SSH server is configured to enable SHA-1 HMAC algorithms.
+
+Although NIST has formally deprecated use of SHA-1 for digital signatures, SHA-1 is still considered secure for HMAC as
+the security of HMAC does not rely on the underlying hash function being resistant to collisions.
+
+Note that this plugin only checks for the options of the remote SSH server.",n/a,,"
+The following client-to-server SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+
+The following server-to-client SHA-1 Hash-based Message Authentication Code (HMAC) algorithms are supported : 
+
+  hmac-sha1
+  hmac-sha1-etm@openssh.com
+",,Kali Linux,fully updated
+157358,,,None,Server,tcp,0,Linux Mounted Devices,Use system commands to obtain the list of mounted devices on the target machine at scan time.,"Report the mounted devices information on the target machine at scan time using the following commands.
+/bin/df -h
+/bin/lsblk
+/bin/mount -l
+
+This plugin only reports on the tools available on the system and omits any tool
+that did not return information when the command was ran.",n/a,,"$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev             32G     0   32G   0% /dev
+tmpfs           6.3G  2.5M  6.3G   1% /run
+/dev/sdb2       466G  5.3G  437G   2% /
+tmpfs            32G     0   32G   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+efivarfs        304K  162K  138K  55% /sys/firmware/efi/efivars
+/dev/sdb1       511M  164K  511M   1% /boot/efi
+tmpfs           6.3G  112K  6.3G   1% /run/user/1000
+
+
+$ lsblk
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda      8:0    1   308M  1 disk 
+`-sda1   8:1    1   308M  1 part 
+sdb      8:16   0 475.8G  0 disk 
+|-sdb1   8:17   0   512M  0 part /boot/efi
+|-sdb2   8:18   0 474.3G  0 part /
+`-sdb3   8:19   0   976M  0 part [SWAP]
+sr0     11:0    1  1024M  0 rom  
+
+
+$ mount -l
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+udev on /dev type devtmpfs (rw,nosuid,relatime,size=32880144k,nr_inodes=8220036,mode=755,inode64)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,noexec,relatime,size=6584356k,mode=755,inode64)
+/dev/sdb2 on / type ext4 (rw,relatime,errors=remount-ro)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,inode64)
+tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k,inode64)
+cgroup2 on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)
+bpf on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=32,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=40969)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,nosuid,nodev,relatime,pagesize=2M)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+/dev/sdb1 on /boot/efi type vfat (rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro)
+binfmt_misc on /proc/sys/fs/binfmt_misc type binfmt_misc (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=6584352k,nr_inodes=1646088,mode=700,uid=1000,gid=1000,inode64)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+
+
+",,Kali Linux,fully updated
+168007,,,None,Server,tcp,0,OpenSSL Installed (Linux),OpenSSL was detected on the remote Linux host.,"OpenSSL was detected on the remote Linux host.
+
+The plugin timeout can be set to a custom value other than the plugin's default
+of 15 minutes via the 'timeout.168007' scanner setting in Nessus 8.15.1 or later.
+
+Please see https://docs.tenable.com/nessus/Content/SettingsAdvanced.htm#Custom for more information.",n/a,https://openssl.org/,"
+Nessus detected 2 installs of OpenSSL:
+
+  Path               : /usr/lib/x86_64-linux-gnu/libcrypto.so.3
+  Version            : 3.1.5
+  Associated Package : libssl3
+
+  Path               : /usr/bin/openssl
+  Version            : 3.1.5
+  Associated Package : openssl 3.1.5-1
+  Managed by OS      : True
+
+We are unable to retrieve version info from the following list of OpenSSL files. However, these installs may include their version within the filename or the filename of the Associated Package.
+
+e.g. libssl.so.3 (OpenSSL 3.x), libssl.so.1.1 (OpenSSL 1.1.x)
+
+/usr/lib/x86_64-linux-gnu/libssl.so.3
+
+",,Kali Linux,fully updated
+170170,,,None,Server,tcp,0,Enumerate the Network Interface configuration via SSH,Nessus was able to parse the Network Interface data on the remote host.,Nessus was able to parse the Network Interface data on the remote host.,n/a,,"eth3:
+  MAC : 44:a8:42:46:92:93
+eth2:
+  MAC : 44:a8:42:46:92:92
+eth1:
+  MAC : 44:a8:42:46:92:91
+lo:
+  IPv4:
+    - Address : 127.0.0.1
+        Netmask : 255.0.0.0
+  IPv6:
+    - Address : ::1
+        Prefixlen : 128
+        Scope : host
+eth0:
+  MAC : 44:a8:42:46:92:90
+  IPv4:
+    - Address : 10.0.1.23
+        Netmask : 255.255.255.0
+        Broadcast : 10.0.1.255
+  IPv6:
+    - Address : fe80::e81:18f4:5722:5a2e
+        Prefixlen : 64
+        Scope : link
+",,Kali Linux,fully updated
+171410,,,None,Server,tcp,0,IP Assignment Method Detection,Enumerates the IP address assignment method(static/dynamic).,Enumerates the IP address assignment method(static/dynamic).,n/a,,"+ lo
+  + IPv4
+    - Address       : 127.0.0.1
+      Assign Method : static
+  + IPv6
+    - Address       : ::1
+      Assign Method : static
++ eth0
+  + IPv4
+    - Address       : 10.0.1.23
+      Assign Method : static
+  + IPv6
+    - Address       : fe80::e81:18f4:5722:5a2e
+      Assign Method : static
++ eth1
++ eth2
++ eth3
+",,Kali Linux,fully updated
+179200,,,None,Server,tcp,0,Enumerate the Network Routing configuration via SSH,Nessus was able to retrieve network routing information from the remote host.,Nessus was able to retrieve network routing information the remote host.,n/a,,"Interface Routes:
+  eth0:
+    ipv4_subnets:
+     - 10.0.1.0/24
+    ipv6_subnets:
+     - fe80::/64
+",,Kali Linux,fully updated
+181418,,,None,Server,tcp,22,OpenSSH Detection,An OpenSSH-based SSH server was detected on the remote host.,An OpenSSH-based SSH server was detected on the remote host.,n/a,https://www.openssh.com/,"
+  Service : ssh
+  Version : 9.6p1
+  Banner  : SSH-2.0-OpenSSH_9.6p1 Debian-4
+",,Kali Linux,fully updated
+182848,,,None,Server,tcp,0,libcurl Installed (Linux / Unix),libcurl is installed on the remote Linux / Unix host.,"libcurl is installed on the remote Linux / Unix host.
+
+Additional information:
+
+  - More paths will be searched and the timeout for the search will be increased
+    if 'Perform thorough tests' setting is enabled.
+
+  - The plugin timeout can be set to a custom value other than the
+    plugin's default of 30 minutes via the 'timeout.182774' scanner
+    setting in Nessus 8.15.1 or later.
+
+    Please see https://docs.tenable.com/nessus/Content/SettingsAdvanced.htm#Custom for more information.",n/a,https://curl.se/,"
+Nessus detected 2 installs of libcurl:
+
+  Path               : /usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0
+  Version            : 8.5.0
+  Associated Package : libcurl4 8.5.0-2
+  Managed by OS      : True
+
+  Path               : /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4.8.0
+  Version            : 8.5.0
+  Associated Package : libcurl3-gnutls 8.5.0-2
+  Managed by OS      : True
+",,Kali Linux,fully updated
+189731,,,None,Server,tcp,0,Vim Installed (Linux),Vim is installed on the remote Linux host.,Vim is installed on the remote Linux host.,n/a,https://www.vim.org/,"
+  Path    : /usr/bin/vim.tiny
+  Version : 9.1
+",,Kali Linux,fully updated
+192709,,,None,Server,tcp,0,Tukaani XZ Utils Installed (Linux / Unix),Tukaani XZ Utils is installed on the remote Linux / Unix host.,"Tukaani XZ Utils is installed on the remote Linux / Unix host.
+
+XZ Utils consists of several components, including:
+  - liblzma
+  - xz
+
+Additional information:
+
+  - More paths will be searched and the timeout for the search will be increased
+    if 'Perform thorough tests' setting is enabled.
+
+  - The plugin timeout can be set to a custom value other than the
+    plugin's default of 30 minutes via the 'timeout.182774' scanner
+    setting in Nessus 8.15.1 or later.
+
+    Please see https://docs.tenable.com/nessus/Content/SettingsAdvanced.htm#Custom for more information.",n/a,https://xz.tukaani.org/xz-utils/,"
+Nessus detected 2 installs of XZ Utils:
+
+  Path               : /usr/bin/xz
+  Version            : 5.6.1
+  Associated Package : xz-utils 5.6.1
+  Managed by OS      : True
+
+  Path               : /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5
+  Version            : 5.6.1
+  Associated Package : liblzma5 5.6.1
+  Managed by OS      : True
+",,Kali Linux,fully updated

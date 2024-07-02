@@ -1,0 +1,356 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Laptop,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2022-33065,CVE-2022-33065,4,Ubuntu: (Multiple Advisories) (CVE-2022-33065): libsndfile vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2022-41877,CVE-2022-41877,4,Ubuntu: (Multiple Advisories) (CVE-2022-41877): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2022-48624,CVE-2022-48624,4,Ubuntu: (Multiple Advisories) (CVE-2022-48624): less vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-23583,CVE-2023-23583,4,Ubuntu: (Multiple Advisories) (CVE-2023-23583): Intel Microcode vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-28450,CVE-2023-28450,4,Ubuntu: (Multiple Advisories) (CVE-2023-28450): Dnsmasq vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-38469,CVE-2023-38469,4,Ubuntu: (Multiple Advisories) (CVE-2023-38469): Avahi vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-38470,CVE-2023-38470,4,Ubuntu: (Multiple Advisories) (CVE-2023-38470): Avahi vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-38471,CVE-2023-38471,4,Ubuntu: (Multiple Advisories) (CVE-2023-38471): Avahi vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-38472,CVE-2023-38472,4,Ubuntu: (Multiple Advisories) (CVE-2023-38472): Avahi vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-38473,CVE-2023-38473,4,Ubuntu: (Multiple Advisories) (CVE-2023-38473): Avahi vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-38546,CVE-2023-38546,4,Ubuntu: (Multiple Advisories) (CVE-2023-38546): curl vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-39352,CVE-2023-39352,4,Ubuntu: (Multiple Advisories) (CVE-2023-39352): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-39356,CVE-2023-39356,4,Ubuntu: (Multiple Advisories) (CVE-2023-39356): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-39804,CVE-2023-39804,4,Ubuntu: (Multiple Advisories) (CVE-2023-39804): GNU Tar vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4016,CVE-2023-4016,4,Ubuntu: (Multiple Advisories) (CVE-2023-4016): procps-ng vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-41983,CVE-2023-41983,4,Ubuntu: (Multiple Advisories) (CVE-2023-41983): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-42852,CVE-2023-42852,4,Ubuntu: (Multiple Advisories) (CVE-2023-42852): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-42883,CVE-2023-42883,4,Ubuntu: (Multiple Advisories) (CVE-2023-42883): WebKitGTK vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-42916,CVE-2023-42916,4,Ubuntu: (Multiple Advisories) (CVE-2023-42916): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-42917,CVE-2023-42917,4,Ubuntu: (Multiple Advisories) (CVE-2023-42917): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-43115,CVE-2023-43115,4,Ubuntu: (Multiple Advisories) (CVE-2023-43115): Ghostscript vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-43641,CVE-2023-43641,4,Ubuntu: (Multiple Advisories) (CVE-2023-43641): CUE vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-43804,CVE-2023-43804,4,Ubuntu: (Multiple Advisories) (CVE-2023-43804): urllib3 vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-44487,CVE-2023-44487,4,Ubuntu: (Multiple Advisories) (CVE-2023-44487): .NET vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-45803,CVE-2023-45803,4,Ubuntu: (Multiple Advisories) (CVE-2023-45803): urllib3 vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-45866,CVE-2023-45866,4,Ubuntu: (Multiple Advisories) (CVE-2023-45866): BlueZ vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-46218,CVE-2023-46218,4,Ubuntu: (Multiple Advisories) (CVE-2023-46218): curl vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-46219,CVE-2023-46219,4,Ubuntu: (Multiple Advisories) (CVE-2023-46219): curl vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-46246,CVE-2023-46246,4,Ubuntu: (Multiple Advisories) (CVE-2023-46246): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4641,CVE-2023-4641,4,Ubuntu: (Multiple Advisories) (CVE-2023-4641): shadow vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-46751,CVE-2023-46751,4,Ubuntu: (Multiple Advisories) (CVE-2023-46751): Ghostscript vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-46849,CVE-2023-46849,4,Ubuntu: (Multiple Advisories) (CVE-2023-46849): OpenVPN vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-46850,CVE-2023-46850,4,Ubuntu: (Multiple Advisories) (CVE-2023-46850): OpenVPN vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-47038,CVE-2023-47038,4,Ubuntu: (Multiple Advisories) (CVE-2023-47038): Perl vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4733,CVE-2023-4733,4,Ubuntu: (Multiple Advisories) (CVE-2023-4733): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4734,CVE-2023-4734,4,Ubuntu: (Multiple Advisories) (CVE-2023-4734): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4735,CVE-2023-4735,4,Ubuntu: (Multiple Advisories) (CVE-2023-4735): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4738,CVE-2023-4738,4,Ubuntu: (Multiple Advisories) (CVE-2023-4738): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4750,CVE-2023-4750,4,Ubuntu: (Multiple Advisories) (CVE-2023-4750): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4752,CVE-2023-4752,4,Ubuntu: (Multiple Advisories) (CVE-2023-4752): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-4781,CVE-2023-4781,4,Ubuntu: (Multiple Advisories) (CVE-2023-4781): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48231,CVE-2023-48231,4,Ubuntu: (Multiple Advisories) (CVE-2023-48231): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48232,CVE-2023-48232,4,Ubuntu: (Multiple Advisories) (CVE-2023-48232): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48233,CVE-2023-48233,4,Ubuntu: (Multiple Advisories) (CVE-2023-48233): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48234,CVE-2023-48234,4,Ubuntu: (Multiple Advisories) (CVE-2023-48234): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48235,CVE-2023-48235,4,Ubuntu: (Multiple Advisories) (CVE-2023-48235): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48236,CVE-2023-48236,4,Ubuntu: (Multiple Advisories) (CVE-2023-48236): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48237,CVE-2023-48237,4,Ubuntu: (Multiple Advisories) (CVE-2023-48237): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48706,CVE-2023-48706,4,Ubuntu: (Multiple Advisories) (CVE-2023-48706): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48795,CVE-2023-48795,4,Ubuntu: (Multiple Advisories) (CVE-2023-48795): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-48795,CVE-2023-48795,4,Ubuntu: (Multiple Advisories) (CVE-2023-48795): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-49083,CVE-2023-49083,4,Ubuntu: (Multiple Advisories) (CVE-2023-49083): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-50387,CVE-2023-50387,4,Ubuntu: (Multiple Advisories) (CVE-2023-50387): Bind vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-50447,CVE-2023-50447,4,Ubuntu: (Multiple Advisories) (CVE-2023-50447): Pillow vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-50782,CVE-2023-50782,4,Ubuntu: (Multiple Advisories) (CVE-2023-50782): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-50868,CVE-2023-50868,4,Ubuntu: (Multiple Advisories) (CVE-2023-50868): Bind vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-51385,CVE-2023-51385,4,Ubuntu: (Multiple Advisories) (CVE-2023-51385): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-52356,CVE-2023-52356,4,Ubuntu: (Multiple Advisories) (CVE-2023-52356): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-52425,CVE-2023-52425,4,Ubuntu: (Multiple Advisories) (CVE-2023-52425): Expat vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5344,CVE-2023-5344,4,Ubuntu: (Multiple Advisories) (CVE-2023-5344): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5363,CVE-2023-5363,4,Ubuntu: (Multiple Advisories) (CVE-2023-5363): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5367,CVE-2023-5367,4,Ubuntu: (Multiple Advisories) (CVE-2023-5367): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5380,CVE-2023-5380,4,Ubuntu: (Multiple Advisories) (CVE-2023-5380): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5441,CVE-2023-5441,4,Ubuntu: (Multiple Advisories) (CVE-2023-5441): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5535,CVE-2023-5535,4,Ubuntu: (Multiple Advisories) (CVE-2023-5535): Vim vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5557,CVE-2023-5557,4,Ubuntu: (Multiple Advisories) (CVE-2023-5557): tracker-miners vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5616,CVE-2023-5616,4,Ubuntu: (Multiple Advisories) (CVE-2023-5616): GNOME Settings vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5678,CVE-2023-5678,4,Ubuntu: (Multiple Advisories) (CVE-2023-5678): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-5981,CVE-2023-5981,4,Ubuntu: (Multiple Advisories) (CVE-2023-5981): GnuTLS vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6004,CVE-2023-6004,4,Ubuntu: (Multiple Advisories) (CVE-2023-6004): libssh vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6228,CVE-2023-6228,4,Ubuntu: (Multiple Advisories) (CVE-2023-6228): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6246,CVE-2023-6246,4,Ubuntu: (Multiple Advisories) (CVE-2023-6246): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6277,CVE-2023-6277,4,Ubuntu: (Multiple Advisories) (CVE-2023-6277): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6377,CVE-2023-6377,4,Ubuntu: (Multiple Advisories) (CVE-2023-6377): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6478,CVE-2023-6478,4,Ubuntu: (Multiple Advisories) (CVE-2023-6478): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6779,CVE-2023-6779,4,Ubuntu: (Multiple Advisories) (CVE-2023-6779): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6780,CVE-2023-6780,4,Ubuntu: (Multiple Advisories) (CVE-2023-6780): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6816,CVE-2023-6816,4,Ubuntu: (Multiple Advisories) (CVE-2023-6816): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6816,CVE-2023-6816,4,Ubuntu: (Multiple Advisories) (CVE-2023-6816): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-6918,CVE-2023-6918,4,Ubuntu: (Multiple Advisories) (CVE-2023-6918): libssh vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2023-7104,CVE-2023-7104,4,Ubuntu: (Multiple Advisories) (CVE-2023-7104): SQLite vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0229,CVE-2024-0229,4,Ubuntu: (Multiple Advisories) (CVE-2024-0229): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0229,CVE-2024-0229,4,Ubuntu: (Multiple Advisories) (CVE-2024-0229): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0408,CVE-2024-0408,4,Ubuntu: (Multiple Advisories) (CVE-2024-0408): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0408,CVE-2024-0408,4,Ubuntu: (Multiple Advisories) (CVE-2024-0408): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0409,CVE-2024-0409,4,Ubuntu: (Multiple Advisories) (CVE-2024-0409): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0409,CVE-2024-0409,4,Ubuntu: (Multiple Advisories) (CVE-2024-0409): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0553,CVE-2024-0553,4,Ubuntu: (Multiple Advisories) (CVE-2024-0553): GnuTLS vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0567,CVE-2024-0567,4,Ubuntu: (Multiple Advisories) (CVE-2024-0567): GnuTLS vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-0727,CVE-2024-0727,4,Ubuntu: (Multiple Advisories) (CVE-2024-0727): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-2004,CVE-2024-2004,4,Ubuntu: (Multiple Advisories) (CVE-2024-2004): curl vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-21885,CVE-2024-21885,4,Ubuntu: (Multiple Advisories) (CVE-2024-21885): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-21885,CVE-2024-21885,4,Ubuntu: (Multiple Advisories) (CVE-2024-21885): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-21886,CVE-2024-21886,4,Ubuntu: (Multiple Advisories) (CVE-2024-21886): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-21886,CVE-2024-21886,4,Ubuntu: (Multiple Advisories) (CVE-2024-21886): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-22195,CVE-2024-22195,4,Ubuntu: (Multiple Advisories) (CVE-2024-22195): Jinja2 vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-22365,CVE-2024-22365,4,Ubuntu: (Multiple Advisories) (CVE-2024-22365): PAM vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-23206,CVE-2024-23206,4,Ubuntu: (Multiple Advisories) (CVE-2024-23206): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-23213,CVE-2024-23213,4,Ubuntu: (Multiple Advisories) (CVE-2024-23213): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-23222,CVE-2024-23222,4,Ubuntu: (Multiple Advisories) (CVE-2024-23222): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-2398,CVE-2024-2398,4,Ubuntu: (Multiple Advisories) (CVE-2024-2398): curl vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-24246,CVE-2024-24246,4,Ubuntu: (Multiple Advisories) (CVE-2024-24246): QPDF vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-24806,CVE-2024-24806,4,Ubuntu: (Multiple Advisories) (CVE-2024-24806): libuv vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-25062,CVE-2024-25062,4,Ubuntu: (Multiple Advisories) (CVE-2024-25062): libxml2 vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-25629,CVE-2024-25629,4,Ubuntu: (Multiple Advisories) (CVE-2024-25629): c-ares vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-26130,CVE-2024-26130,4,Ubuntu: (Multiple Advisories) (CVE-2024-26130): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-28085,CVE-2024-28085,4,Ubuntu: (Multiple Advisories) (CVE-2024-28085): util-linux vulnerability,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-28757,CVE-2024-28757,4,Ubuntu: (Multiple Advisories) (CVE-2024-28757): Expat vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-31080,CVE-2024-31080,4,Ubuntu: (Multiple Advisories) (CVE-2024-31080): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-31081,CVE-2024-31081,4,Ubuntu: (Multiple Advisories) (CVE-2024-31081): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-31082,CVE-2024-31082,4,Ubuntu: (Multiple Advisories) (CVE-2024-31082): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,vv,ubuntu-cve-2024-31083,CVE-2024-31083,4,Ubuntu: (Multiple Advisories) (CVE-2024-31083): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Ubuntu,freshly installed
+Laptop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Ubuntu,freshly installed
+Laptop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Ubuntu,freshly installed
+Laptop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Ubuntu,freshly installed
+Laptop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Ubuntu,freshly installed
+Desktop,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2022-33065,CVE-2022-33065,4,Ubuntu: (Multiple Advisories) (CVE-2022-33065): libsndfile vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2022-41877,CVE-2022-41877,4,Ubuntu: (Multiple Advisories) (CVE-2022-41877): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2022-48624,CVE-2022-48624,4,Ubuntu: (Multiple Advisories) (CVE-2022-48624): less vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-23583,CVE-2023-23583,4,Ubuntu: (Multiple Advisories) (CVE-2023-23583): Intel Microcode vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-28450,CVE-2023-28450,4,Ubuntu: (Multiple Advisories) (CVE-2023-28450): Dnsmasq vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-38469,CVE-2023-38469,4,Ubuntu: (Multiple Advisories) (CVE-2023-38469): Avahi vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-38470,CVE-2023-38470,4,Ubuntu: (Multiple Advisories) (CVE-2023-38470): Avahi vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-38471,CVE-2023-38471,4,Ubuntu: (Multiple Advisories) (CVE-2023-38471): Avahi vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-38472,CVE-2023-38472,4,Ubuntu: (Multiple Advisories) (CVE-2023-38472): Avahi vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-38473,CVE-2023-38473,4,Ubuntu: (Multiple Advisories) (CVE-2023-38473): Avahi vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-38546,CVE-2023-38546,4,Ubuntu: (Multiple Advisories) (CVE-2023-38546): curl vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-39352,CVE-2023-39352,4,Ubuntu: (Multiple Advisories) (CVE-2023-39352): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-39356,CVE-2023-39356,4,Ubuntu: (Multiple Advisories) (CVE-2023-39356): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-39804,CVE-2023-39804,4,Ubuntu: (Multiple Advisories) (CVE-2023-39804): GNU Tar vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4016,CVE-2023-4016,4,Ubuntu: (Multiple Advisories) (CVE-2023-4016): procps-ng vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-41983,CVE-2023-41983,4,Ubuntu: (Multiple Advisories) (CVE-2023-41983): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-42852,CVE-2023-42852,4,Ubuntu: (Multiple Advisories) (CVE-2023-42852): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-42883,CVE-2023-42883,4,Ubuntu: (Multiple Advisories) (CVE-2023-42883): WebKitGTK vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-42916,CVE-2023-42916,4,Ubuntu: (Multiple Advisories) (CVE-2023-42916): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-42917,CVE-2023-42917,4,Ubuntu: (Multiple Advisories) (CVE-2023-42917): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-43115,CVE-2023-43115,4,Ubuntu: (Multiple Advisories) (CVE-2023-43115): Ghostscript vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-43641,CVE-2023-43641,4,Ubuntu: (Multiple Advisories) (CVE-2023-43641): CUE vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-43804,CVE-2023-43804,4,Ubuntu: (Multiple Advisories) (CVE-2023-43804): urllib3 vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-44487,CVE-2023-44487,4,Ubuntu: (Multiple Advisories) (CVE-2023-44487): .NET vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-45803,CVE-2023-45803,4,Ubuntu: (Multiple Advisories) (CVE-2023-45803): urllib3 vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-45866,CVE-2023-45866,4,Ubuntu: (Multiple Advisories) (CVE-2023-45866): BlueZ vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-46218,CVE-2023-46218,4,Ubuntu: (Multiple Advisories) (CVE-2023-46218): curl vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-46219,CVE-2023-46219,4,Ubuntu: (Multiple Advisories) (CVE-2023-46219): curl vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-46246,CVE-2023-46246,4,Ubuntu: (Multiple Advisories) (CVE-2023-46246): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4641,CVE-2023-4641,4,Ubuntu: (Multiple Advisories) (CVE-2023-4641): shadow vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-46751,CVE-2023-46751,4,Ubuntu: (Multiple Advisories) (CVE-2023-46751): Ghostscript vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-46849,CVE-2023-46849,4,Ubuntu: (Multiple Advisories) (CVE-2023-46849): OpenVPN vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-46850,CVE-2023-46850,4,Ubuntu: (Multiple Advisories) (CVE-2023-46850): OpenVPN vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-47038,CVE-2023-47038,4,Ubuntu: (Multiple Advisories) (CVE-2023-47038): Perl vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4733,CVE-2023-4733,4,Ubuntu: (Multiple Advisories) (CVE-2023-4733): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4734,CVE-2023-4734,4,Ubuntu: (Multiple Advisories) (CVE-2023-4734): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4735,CVE-2023-4735,4,Ubuntu: (Multiple Advisories) (CVE-2023-4735): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4738,CVE-2023-4738,4,Ubuntu: (Multiple Advisories) (CVE-2023-4738): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4750,CVE-2023-4750,4,Ubuntu: (Multiple Advisories) (CVE-2023-4750): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4752,CVE-2023-4752,4,Ubuntu: (Multiple Advisories) (CVE-2023-4752): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-4781,CVE-2023-4781,4,Ubuntu: (Multiple Advisories) (CVE-2023-4781): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48231,CVE-2023-48231,4,Ubuntu: (Multiple Advisories) (CVE-2023-48231): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48232,CVE-2023-48232,4,Ubuntu: (Multiple Advisories) (CVE-2023-48232): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48233,CVE-2023-48233,4,Ubuntu: (Multiple Advisories) (CVE-2023-48233): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48234,CVE-2023-48234,4,Ubuntu: (Multiple Advisories) (CVE-2023-48234): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48235,CVE-2023-48235,4,Ubuntu: (Multiple Advisories) (CVE-2023-48235): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48236,CVE-2023-48236,4,Ubuntu: (Multiple Advisories) (CVE-2023-48236): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48237,CVE-2023-48237,4,Ubuntu: (Multiple Advisories) (CVE-2023-48237): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48706,CVE-2023-48706,4,Ubuntu: (Multiple Advisories) (CVE-2023-48706): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48795,CVE-2023-48795,4,Ubuntu: (Multiple Advisories) (CVE-2023-48795): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-48795,CVE-2023-48795,4,Ubuntu: (Multiple Advisories) (CVE-2023-48795): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-49083,CVE-2023-49083,4,Ubuntu: (Multiple Advisories) (CVE-2023-49083): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-50387,CVE-2023-50387,4,Ubuntu: (Multiple Advisories) (CVE-2023-50387): Bind vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-50447,CVE-2023-50447,4,Ubuntu: (Multiple Advisories) (CVE-2023-50447): Pillow vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-50782,CVE-2023-50782,4,Ubuntu: (Multiple Advisories) (CVE-2023-50782): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-50868,CVE-2023-50868,4,Ubuntu: (Multiple Advisories) (CVE-2023-50868): Bind vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-51385,CVE-2023-51385,4,Ubuntu: (Multiple Advisories) (CVE-2023-51385): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-52356,CVE-2023-52356,4,Ubuntu: (Multiple Advisories) (CVE-2023-52356): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-52425,CVE-2023-52425,4,Ubuntu: (Multiple Advisories) (CVE-2023-52425): Expat vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5344,CVE-2023-5344,4,Ubuntu: (Multiple Advisories) (CVE-2023-5344): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5363,CVE-2023-5363,4,Ubuntu: (Multiple Advisories) (CVE-2023-5363): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5367,CVE-2023-5367,4,Ubuntu: (Multiple Advisories) (CVE-2023-5367): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5380,CVE-2023-5380,4,Ubuntu: (Multiple Advisories) (CVE-2023-5380): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5441,CVE-2023-5441,4,Ubuntu: (Multiple Advisories) (CVE-2023-5441): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5535,CVE-2023-5535,4,Ubuntu: (Multiple Advisories) (CVE-2023-5535): Vim vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5557,CVE-2023-5557,4,Ubuntu: (Multiple Advisories) (CVE-2023-5557): tracker-miners vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5616,CVE-2023-5616,4,Ubuntu: (Multiple Advisories) (CVE-2023-5616): GNOME Settings vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5678,CVE-2023-5678,4,Ubuntu: (Multiple Advisories) (CVE-2023-5678): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-5981,CVE-2023-5981,4,Ubuntu: (Multiple Advisories) (CVE-2023-5981): GnuTLS vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6004,CVE-2023-6004,4,Ubuntu: (Multiple Advisories) (CVE-2023-6004): libssh vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6228,CVE-2023-6228,4,Ubuntu: (Multiple Advisories) (CVE-2023-6228): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6246,CVE-2023-6246,4,Ubuntu: (Multiple Advisories) (CVE-2023-6246): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6277,CVE-2023-6277,4,Ubuntu: (Multiple Advisories) (CVE-2023-6277): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6377,CVE-2023-6377,4,Ubuntu: (Multiple Advisories) (CVE-2023-6377): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6478,CVE-2023-6478,4,Ubuntu: (Multiple Advisories) (CVE-2023-6478): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6779,CVE-2023-6779,4,Ubuntu: (Multiple Advisories) (CVE-2023-6779): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6780,CVE-2023-6780,4,Ubuntu: (Multiple Advisories) (CVE-2023-6780): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6816,CVE-2023-6816,4,Ubuntu: (Multiple Advisories) (CVE-2023-6816): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6816,CVE-2023-6816,4,Ubuntu: (Multiple Advisories) (CVE-2023-6816): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-6918,CVE-2023-6918,4,Ubuntu: (Multiple Advisories) (CVE-2023-6918): libssh vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2023-7104,CVE-2023-7104,4,Ubuntu: (Multiple Advisories) (CVE-2023-7104): SQLite vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0229,CVE-2024-0229,4,Ubuntu: (Multiple Advisories) (CVE-2024-0229): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0229,CVE-2024-0229,4,Ubuntu: (Multiple Advisories) (CVE-2024-0229): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0408,CVE-2024-0408,4,Ubuntu: (Multiple Advisories) (CVE-2024-0408): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0408,CVE-2024-0408,4,Ubuntu: (Multiple Advisories) (CVE-2024-0408): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0409,CVE-2024-0409,4,Ubuntu: (Multiple Advisories) (CVE-2024-0409): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0409,CVE-2024-0409,4,Ubuntu: (Multiple Advisories) (CVE-2024-0409): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0553,CVE-2024-0553,4,Ubuntu: (Multiple Advisories) (CVE-2024-0553): GnuTLS vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0567,CVE-2024-0567,4,Ubuntu: (Multiple Advisories) (CVE-2024-0567): GnuTLS vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-0727,CVE-2024-0727,4,Ubuntu: (Multiple Advisories) (CVE-2024-0727): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-2004,CVE-2024-2004,4,Ubuntu: (Multiple Advisories) (CVE-2024-2004): curl vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-21885,CVE-2024-21885,4,Ubuntu: (Multiple Advisories) (CVE-2024-21885): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-21885,CVE-2024-21885,4,Ubuntu: (Multiple Advisories) (CVE-2024-21885): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-21886,CVE-2024-21886,4,Ubuntu: (Multiple Advisories) (CVE-2024-21886): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-21886,CVE-2024-21886,4,Ubuntu: (Multiple Advisories) (CVE-2024-21886): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-22195,CVE-2024-22195,4,Ubuntu: (Multiple Advisories) (CVE-2024-22195): Jinja2 vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-22365,CVE-2024-22365,4,Ubuntu: (Multiple Advisories) (CVE-2024-22365): PAM vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-23206,CVE-2024-23206,4,Ubuntu: (Multiple Advisories) (CVE-2024-23206): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-23213,CVE-2024-23213,4,Ubuntu: (Multiple Advisories) (CVE-2024-23213): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-23222,CVE-2024-23222,4,Ubuntu: (Multiple Advisories) (CVE-2024-23222): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-2398,CVE-2024-2398,4,Ubuntu: (Multiple Advisories) (CVE-2024-2398): curl vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-24246,CVE-2024-24246,4,Ubuntu: (Multiple Advisories) (CVE-2024-24246): QPDF vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-24806,CVE-2024-24806,4,Ubuntu: (Multiple Advisories) (CVE-2024-24806): libuv vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-25062,CVE-2024-25062,4,Ubuntu: (Multiple Advisories) (CVE-2024-25062): libxml2 vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-25629,CVE-2024-25629,4,Ubuntu: (Multiple Advisories) (CVE-2024-25629): c-ares vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-26130,CVE-2024-26130,4,Ubuntu: (Multiple Advisories) (CVE-2024-26130): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-28085,CVE-2024-28085,4,Ubuntu: (Multiple Advisories) (CVE-2024-28085): util-linux vulnerability,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-28757,CVE-2024-28757,4,Ubuntu: (Multiple Advisories) (CVE-2024-28757): Expat vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-31080,CVE-2024-31080,4,Ubuntu: (Multiple Advisories) (CVE-2024-31080): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-31081,CVE-2024-31081,4,Ubuntu: (Multiple Advisories) (CVE-2024-31081): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-31082,CVE-2024-31082,4,Ubuntu: (Multiple Advisories) (CVE-2024-31082): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,vv,ubuntu-cve-2024-31083,CVE-2024-31083,4,Ubuntu: (Multiple Advisories) (CVE-2024-31083): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Desktop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Ubuntu,freshly installed
+Desktop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Ubuntu,freshly installed
+Desktop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Ubuntu,freshly installed
+Desktop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Ubuntu,freshly installed
+Desktop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Ubuntu,freshly installed
+Desktop,0,ve,generic-tcp-timestamp,,1,TCP timestamp response,Ubuntu,freshly installed
+Server,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2022-33065,CVE-2022-33065,4,Ubuntu: (Multiple Advisories) (CVE-2022-33065): libsndfile vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2022-41877,CVE-2022-41877,4,Ubuntu: (Multiple Advisories) (CVE-2022-41877): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2022-48624,CVE-2022-48624,4,Ubuntu: (Multiple Advisories) (CVE-2022-48624): less vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-23583,CVE-2023-23583,4,Ubuntu: (Multiple Advisories) (CVE-2023-23583): Intel Microcode vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-28450,CVE-2023-28450,4,Ubuntu: (Multiple Advisories) (CVE-2023-28450): Dnsmasq vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-38469,CVE-2023-38469,4,Ubuntu: (Multiple Advisories) (CVE-2023-38469): Avahi vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-38470,CVE-2023-38470,4,Ubuntu: (Multiple Advisories) (CVE-2023-38470): Avahi vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-38471,CVE-2023-38471,4,Ubuntu: (Multiple Advisories) (CVE-2023-38471): Avahi vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-38472,CVE-2023-38472,4,Ubuntu: (Multiple Advisories) (CVE-2023-38472): Avahi vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-38473,CVE-2023-38473,4,Ubuntu: (Multiple Advisories) (CVE-2023-38473): Avahi vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-38546,CVE-2023-38546,4,Ubuntu: (Multiple Advisories) (CVE-2023-38546): curl vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-39352,CVE-2023-39352,4,Ubuntu: (Multiple Advisories) (CVE-2023-39352): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-39356,CVE-2023-39356,4,Ubuntu: (Multiple Advisories) (CVE-2023-39356): FreeRDP vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-39804,CVE-2023-39804,4,Ubuntu: (Multiple Advisories) (CVE-2023-39804): GNU Tar vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4016,CVE-2023-4016,4,Ubuntu: (Multiple Advisories) (CVE-2023-4016): procps-ng vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-41983,CVE-2023-41983,4,Ubuntu: (Multiple Advisories) (CVE-2023-41983): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-42852,CVE-2023-42852,4,Ubuntu: (Multiple Advisories) (CVE-2023-42852): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-42883,CVE-2023-42883,4,Ubuntu: (Multiple Advisories) (CVE-2023-42883): WebKitGTK vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-42916,CVE-2023-42916,4,Ubuntu: (Multiple Advisories) (CVE-2023-42916): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-42917,CVE-2023-42917,4,Ubuntu: (Multiple Advisories) (CVE-2023-42917): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-43115,CVE-2023-43115,4,Ubuntu: (Multiple Advisories) (CVE-2023-43115): Ghostscript vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-43641,CVE-2023-43641,4,Ubuntu: (Multiple Advisories) (CVE-2023-43641): CUE vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-43804,CVE-2023-43804,4,Ubuntu: (Multiple Advisories) (CVE-2023-43804): urllib3 vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-44487,CVE-2023-44487,4,Ubuntu: (Multiple Advisories) (CVE-2023-44487): .NET vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-45803,CVE-2023-45803,4,Ubuntu: (Multiple Advisories) (CVE-2023-45803): urllib3 vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-45866,CVE-2023-45866,4,Ubuntu: (Multiple Advisories) (CVE-2023-45866): BlueZ vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-46218,CVE-2023-46218,4,Ubuntu: (Multiple Advisories) (CVE-2023-46218): curl vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-46219,CVE-2023-46219,4,Ubuntu: (Multiple Advisories) (CVE-2023-46219): curl vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-46246,CVE-2023-46246,4,Ubuntu: (Multiple Advisories) (CVE-2023-46246): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4641,CVE-2023-4641,4,Ubuntu: (Multiple Advisories) (CVE-2023-4641): shadow vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-46751,CVE-2023-46751,4,Ubuntu: (Multiple Advisories) (CVE-2023-46751): Ghostscript vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-46849,CVE-2023-46849,4,Ubuntu: (Multiple Advisories) (CVE-2023-46849): OpenVPN vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-46850,CVE-2023-46850,4,Ubuntu: (Multiple Advisories) (CVE-2023-46850): OpenVPN vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-47038,CVE-2023-47038,4,Ubuntu: (Multiple Advisories) (CVE-2023-47038): Perl vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4733,CVE-2023-4733,4,Ubuntu: (Multiple Advisories) (CVE-2023-4733): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4734,CVE-2023-4734,4,Ubuntu: (Multiple Advisories) (CVE-2023-4734): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4735,CVE-2023-4735,4,Ubuntu: (Multiple Advisories) (CVE-2023-4735): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4738,CVE-2023-4738,4,Ubuntu: (Multiple Advisories) (CVE-2023-4738): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4750,CVE-2023-4750,4,Ubuntu: (Multiple Advisories) (CVE-2023-4750): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4752,CVE-2023-4752,4,Ubuntu: (Multiple Advisories) (CVE-2023-4752): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-4781,CVE-2023-4781,4,Ubuntu: (Multiple Advisories) (CVE-2023-4781): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48231,CVE-2023-48231,4,Ubuntu: (Multiple Advisories) (CVE-2023-48231): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48232,CVE-2023-48232,4,Ubuntu: (Multiple Advisories) (CVE-2023-48232): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48233,CVE-2023-48233,4,Ubuntu: (Multiple Advisories) (CVE-2023-48233): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48234,CVE-2023-48234,4,Ubuntu: (Multiple Advisories) (CVE-2023-48234): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48235,CVE-2023-48235,4,Ubuntu: (Multiple Advisories) (CVE-2023-48235): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48236,CVE-2023-48236,4,Ubuntu: (Multiple Advisories) (CVE-2023-48236): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48237,CVE-2023-48237,4,Ubuntu: (Multiple Advisories) (CVE-2023-48237): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48706,CVE-2023-48706,4,Ubuntu: (Multiple Advisories) (CVE-2023-48706): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48795,CVE-2023-48795,4,Ubuntu: (Multiple Advisories) (CVE-2023-48795): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-48795,CVE-2023-48795,4,Ubuntu: (Multiple Advisories) (CVE-2023-48795): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-49083,CVE-2023-49083,4,Ubuntu: (Multiple Advisories) (CVE-2023-49083): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-50387,CVE-2023-50387,4,Ubuntu: (Multiple Advisories) (CVE-2023-50387): Bind vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-50447,CVE-2023-50447,4,Ubuntu: (Multiple Advisories) (CVE-2023-50447): Pillow vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-50782,CVE-2023-50782,4,Ubuntu: (Multiple Advisories) (CVE-2023-50782): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-50868,CVE-2023-50868,4,Ubuntu: (Multiple Advisories) (CVE-2023-50868): Bind vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-51385,CVE-2023-51385,4,Ubuntu: (Multiple Advisories) (CVE-2023-51385): OpenSSH vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-52356,CVE-2023-52356,4,Ubuntu: (Multiple Advisories) (CVE-2023-52356): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-52425,CVE-2023-52425,4,Ubuntu: (Multiple Advisories) (CVE-2023-52425): Expat vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5344,CVE-2023-5344,4,Ubuntu: (Multiple Advisories) (CVE-2023-5344): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5363,CVE-2023-5363,4,Ubuntu: (Multiple Advisories) (CVE-2023-5363): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5367,CVE-2023-5367,4,Ubuntu: (Multiple Advisories) (CVE-2023-5367): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5380,CVE-2023-5380,4,Ubuntu: (Multiple Advisories) (CVE-2023-5380): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5441,CVE-2023-5441,4,Ubuntu: (Multiple Advisories) (CVE-2023-5441): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5535,CVE-2023-5535,4,Ubuntu: (Multiple Advisories) (CVE-2023-5535): Vim vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5557,CVE-2023-5557,4,Ubuntu: (Multiple Advisories) (CVE-2023-5557): tracker-miners vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5616,CVE-2023-5616,4,Ubuntu: (Multiple Advisories) (CVE-2023-5616): GNOME Settings vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5678,CVE-2023-5678,4,Ubuntu: (Multiple Advisories) (CVE-2023-5678): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-5981,CVE-2023-5981,4,Ubuntu: (Multiple Advisories) (CVE-2023-5981): GnuTLS vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6004,CVE-2023-6004,4,Ubuntu: (Multiple Advisories) (CVE-2023-6004): libssh vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6228,CVE-2023-6228,4,Ubuntu: (Multiple Advisories) (CVE-2023-6228): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6246,CVE-2023-6246,4,Ubuntu: (Multiple Advisories) (CVE-2023-6246): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6277,CVE-2023-6277,4,Ubuntu: (Multiple Advisories) (CVE-2023-6277): LibTIFF vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6377,CVE-2023-6377,4,Ubuntu: (Multiple Advisories) (CVE-2023-6377): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6478,CVE-2023-6478,4,Ubuntu: (Multiple Advisories) (CVE-2023-6478): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6779,CVE-2023-6779,4,Ubuntu: (Multiple Advisories) (CVE-2023-6779): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6780,CVE-2023-6780,4,Ubuntu: (Multiple Advisories) (CVE-2023-6780): GNU C Library vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6816,CVE-2023-6816,4,Ubuntu: (Multiple Advisories) (CVE-2023-6816): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6816,CVE-2023-6816,4,Ubuntu: (Multiple Advisories) (CVE-2023-6816): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-6918,CVE-2023-6918,4,Ubuntu: (Multiple Advisories) (CVE-2023-6918): libssh vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2023-7104,CVE-2023-7104,4,Ubuntu: (Multiple Advisories) (CVE-2023-7104): SQLite vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0229,CVE-2024-0229,4,Ubuntu: (Multiple Advisories) (CVE-2024-0229): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0229,CVE-2024-0229,4,Ubuntu: (Multiple Advisories) (CVE-2024-0229): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0408,CVE-2024-0408,4,Ubuntu: (Multiple Advisories) (CVE-2024-0408): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0408,CVE-2024-0408,4,Ubuntu: (Multiple Advisories) (CVE-2024-0408): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0409,CVE-2024-0409,4,Ubuntu: (Multiple Advisories) (CVE-2024-0409): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0409,CVE-2024-0409,4,Ubuntu: (Multiple Advisories) (CVE-2024-0409): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0553,CVE-2024-0553,4,Ubuntu: (Multiple Advisories) (CVE-2024-0553): GnuTLS vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0567,CVE-2024-0567,4,Ubuntu: (Multiple Advisories) (CVE-2024-0567): GnuTLS vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-0727,CVE-2024-0727,4,Ubuntu: (Multiple Advisories) (CVE-2024-0727): OpenSSL vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-2004,CVE-2024-2004,4,Ubuntu: (Multiple Advisories) (CVE-2024-2004): curl vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-21885,CVE-2024-21885,4,Ubuntu: (Multiple Advisories) (CVE-2024-21885): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-21885,CVE-2024-21885,4,Ubuntu: (Multiple Advisories) (CVE-2024-21885): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-21886,CVE-2024-21886,4,Ubuntu: (Multiple Advisories) (CVE-2024-21886): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-21886,CVE-2024-21886,4,Ubuntu: (Multiple Advisories) (CVE-2024-21886): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-22195,CVE-2024-22195,4,Ubuntu: (Multiple Advisories) (CVE-2024-22195): Jinja2 vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-22365,CVE-2024-22365,4,Ubuntu: (Multiple Advisories) (CVE-2024-22365): PAM vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-23206,CVE-2024-23206,4,Ubuntu: (Multiple Advisories) (CVE-2024-23206): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-23213,CVE-2024-23213,4,Ubuntu: (Multiple Advisories) (CVE-2024-23213): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-23222,CVE-2024-23222,4,Ubuntu: (Multiple Advisories) (CVE-2024-23222): WebKitGTK vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-2398,CVE-2024-2398,4,Ubuntu: (Multiple Advisories) (CVE-2024-2398): curl vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-24246,CVE-2024-24246,4,Ubuntu: (Multiple Advisories) (CVE-2024-24246): QPDF vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-24806,CVE-2024-24806,4,Ubuntu: (Multiple Advisories) (CVE-2024-24806): libuv vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-25062,CVE-2024-25062,4,Ubuntu: (Multiple Advisories) (CVE-2024-25062): libxml2 vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-25629,CVE-2024-25629,4,Ubuntu: (Multiple Advisories) (CVE-2024-25629): c-ares vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-26130,CVE-2024-26130,4,Ubuntu: (Multiple Advisories) (CVE-2024-26130): python-cryptography vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-28085,CVE-2024-28085,4,Ubuntu: (Multiple Advisories) (CVE-2024-28085): util-linux vulnerability,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-28757,CVE-2024-28757,4,Ubuntu: (Multiple Advisories) (CVE-2024-28757): Expat vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-31080,CVE-2024-31080,4,Ubuntu: (Multiple Advisories) (CVE-2024-31080): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-31081,CVE-2024-31081,4,Ubuntu: (Multiple Advisories) (CVE-2024-31081): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-31082,CVE-2024-31082,4,Ubuntu: (Multiple Advisories) (CVE-2024-31082): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,vv,ubuntu-cve-2024-31083,CVE-2024-31083,4,Ubuntu: (Multiple Advisories) (CVE-2024-31083): X.Org X Server vulnerabilities,Ubuntu,freshly installed
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Ubuntu,freshly installed
+Server,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Ubuntu,freshly installed
+Server,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Ubuntu,freshly installed
+Server,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Ubuntu,freshly installed
+Server,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Ubuntu,freshly installed

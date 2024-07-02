@@ -1,0 +1,21 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Ubuntu,fully updated
+Laptop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Ubuntu,fully updated
+Laptop,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Ubuntu,fully updated
+Laptop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Ubuntu,fully updated
+Laptop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Ubuntu,fully updated
+Laptop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Ubuntu,fully updated
+Laptop,0,ve,generic-tcp-timestamp,,1,TCP timestamp response,Ubuntu,fully updated
+Desktop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Ubuntu,fully updated
+Desktop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Ubuntu,fully updated
+Desktop,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Ubuntu,fully updated
+Desktop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Ubuntu,fully updated
+Desktop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Ubuntu,fully updated
+Desktop,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Ubuntu,fully updated
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Ubuntu,fully updated
+Server,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Ubuntu,fully updated
+Server,0,ve,generic-icmp-timestamp,CVE-1999-0524,1,ICMP timestamp response,Ubuntu,fully updated
+Server,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Ubuntu,fully updated
+Server,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Ubuntu,fully updated
+Server,0,ve,linux-grub-missing-passwd,,5,No password for Grub,Ubuntu,fully updated
+Server,0,ve,generic-tcp-timestamp,,1,TCP timestamp response,Ubuntu,fully updated

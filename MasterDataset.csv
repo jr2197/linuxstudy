@@ -1,0 +1,1300 @@
+Vulnerability Name,Risk Severity,CVSS Score,Vulnerability CVE IDs,Distribution,OS State,Hardware Configuration,Vulnerability Scanner
+Fedora: Security Advisory for kernel (FEDORA-2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-23849, CVE-2024-1086",Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,fully updated,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-23849, CVE-2024-1086",Fedora,fully updated,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-23849, CVE-2024-1086",Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-50ab089b1d),High,7.5,"CVE-2023-6536, CVE-2023-6535, CVE-2023-6356, CVE-2023-46838",Fedora,fully updated,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-50ab089b1d),High,7.5,"CVE-2023-6536, CVE-2023-6535, CVE-2023-6356, CVE-2023-46838",Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-50ab089b1d),High,7.5,"CVE-2023-6536, CVE-2023-6535, CVE-2023-6356, CVE-2023-46838",Fedora,fully updated,Server,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Fedora,fully updated,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-0eb4a61f45),Medium,5.5,CVE-2023-7042,Fedora,fully updated,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-d16d94b00d),Medium,5.5,"CVE-2024-23850, CVE-2024-23851, CVE-2023-52437, CVE-2024-26585, CVE-2024-26582, CVE-2024-26584, CVE-2024-26583, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,fully updated,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-0eb4a61f45),Medium,5.5,CVE-2023-7042,Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-88847bc77a),Medium,5.5,"CVE-2024-1151, CVE-2023-52429",Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-d16d94b00d),Medium,5.5,"CVE-2024-23850, CVE-2024-23851, CVE-2023-52437, CVE-2024-26585, CVE-2024-26582, CVE-2024-26584, CVE-2024-26583, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-0eb4a61f45),Medium,5.5,CVE-2023-7042,Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,fully updated,Laptop,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,fully updated,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-d16d94b00d),Medium,5.5,"CVE-2024-23850, CVE-2024-23851, CVE-2023-52437, CVE-2024-26585, CVE-2024-26582, CVE-2024-26584, CVE-2024-26583, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-88847bc77a),Medium,5.5,"CVE-2024-1151, CVE-2023-52429",Fedora,fully updated,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-88847bc77a),Medium,5.5,"CVE-2024-1151, CVE-2023-52429",Fedora,fully updated,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Fedora,fully updated,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Fedora,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Fedora,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Fedora,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Fedora,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Fedora,fully updated,Server,GVM
+Fedora: Security Advisory for openvpn (FEDORA-2023-d9d55a0bfc),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for openvpn (FEDORA-2023-d9d55a0bfc),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for virtiofsd (FEDORA-2024-04877592b7),Critical,9.8,CVE-2023-50711,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2024-da3d410b53),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-21885, CVE-2024-21886, CVE-2024-0408, CVE-2024-0409",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for openvpn (FEDORA-2023-d9d55a0bfc),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for virtiofsd (FEDORA-2024-04877592b7),Critical,9.8,CVE-2023-50711,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2024-da3d410b53),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-21885, CVE-2024-21886, CVE-2024-0408, CVE-2024-0409",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2024-da3d410b53),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-21885, CVE-2024-21886, CVE-2024-0408, CVE-2024-0409",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for virtiofsd (FEDORA-2024-04877592b7),Critical,9.8,CVE-2023-50711,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2023-93940b58fd),High,7.8,"CVE-2023-6377, CVE-2023-6478",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2023-2eb445d52b),High,7.8,CVE-2023-5367,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2023-93940b58fd),High,7.8,"CVE-2023-6377, CVE-2023-6478",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2023-93940b58fd),High,7.8,"CVE-2023-6377, CVE-2023-6478",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for microcode_ctl (FEDORA-2023-e4cb865604),High,7.8,CVE-2023-23583,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for microcode_ctl (FEDORA-2023-e4cb865604),High,7.8,CVE-2023-23583,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-23849, CVE-2024-1086",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for glibc (FEDORA-2024-aec80d6e8a),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-23849, CVE-2024-1086",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-23849, CVE-2024-1086",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for glibc (FEDORA-2024-aec80d6e8a),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2023-2eb445d52b),High,7.8,CVE-2023-5367,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for libcap (FEDORA-2023-ad944c2d34),High,7.8,"CVE-2023-2602, CVE-2023-2603",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for glibc (FEDORA-2024-aec80d6e8a),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for libcap (FEDORA-2023-ad944c2d34),High,7.8,"CVE-2023-2602, CVE-2023-2603",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for libcap (FEDORA-2023-ad944c2d34),High,7.8,"CVE-2023-2602, CVE-2023-2603",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for xorg-x11-server-Xwayland (FEDORA-2023-2eb445d52b),High,7.8,CVE-2023-5367,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for microcode_ctl (FEDORA-2023-e4cb865604),High,7.8,CVE-2023-23583,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for mbedtls (FEDORA-2023-0352951853),High,7.5,CVE-2023-43615,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-50ab089b1d),High,7.5,"CVE-2023-6536, CVE-2023-6535, CVE-2023-6356, CVE-2023-46838",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for open-vm-tools (FEDORA-2023-86a50ffc72),High,7.5,"CVE-2023-34058, CVE-2023-34059",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for mbedtls (FEDORA-2024-bfd98be425),High,7.5,"CVE-2024-23170, CVE-2024-23775",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for mbedtls (FEDORA-2023-0352951853),High,7.5,CVE-2023-43615,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for ImageMagick (FEDORA-2024-6f8c1d9005),High,7.5,"CVE-2023-5341, CVE-2022-48541",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for httpd (FEDORA-2023-606f830772),High,7.5,CVE-2023-31122,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for gnutls (FEDORA-2024-80428c408c),High,7.5,"CVE-2024-0567, CVE-2024-0553, CVE-2023-5981",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for dnsmasq (FEDORA-2024-e24211eff0),High,7.5,"CVE-2023-50868, CVE-2023-50387",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gnutls (FEDORA-2024-80428c408c),High,7.5,"CVE-2024-0567, CVE-2024-0553, CVE-2023-5981",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for open-vm-tools (FEDORA-2023-86a50ffc72),High,7.5,"CVE-2023-34058, CVE-2023-34059",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for open-vm-tools (FEDORA-2023-86a50ffc72),High,7.5,"CVE-2023-34058, CVE-2023-34059",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for dnsmasq (FEDORA-2024-e24211eff0),High,7.5,"CVE-2023-50868, CVE-2023-50387",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for mod_http2 (FEDORA-2023-492b7be466),High,7.5,"CVE-2023-44487, CVE-2023-45802",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for mod_http2 (FEDORA-2023-492b7be466),High,7.5,"CVE-2023-44487, CVE-2023-45802",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for httpd (FEDORA-2023-606f830772),High,7.5,CVE-2023-31122,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for ImageMagick (FEDORA-2024-6f8c1d9005),High,7.5,"CVE-2023-5341, CVE-2022-48541",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for mbedtls (FEDORA-2024-bfd98be425),High,7.5,"CVE-2024-23170, CVE-2024-23775",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for httpd (FEDORA-2023-606f830772),High,7.5,CVE-2023-31122,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for ImageMagick (FEDORA-2024-6f8c1d9005),High,7.5,"CVE-2023-5341, CVE-2022-48541",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-50ab089b1d),High,7.5,"CVE-2023-6536, CVE-2023-6535, CVE-2023-6356, CVE-2023-46838",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for mbedtls (FEDORA-2023-0352951853),High,7.5,CVE-2023-43615,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for mbedtls (FEDORA-2024-bfd98be425),High,7.5,"CVE-2024-23170, CVE-2024-23775",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-50ab089b1d),High,7.5,"CVE-2023-6536, CVE-2023-6535, CVE-2023-6356, CVE-2023-46838",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for dnsmasq (FEDORA-2024-e24211eff0),High,7.5,"CVE-2023-50868, CVE-2023-50387",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for mod_http2 (FEDORA-2023-492b7be466),High,7.5,"CVE-2023-44487, CVE-2023-45802",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gnutls (FEDORA-2024-80428c408c),High,7.5,"CVE-2024-0567, CVE-2024-0553, CVE-2023-5981",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for sudo (FEDORA-2024-cdccda4f62),High,7,CVE-2023-42465,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for sudo (FEDORA-2024-cdccda4f62),High,7,CVE-2023-42465,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for sudo (FEDORA-2024-cdccda4f62),High,7,CVE-2023-42465,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for opensc (FEDORA-2023-a854153d7a),Medium,6.6,"CVE-2023-40660, CVE-2023-4535, CVE-2023-40661",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for opensc (FEDORA-2023-a854153d7a),Medium,6.6,"CVE-2023-40660, CVE-2023-4535, CVE-2023-40661",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for opensc (FEDORA-2023-a854153d7a),Medium,6.6,"CVE-2023-40660, CVE-2023-4535, CVE-2023-40661",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for openssh (FEDORA-2024-7e301327c2),Medium,6.5,"CVE-2023-51385, CVE-2023-48795, CVE-2023-51384",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for curl (FEDORA-2023-9de8973300),Medium,6.5,"CVE-2023-46219, CVE-2023-46218",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for openssh (FEDORA-2024-7e301327c2),Medium,6.5,"CVE-2023-51385, CVE-2023-48795, CVE-2023-51384",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for wpa_supplicant (FEDORA-2024-a95bdde55b),Medium,6.5,CVE-2023-52160,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for wpa_supplicant (FEDORA-2024-a95bdde55b),Medium,6.5,CVE-2023-52160,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for openssh (FEDORA-2024-7e301327c2),Medium,6.5,"CVE-2023-51385, CVE-2023-48795, CVE-2023-51384",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for curl (FEDORA-2023-9de8973300),Medium,6.5,"CVE-2023-46219, CVE-2023-46218",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for wpa_supplicant (FEDORA-2024-a95bdde55b),Medium,6.5,CVE-2023-52160,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for curl (FEDORA-2023-9de8973300),Medium,6.5,"CVE-2023-46219, CVE-2023-46218",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for bluez (FEDORA-2023-6a3fe615d3),Medium,6.3,CVE-2023-45866,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for bluez (FEDORA-2023-6a3fe615d3),Medium,6.3,CVE-2023-45866,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for bluez (FEDORA-2023-6a3fe615d3),Medium,6.3,CVE-2023-45866,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for libssh (FEDORA-2023-0733306be9),Medium,5.9,"CVE-2023-48795, CVE-2023-6004, CVE-2023-6918",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for systemd (FEDORA-2024-b8312ca5b3),Medium,5.9,CVE-2023-7008,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for podman (FEDORA-2024-3bb23c77f3),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for podman (FEDORA-2024-3bb23c77f3),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for systemd (FEDORA-2024-b8312ca5b3),Medium,5.9,CVE-2023-7008,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for libssh (FEDORA-2023-0733306be9),Medium,5.9,"CVE-2023-48795, CVE-2023-6004, CVE-2023-6918",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for podman (FEDORA-2024-3bb23c77f3),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for systemd (FEDORA-2024-b8312ca5b3),Medium,5.9,CVE-2023-7008,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for libssh (FEDORA-2023-0733306be9),Medium,5.9,"CVE-2023-48795, CVE-2023-6004, CVE-2023-6918",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-0eb4a61f45),Medium,5.5,CVE-2023-7042,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for oneVPL (FEDORA-2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for oneVPL-intel-gpu (FEDORA-2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gdb (FEDORA-2023-89ade611ee),Medium,5.5,"CVE-2022-48065, CVE-2022-48064",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for coreutils (FEDORA-2024-6b85e8848f),Medium,5.5,CVE-2024-0684,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for espeak-ng (FEDORA-2024-5661c87b25),Medium,5.5,"CVE-2023-49990, CVE-2023-49991, CVE-2023-49992, CVE-2023-49993, CVE-2023-49994",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gdb (FEDORA-2023-89ade611ee),Medium,5.5,"CVE-2022-48065, CVE-2022-48064",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for coreutils (FEDORA-2024-6b85e8848f),Medium,5.5,CVE-2024-0684,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for espeak-ng (FEDORA-2024-5661c87b25),Medium,5.5,"CVE-2023-49990, CVE-2023-49991, CVE-2023-49992, CVE-2023-49993, CVE-2023-49994",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-88847bc77a),Medium,5.5,"CVE-2024-1151, CVE-2023-52429",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-d16d94b00d),Medium,5.5,"CVE-2024-23850, CVE-2024-23851, CVE-2023-52437, CVE-2024-26585, CVE-2024-26582, CVE-2024-26584, CVE-2024-26583, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for libXpm (FEDORA-2023-c4cf6646b9),Medium,5.5,"CVE-2023-43788, CVE-2023-43789, CVE-2023-43786",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for coreutils (FEDORA-2024-6b85e8848f),Medium,5.5,CVE-2024-0684,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for espeak-ng (FEDORA-2024-5661c87b25),Medium,5.5,"CVE-2023-49990, CVE-2023-49991, CVE-2023-49992, CVE-2023-49993, CVE-2023-49994",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for oneVPL (FEDORA-2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for oneVPL-intel-gpu (FEDORA-2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-0eb4a61f45),Medium,5.5,CVE-2023-7042,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-88847bc77a),Medium,5.5,"CVE-2024-1151, CVE-2023-52429",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-d16d94b00d),Medium,5.5,"CVE-2024-23850, CVE-2024-23851, CVE-2023-52437, CVE-2024-26585, CVE-2024-26582, CVE-2024-26584, CVE-2024-26583, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gdb (FEDORA-2023-89ade611ee),Medium,5.5,"CVE-2022-48065, CVE-2022-48064",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for libXpm (FEDORA-2023-c4cf6646b9),Medium,5.5,"CVE-2023-43788, CVE-2023-43789, CVE-2023-43786",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-0eb4a61f45),Medium,5.5,CVE-2023-7042,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-88847bc77a),Medium,5.5,"CVE-2024-1151, CVE-2023-52429",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for kernel (FEDORA-2024-d16d94b00d),Medium,5.5,"CVE-2024-23850, CVE-2024-23851, CVE-2023-52437, CVE-2024-26585, CVE-2024-26582, CVE-2024-26584, CVE-2024-26583, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for libXpm (FEDORA-2023-c4cf6646b9),Medium,5.5,"CVE-2023-43788, CVE-2023-43789, CVE-2023-43786",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for oneVPL (FEDORA-2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for oneVPL-intel-gpu (FEDORA-2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for podman (FEDORA-2023-00c78aad58),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugin-libav (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-bad-free (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-good (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-ugly-free (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-base (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2024-14dea9640b),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2024-bc8ea2c2cb),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2023-9de52d46bd),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2023-2bd5892754),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for sos (FEDORA-2024-a2129a4eb5),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for expat (FEDORA-2024-269826c2b3),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for gnutls (FEDORA-2023-e075ac32be),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for firefox (FEDORA-2024-bc8ea2c2cb),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for nss (FEDORA-2023-9de52d46bd),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for dnsmasq (FEDORA-2024-b359bbdf87),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2024-14dea9640b),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugins-good (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for selinux-policy (FEDORA-2024-334b3be641),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugins-ugly-free (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-base (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-bad-free (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for podman (FEDORA-2023-00c78aad58),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gstreamer1-plugin-libav (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gstreamer1 (FEDORA-2023-1661e0af22),Medium,5,CVE-2023-44429,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gstreamer1-plugins-ugly-free (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugins-good (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugins-base (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugins-bad-free (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1-plugin-libav (FEDORA-2023-6a4aea6d13),Medium,5,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1 (FEDORA-2023-1661e0af22),Medium,5,CVE-2023-44429,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for firefox (FEDORA-2023-9de52d46bd),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for firefox (FEDORA-2023-2bd5892754),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for nss (FEDORA-2023-9de52d46bd),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for expat (FEDORA-2024-269826c2b3),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for dnsmasq (FEDORA-2024-b359bbdf87),Medium,5,,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gnutls (FEDORA-2023-e075ac32be),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2024-bc8ea2c2cb),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for podman (FEDORA-2023-00c78aad58),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2024-14dea9640b),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for qt5-qtbase (FEDORA-2024-d9be3edddb),Medium,5,CVE-2024-25580,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for selinux-policy (FEDORA-2024-334b3be641),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for sos (FEDORA-2024-a2129a4eb5),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2023-9de52d46bd),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for firefox (FEDORA-2023-2bd5892754),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for expat (FEDORA-2024-269826c2b3),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for nss (FEDORA-2023-9de52d46bd),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for qt5-qtbase (FEDORA-2024-d9be3edddb),Medium,5,CVE-2024-25580,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for selinux-policy (FEDORA-2024-334b3be641),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for sos (FEDORA-2024-a2129a4eb5),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for dnsmasq (FEDORA-2024-b359bbdf87),Medium,5,,Fedora,freshly installed,Laptop,GVM
+Fedora: Security Advisory for gnutls (FEDORA-2023-e075ac32be),Medium,5,,Fedora,freshly installed,Desktop,GVM
+Fedora: Security Advisory for qt5-qtbase (FEDORA-2024-d9be3edddb),Medium,5,CVE-2024-25580,Fedora,freshly installed,Server,GVM
+Fedora: Security Advisory for gstreamer1 (FEDORA-2023-1661e0af22),Medium,5,CVE-2023-44429,Fedora,freshly installed,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Fedora,freshly installed,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Fedora,freshly installed,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Fedora,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Fedora,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Fedora,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Fedora,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Kali Linux,fully updated,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Kali Linux,fully updated,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Kali Linux,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Kali Linux,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Kali Linux,fully updated,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Kali Linux,fully updated,Laptop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Kali Linux,fully updated,Server,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Kali Linux,fully updated,Desktop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Kali Linux,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Kali Linux,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Kali Linux,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Kali Linux,fully updated,Server,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Kali Linux,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Kali Linux,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Kali Linux,freshly installed,Server,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Kali Linux,freshly installed,Laptop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Kali Linux,freshly installed,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Kali Linux,freshly installed,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Kali Linux,freshly installed,Desktop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Kali Linux,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Kali Linux,freshly installed,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Kali Linux,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Kali Linux,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Manjaro,fully updated,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Manjaro,fully updated,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Manjaro,fully updated,Server,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Manjaro,fully updated,Laptop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Manjaro,fully updated,Server,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Manjaro,fully updated,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Manjaro,fully updated,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Manjaro,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Manjaro,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Manjaro,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Manjaro,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Manjaro,fully updated,Server,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Manjaro,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Manjaro,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Manjaro,freshly installed,Server,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Manjaro,freshly installed,Laptop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Manjaro,freshly installed,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Manjaro,freshly installed,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Manjaro,freshly installed,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Manjaro,freshly installed,Desktop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,Manjaro,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Manjaro,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Manjaro,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Manjaro,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",OpenSUSE,fully updated,Server,GVM
+jQuery < 1.9.0 XSS Vulnerability,Medium,6.1,CVE-2012-6708,OpenSUSE,fully updated,Server,GVM
+jQuery < 1.9.0 XSS Vulnerability,Medium,6.1,CVE-2012-6708,OpenSUSE,fully updated,Laptop,GVM
+jQuery < 1.9.0 XSS Vulnerability,Medium,6.1,CVE-2012-6708,OpenSUSE,fully updated,Desktop,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",OpenSUSE,fully updated,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",OpenSUSE,fully updated,Laptop,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",OpenSUSE,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,OpenSUSE,fully updated,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,OpenSUSE,fully updated,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,OpenSUSE,fully updated,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,OpenSUSE,fully updated,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,OpenSUSE,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,OpenSUSE,fully updated,Desktop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",OpenSUSE,freshly installed,Server,GVM
+jQuery < 1.9.0 XSS Vulnerability,Medium,6.1,CVE-2012-6708,OpenSUSE,freshly installed,Server,GVM
+jQuery < 1.9.0 XSS Vulnerability,Medium,6.1,CVE-2012-6708,OpenSUSE,freshly installed,Desktop,GVM
+jQuery < 1.9.0 XSS Vulnerability,Medium,6.1,CVE-2012-6708,OpenSUSE,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",OpenSUSE,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",OpenSUSE,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",OpenSUSE,freshly installed,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,OpenSUSE,freshly installed,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,OpenSUSE,freshly installed,Laptop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,OpenSUSE,freshly installed,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,OpenSUSE,freshly installed,Server,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,OpenSUSE,freshly installed,Desktop,GVM
+Weak MAC Algorithm(s) Supported (SSH),Low,2.6,,OpenSUSE,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,OpenSUSE,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,OpenSUSE,freshly installed,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,OpenSUSE,freshly installed,Desktop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Red Hat Enterprise Linux,fully updated,Desktop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Red Hat Enterprise Linux,fully updated,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Red Hat Enterprise Linux,fully updated,Desktop,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Red Hat Enterprise Linux,fully updated,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Red Hat Enterprise Linux,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Red Hat Enterprise Linux,fully updated,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Red Hat Enterprise Linux,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Red Hat Enterprise Linux,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Red Hat Enterprise Linux,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Red Hat Enterprise Linux,fully updated,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Red Hat Enterprise Linux,fully updated,Server,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Red Hat Enterprise Linux,freshly installed,Desktop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Red Hat Enterprise Linux,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Red Hat Enterprise Linux,freshly installed,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Red Hat Enterprise Linux,freshly installed,Desktop,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Red Hat Enterprise Linux,freshly installed,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Red Hat Enterprise Linux,freshly installed,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Red Hat Enterprise Linux,freshly installed,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Red Hat Enterprise Linux,freshly installed,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Red Hat Enterprise Linux,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Red Hat Enterprise Linux,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Red Hat Enterprise Linux,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Ubuntu,fully updated,Server,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Ubuntu,fully updated,Server,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Ubuntu,fully updated,Server,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Ubuntu,fully updated,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Ubuntu,fully updated,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Ubuntu,fully updated,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Ubuntu,fully updated,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Ubuntu,fully updated,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Ubuntu,fully updated,Desktop,GVM
+Ubuntu: Security Advisory (USN-6517-1),Critical,9.8,"CVE-2022-48522, CVE-2023-47038",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6429-3),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6522-1),Critical,9.8,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6587-1),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6587-3),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6484-1),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6517-1),Critical,9.8,"CVE-2022-48522, CVE-2023-47038",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6429-3),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6522-1),Critical,9.8,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6560-1),Critical,9.8,"CVE-2023-28531, CVE-2023-48795",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6484-1),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6517-1),Critical,9.8,"CVE-2022-48522, CVE-2023-47038",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6587-1),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6587-3),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6429-3),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6522-1),Critical,9.8,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6560-1),Critical,9.8,"CVE-2023-28531, CVE-2023-48795",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6484-1),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6587-1),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6587-3),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6560-1),Critical,9.8,"CVE-2023-28531, CVE-2023-48795",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6423-2),High,8.8,CVE-2023-43641,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6423-2),High,8.8,CVE-2023-43641,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6490-1),High,8.8,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6433-1),High,8.8,CVE-2023-43115,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6545-1),High,8.8,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6433-1),High,8.8,CVE-2023-43115,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6631-1),High,8.8,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6631-1),High,8.8,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6545-1),High,8.8,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6490-1),High,8.8,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6545-1),High,8.8,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6423-2),High,8.8,CVE-2023-43641,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6631-1),High,8.8,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6490-1),High,8.8,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6433-1),High,8.8,CVE-2023-43115,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6473-1),High,8.1,"CVE-2018-25091, CVE-2023-43804, CVE-2023-45803",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6618-1),High,8.1,"CVE-2023-44271, CVE-2023-50447",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6473-1),High,8.1,"CVE-2018-25091, CVE-2023-43804, CVE-2023-45803",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6473-1),High,8.1,"CVE-2018-25091, CVE-2023-43804, CVE-2023-45803",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6618-1),High,8.1,"CVE-2023-44271, CVE-2023-50447",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6618-1),High,8.1,"CVE-2023-44271, CVE-2023-50447",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6485-1),High,7.8,CVE-2023-23583,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6620-1),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6485-1),High,7.8,CVE-2023-23583,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6555-1),High,7.8,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6453-1),High,7.8,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6557-1),High,7.8,"CVE-2022-1725, CVE-2022-1771, CVE-2022-1886, CVE-2022-1897, CVE-2022-2000, CVE-2022-2042, CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6555-1),High,7.8,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6453-1),High,7.8,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6557-1),High,7.8,"CVE-2022-1725, CVE-2022-1771, CVE-2022-1886, CVE-2022-1897, CVE-2022-2000, CVE-2022-2042, CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6452-1),High,7.8,"CVE-2023-3896, CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4751, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6471-1),High,7.8,CVE-2022-33065,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6471-1),High,7.8,CVE-2022-33065,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6620-1),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6485-1),High,7.8,CVE-2023-23583,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6555-1),High,7.8,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6620-1),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6453-1),High,7.8,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6557-1),High,7.8,"CVE-2022-1725, CVE-2022-1771, CVE-2022-1886, CVE-2022-1897, CVE-2022-2000, CVE-2022-2042, CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6452-1),High,7.8,"CVE-2023-3896, CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4751, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6471-1),High,7.8,CVE-2022-33065,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6452-1),High,7.8,"CVE-2023-3896, CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4751, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6504-1),High,7.7,CVE-2023-5557,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6504-1),High,7.7,CVE-2023-5557,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6504-1),High,7.7,CVE-2023-5557,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6505-1),High,7.5,CVE-2023-44487,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6657-1),High,7.5,"CVE-2023-28450, CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6658-1),High,7.5,CVE-2024-25062,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6551-1),High,7.5,CVE-2023-46751,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6658-1),High,7.5,CVE-2024-25062,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6644-1),High,7.5,"CVE-2023-52356, CVE-2023-6228, CVE-2023-6277",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6450-1),High,7.5,"CVE-2023-2975, CVE-2023-3446, CVE-2023-3817, CVE-2023-5363",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6551-1),High,7.5,CVE-2023-46751,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6539-1),High,7.5,"CVE-2023-23931, CVE-2023-49083",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6673-1),High,7.5,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6644-1),High,7.5,"CVE-2023-52356, CVE-2023-6228, CVE-2023-6277",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6658-1),High,7.5,CVE-2024-25062,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6505-1),High,7.5,CVE-2023-44487,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6505-1),High,7.5,CVE-2023-44487,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6539-1),High,7.5,"CVE-2023-23931, CVE-2023-49083",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6450-1),High,7.5,"CVE-2023-2975, CVE-2023-3446, CVE-2023-3817, CVE-2023-5363",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6673-1),High,7.5,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6539-1),High,7.5,"CVE-2023-23931, CVE-2023-49083",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6593-1),High,7.5,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6551-1),High,7.5,CVE-2023-46751,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6694-1),High,7.5,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6673-1),High,7.5,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6593-1),High,7.5,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6657-1),High,7.5,"CVE-2023-28450, CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6694-1),High,7.5,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6644-1),High,7.5,"CVE-2023-52356, CVE-2023-6228, CVE-2023-6277",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6657-1),High,7.5,"CVE-2023-28450, CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6694-1),High,7.5,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6450-1),High,7.5,"CVE-2023-2975, CVE-2023-3446, CVE-2023-3817, CVE-2023-5363",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6593-1),High,7.5,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6566-1),High,7.3,"CVE-2022-46908, CVE-2023-7104",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6666-1),High,7.3,CVE-2024-24806,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6566-1),High,7.3,"CVE-2022-46908, CVE-2023-7104",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6666-1),High,7.3,CVE-2024-24806,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6566-1),High,7.3,"CVE-2022-46908, CVE-2023-7104",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6666-1),High,7.3,CVE-2024-24806,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6565-1),High,7,"CVE-2021-41617, CVE-2023-51384, CVE-2023-51385",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6565-1),High,7,"CVE-2021-41617, CVE-2023-51384, CVE-2023-51385",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6565-1),High,7,"CVE-2021-41617, CVE-2023-51384, CVE-2023-51385",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6535-1),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6622-1),Medium,6.5,"CVE-2023-5678, CVE-2023-6129, CVE-2023-6237, CVE-2024-0727",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6622-1),Medium,6.5,"CVE-2023-5678, CVE-2023-6129, CVE-2023-6237, CVE-2024-0727",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6535-1),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6622-1),Medium,6.5,"CVE-2023-5678, CVE-2023-6129, CVE-2023-6237, CVE-2024-0727",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6535-1),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Desktop,GVM
+Missing Linux Kernel mitigations for L1TF - L1 Terminal Fault hardware vulnerabilities,Medium,6.4,"CVE-2018-3615, CVE-2018-3620, CVE-2018-3646",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6540-1),Medium,6.3,CVE-2023-45866,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6540-1),Medium,6.3,CVE-2023-45866,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6540-1),Medium,6.3,CVE-2023-45866,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6599-1),Medium,6.1,"CVE-2020-28493, CVE-2024-22195",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6599-1),Medium,6.1,"CVE-2020-28493, CVE-2024-22195",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6599-1),Medium,6.1,"CVE-2020-28493, CVE-2024-22195",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6499-1),Medium,5.9,CVE-2023-5981,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6561-1),Medium,5.9,CVE-2023-48795,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6561-1),Medium,5.9,CVE-2023-48795,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6499-1),Medium,5.9,CVE-2023-5981,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6561-1),Medium,5.9,CVE-2023-48795,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6499-1),Medium,5.9,CVE-2023-5981,Ubuntu,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for MDS - Microarchitectural Data Sampling hardware vulnerabilities,Medium,5.6,"CVE-2018-12126, CVE-2018-12130, CVE-2018-12127, CVE-2019-11091",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6713-1),Medium,5.5,CVE-2024-24246,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6588-1),Medium,5.5,CVE-2024-22365,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6640-1),Medium,5.5,CVE-2023-4641,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6582-1),Medium,5.5,CVE-2023-42883,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6713-1),Medium,5.5,CVE-2024-24246,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6588-1),Medium,5.5,CVE-2024-22365,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6582-1),Medium,5.5,CVE-2023-42883,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6640-1),Medium,5.5,CVE-2023-4641,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6487-1),Medium,5.5,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6487-1),Medium,5.5,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Laptop,GVM
+Missing Linux Kernel mitigations for Processor MMIO Stale Data hardware vulnerabilities,Medium,5.5,"CVE-2022-21123, CVE-2022-21125, CVE-2022-21166",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6588-1),Medium,5.5,CVE-2024-22365,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6640-1),Medium,5.5,CVE-2023-4641,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6713-1),Medium,5.5,CVE-2024-24246,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6582-1),Medium,5.5,CVE-2023-42883,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6487-1),Medium,5.5,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6592-1),Medium,5.3,"CVE-2023-6004, CVE-2023-6918",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6592-1),Medium,5.3,"CVE-2023-6004, CVE-2023-6918",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6592-1),Medium,5.3,"CVE-2023-6004, CVE-2023-6918",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6543-1),Medium,5,CVE-2023-39804,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6554-1),Medium,5,CVE-2023-5616,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6719-1),Medium,5,CVE-2024-28085,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6676-1),Medium,5,CVE-2024-25629,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6676-1),Medium,5,CVE-2024-25629,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6663-1),Medium,5,,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6718-1),Medium,5,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6554-1),Medium,5,CVE-2023-5616,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6664-1),Medium,5,CVE-2022-48624,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6663-1),Medium,5,,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6718-1),Medium,5,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6663-1),Medium,5,,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6543-1),Medium,5,CVE-2023-39804,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6676-1),Medium,5,CVE-2024-25629,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6719-1),Medium,5,CVE-2024-28085,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6664-1),Medium,5,CVE-2022-48624,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6719-1),Medium,5,CVE-2024-28085,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6664-1),Medium,5,CVE-2022-48624,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6543-1),Medium,5,CVE-2023-39804,Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6718-1),Medium,5,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Laptop,GVM
+Ubuntu: Security Advisory (USN-6554-1),Medium,5,CVE-2023-5616,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6477-1),Low,3.3,CVE-2023-4016,Ubuntu,freshly installed,Server,GVM
+Ubuntu: Security Advisory (USN-6477-1),Low,3.3,CVE-2023-4016,Ubuntu,freshly installed,Desktop,GVM
+Ubuntu: Security Advisory (USN-6477-1),Low,3.3,CVE-2023-4016,Ubuntu,freshly installed,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Ubuntu,freshly installed,Laptop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Ubuntu,freshly installed,Desktop,GVM
+TCP Timestamps Information Disclosure,Low,2.6,,Ubuntu,freshly installed,Server,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Ubuntu,freshly installed,Desktop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Ubuntu,freshly installed,Laptop,GVM
+ICMP Timestamp Reply Information Disclosure,Low,2.1,CVE-1999-0524,Ubuntu,freshly installed,Server,GVM
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Fedora,fully updated,Laptop,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",Fedora,fully updated,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Fedora,fully updated,Desktop,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",Fedora,fully updated,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Fedora,fully updated,Server,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",Fedora,fully updated,Server,Nessus
+Fedora 39 : oneVPL / oneVPL-intel-gpu (2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : open-vm-tools (2023-ec8a4d8cde),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : mbedtls (2023-0352951853),High,7.5,CVE-2023-43615,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : mod_http2 (2023-492b7be466),High,7.5,"CVE-2023-44487, CVE-2023-45802",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : gdb (2023-89ade611ee),Medium,5.5,"CVE-2022-48064, CVE-2022-48065",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2023-2eb445d52b),High,7.8,CVE-2023-5367,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : libXpm (2023-c4cf6646b9),Medium,5.5,"CVE-2023-43786, CVE-2023-43788, CVE-2023-43789",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : httpd (2023-606f830772),High,7.5,CVE-2023-31122,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : open-vm-tools (2023-86a50ffc72),High,7.5,"CVE-2023-34058, CVE-2023-34059",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : podman (2023-00c78aad58),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : microcode_ctl (2023-e4cb865604),High,7.8,CVE-2023-23583,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : gstreamer1-plugin-libav / gstreamer1-plugins-bad-free / etc (2023-6a4aea6d13),Critical,9.8,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : gst-devtools / gstreamer1 / gstreamer1-doc / python-gstreamer1 (2023-1661e0af22),Critical,9.8,CVE-2023-44429,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : firefox (2023-2bd5892754),High,8.8,"CVE-2023-6204, CVE-2023-6205, CVE-2023-6206, CVE-2023-6207, CVE-2023-6208, CVE-2023-6209, CVE-2023-6210, CVE-2023-6211, CVE-2023-6212, CVE-2023-6213",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : openvpn (2023-d9d55a0bfc),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : libcap (2023-ad944c2d34),High,7.8,"CVE-2023-2602, CVE-2023-2603",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : gnutls (2023-e075ac32be),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel / kernel-headers / kernel-tools (2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : bluez (2023-6a3fe615d3),Medium,6.3,CVE-2023-45866,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : curl (2023-9de8973300),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2023-93940b58fd),High,7.8,"CVE-2023-6377, CVE-2023-6478",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : libssh (2023-0733306be9),Medium,5.9,"CVE-2023-48795, CVE-2023-6004, CVE-2023-6918",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : opensc (2023-a854153d7a),Medium,6.6,"CVE-2023-40660, CVE-2023-40661, CVE-2023-4535",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : firefox / nss (2023-9de52d46bd),High,8.8,"CVE-2023-6135, CVE-2023-6856, CVE-2023-6857, CVE-2023-6858, CVE-2023-6859, CVE-2023-6860, CVE-2023-6861, CVE-2023-6863, CVE-2023-6864, CVE-2023-6865, CVE-2023-6866, CVE-2023-6867, CVE-2023-6868, CVE-2023-6869, CVE-2023-6870, CVE-2023-6871, CVE-2023-6872, CVE-2023-6873",Fedora,freshly installed,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Fedora,freshly installed,Laptop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : podman (2024-3bb23c77f3),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : espeak-ng (2024-5661c87b25),Medium,5.3,"CVE-2023-49990, CVE-2023-49991, CVE-2023-49992, CVE-2023-49993, CVE-2023-49994",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : openssh (2024-7e301327c2),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2024-da3d410b53),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : qt5-qtbase (2024-d9be3edddb),Critical,9.8,CVE-2024-25580,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-0eb4a61f45),Medium,5.5,"CVE-2023-6915, CVE-2023-7042",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : ImageMagick (2024-6f8c1d9005),High,7.1,"CVE-2022-48541, CVE-2023-5341",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : coreutils (2024-6b85e8848f),Medium,5.5,CVE-2024-0684,Fedora,freshly installed,Laptop,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : qt5-qtbase (2024-d9be3edddb),Critical,9.8,CVE-2024-25580,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2024-14dea9640b),High,8.8,"CVE-2024-0741, CVE-2024-0742, CVE-2024-0743, CVE-2024-0744, CVE-2024-0745, CVE-2024-0746, CVE-2024-0747, CVE-2024-0748, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0752, CVE-2024-0753, CVE-2024-0754, CVE-2024-0755",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : qt5-qtbase (2024-d9be3edddb),Critical,9.8,CVE-2024-25580,Fedora,freshly installed,Server,Nessus
+Fedora 39 : gnutls (2024-80428c408c),High,7.5,"CVE-2023-5981, CVE-2024-0553, CVE-2024-0567",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : dnsmasq (2024-b359bbdf87),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : selinux-policy (2024-334b3be641),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : glibc (2024-aec80d6e8a),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-50ab089b1d),High,7.5,"CVE-2023-46838, CVE-2023-6356, CVE-2023-6535, CVE-2023-6536",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel / kernel-headers (2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-1086, CVE-2024-23849",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : firecracker / libkrun / rust-event-manager / rust-kvm-bindings / etc (2024-04877592b7),Critical,9.8,CVE-2023-50711,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : mbedtls (2024-bfd98be425),Medium,5.5,"CVE-2024-23170, CVE-2024-23775",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : expat (2024-269826c2b3),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : selinux-policy (2024-334b3be641),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : dnsmasq (2024-e24211eff0),High,7.5,"CVE-2023-50387, CVE-2023-50868",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-88847bc77a),Medium,5.5,"CVE-2023-52429, CVE-2024-1151",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : firefox (2024-bc8ea2c2cb),High,7.5,"CVE-2024-1546, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550, CVE-2024-1551, CVE-2024-1552, CVE-2024-1553, CVE-2024-1554, CVE-2024-1555, CVE-2024-1556, CVE-2024-1557",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : selinux-policy (2024-334b3be641),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-d16d94b00d),High,7.8,"CVE-2023-52437, CVE-2024-23850, CVE-2024-23851, CVE-2024-26582, CVE-2024-26583, CVE-2024-26584, CVE-2024-26585, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-f797f1540e),Medium,5.5,"CVE-2024-22099, CVE-2024-26622",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : opensc (2024-6460a03e29),Medium,5.9,"CVE-2023-5992, CVE-2024-1454",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : firefox (2024-113454b56b),Medium,6.5,"CVE-2023-5388, CVE-2024-2605, CVE-2024-2606, CVE-2024-2607, CVE-2024-2608, CVE-2024-2609, CVE-2024-2610, CVE-2024-2611, CVE-2024-2612, CVE-2024-2613, CVE-2024-2614, CVE-2024-2615",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : gnutls (2024-0459dcd356),Medium,5.3,"CVE-2024-28834, CVE-2024-28835",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : firefox (2024-c8549a8c75),Critical,9.8,"CVE-2024-29943, CVE-2024-29944",Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-2fcce4ffb7),Critical,9.8,CVE-2024-26651,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : podman (2024-dd32f390b3),High,8.6,CVE-2024-1753,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : oneVPL / oneVPL-intel-gpu (2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : open-vm-tools (2023-ec8a4d8cde),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : mbedtls (2023-0352951853),High,7.5,CVE-2023-43615,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : mod_http2 (2023-492b7be466),High,7.5,"CVE-2023-44487, CVE-2023-45802",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : gdb (2023-89ade611ee),Medium,5.5,"CVE-2022-48064, CVE-2022-48065",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2023-2eb445d52b),High,7.8,CVE-2023-5367,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : libXpm (2023-c4cf6646b9),Medium,5.5,"CVE-2023-43786, CVE-2023-43788, CVE-2023-43789",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : httpd (2023-606f830772),High,7.5,CVE-2023-31122,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : open-vm-tools (2023-86a50ffc72),High,7.5,"CVE-2023-34058, CVE-2023-34059",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : podman (2023-00c78aad58),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : microcode_ctl (2023-e4cb865604),High,7.8,CVE-2023-23583,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : gstreamer1-plugin-libav / gstreamer1-plugins-bad-free / etc (2023-6a4aea6d13),Critical,9.8,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : gst-devtools / gstreamer1 / gstreamer1-doc / python-gstreamer1 (2023-1661e0af22),Critical,9.8,CVE-2023-44429,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2023-2bd5892754),High,8.8,"CVE-2023-6204, CVE-2023-6205, CVE-2023-6206, CVE-2023-6207, CVE-2023-6208, CVE-2023-6209, CVE-2023-6210, CVE-2023-6211, CVE-2023-6212, CVE-2023-6213",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : openvpn (2023-d9d55a0bfc),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : libcap (2023-ad944c2d34),High,7.8,"CVE-2023-2602, CVE-2023-2603",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : gnutls (2023-e075ac32be),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel / kernel-headers / kernel-tools (2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : bluez (2023-6a3fe615d3),Medium,6.3,CVE-2023-45866,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : curl (2023-9de8973300),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel (2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2023-93940b58fd),High,7.8,"CVE-2023-6377, CVE-2023-6478",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel (2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : libssh (2023-0733306be9),Medium,5.9,"CVE-2023-48795, CVE-2023-6004, CVE-2023-6918",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : opensc (2023-a854153d7a),Medium,6.6,"CVE-2023-40660, CVE-2023-40661, CVE-2023-4535",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox / nss (2023-9de52d46bd),High,8.8,"CVE-2023-6135, CVE-2023-6856, CVE-2023-6857, CVE-2023-6858, CVE-2023-6859, CVE-2023-6860, CVE-2023-6861, CVE-2023-6863, CVE-2023-6864, CVE-2023-6865, CVE-2023-6866, CVE-2023-6867, CVE-2023-6868, CVE-2023-6869, CVE-2023-6870, CVE-2023-6871, CVE-2023-6872, CVE-2023-6873",Fedora,freshly installed,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Fedora,freshly installed,Desktop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : podman (2024-3bb23c77f3),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : espeak-ng (2024-5661c87b25),Medium,5.3,"CVE-2023-49990, CVE-2023-49991, CVE-2023-49992, CVE-2023-49993, CVE-2023-49994",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : openssh (2024-7e301327c2),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2024-da3d410b53),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : sos (2024-a2129a4eb5),High,7,,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-0eb4a61f45),Medium,5.5,"CVE-2023-6915, CVE-2023-7042",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : ImageMagick (2024-6f8c1d9005),High,7.1,"CVE-2022-48541, CVE-2023-5341",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : coreutils (2024-6b85e8848f),Medium,5.5,CVE-2024-0684,Fedora,freshly installed,Desktop,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : sos (2024-a2129a4eb5),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2024-14dea9640b),High,8.8,"CVE-2024-0741, CVE-2024-0742, CVE-2024-0743, CVE-2024-0744, CVE-2024-0745, CVE-2024-0746, CVE-2024-0747, CVE-2024-0748, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0752, CVE-2024-0753, CVE-2024-0754, CVE-2024-0755",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : sos (2024-a2129a4eb5),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : gnutls (2024-80428c408c),High,7.5,"CVE-2023-5981, CVE-2024-0553, CVE-2024-0567",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : dnsmasq (2024-b359bbdf87),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : sudo (2024-cdccda4f62),High,7,CVE-2023-42465,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : glibc (2024-aec80d6e8a),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel (2024-50ab089b1d),High,7.5,"CVE-2023-46838, CVE-2023-6356, CVE-2023-6535, CVE-2023-6536",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel / kernel-headers (2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-1086, CVE-2024-23849",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firecracker / libkrun / rust-event-manager / rust-kvm-bindings / etc (2024-04877592b7),Critical,9.8,CVE-2023-50711,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : mbedtls (2024-bfd98be425),Medium,5.5,"CVE-2024-23170, CVE-2024-23775",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : expat (2024-269826c2b3),High,7,,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : sudo (2024-cdccda4f62),High,7,CVE-2023-42465,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : dnsmasq (2024-e24211eff0),High,7.5,"CVE-2023-50387, CVE-2023-50868",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel (2024-88847bc77a),Medium,5.5,"CVE-2023-52429, CVE-2024-1151",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2024-bc8ea2c2cb),High,7.5,"CVE-2024-1546, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550, CVE-2024-1551, CVE-2024-1552, CVE-2024-1553, CVE-2024-1554, CVE-2024-1555, CVE-2024-1556, CVE-2024-1557",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : sudo (2024-cdccda4f62),High,7,CVE-2023-42465,Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-d16d94b00d),High,7.8,"CVE-2023-52437, CVE-2024-23850, CVE-2024-23851, CVE-2024-26582, CVE-2024-26583, CVE-2024-26584, CVE-2024-26585, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel (2024-f797f1540e),Medium,5.5,"CVE-2024-22099, CVE-2024-26622",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : opensc (2024-6460a03e29),Medium,5.9,"CVE-2023-5992, CVE-2024-1454",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2024-113454b56b),Medium,6.5,"CVE-2023-5388, CVE-2024-2605, CVE-2024-2606, CVE-2024-2607, CVE-2024-2608, CVE-2024-2609, CVE-2024-2610, CVE-2024-2611, CVE-2024-2612, CVE-2024-2613, CVE-2024-2614, CVE-2024-2615",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : gnutls (2024-0459dcd356),Medium,5.3,"CVE-2024-28834, CVE-2024-28835",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2024-c8549a8c75),Critical,9.8,"CVE-2024-29943, CVE-2024-29944",Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : kernel (2024-2fcce4ffb7),Critical,9.8,CVE-2024-26651,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : podman (2024-dd32f390b3),High,8.6,CVE-2024-1753,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : oneVPL / oneVPL-intel-gpu (2023-ea65146fd4),Medium,5.5,"CVE-2023-22338, CVE-2023-22840",Fedora,freshly installed,Server,Nessus
+Fedora 39 : open-vm-tools (2023-ec8a4d8cde),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : mbedtls (2023-0352951853),High,7.5,CVE-2023-43615,Fedora,freshly installed,Server,Nessus
+Fedora 39 : mod_http2 (2023-492b7be466),High,7.5,"CVE-2023-44487, CVE-2023-45802",Fedora,freshly installed,Server,Nessus
+Fedora 39 : gdb (2023-89ade611ee),Medium,5.5,"CVE-2022-48064, CVE-2022-48065",Fedora,freshly installed,Server,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2023-2eb445d52b),High,7.8,CVE-2023-5367,Fedora,freshly installed,Server,Nessus
+Fedora 39 : libXpm (2023-c4cf6646b9),Medium,5.5,"CVE-2023-43786, CVE-2023-43788, CVE-2023-43789",Fedora,freshly installed,Server,Nessus
+Fedora 39 : httpd (2023-606f830772),High,7.5,CVE-2023-31122,Fedora,freshly installed,Server,Nessus
+Fedora 39 : open-vm-tools (2023-86a50ffc72),High,7.5,"CVE-2023-34058, CVE-2023-34059",Fedora,freshly installed,Server,Nessus
+Fedora 39 : podman (2023-00c78aad58),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : microcode_ctl (2023-e4cb865604),High,7.8,CVE-2023-23583,Fedora,freshly installed,Server,Nessus
+Fedora 39 : gstreamer1-plugin-libav / gstreamer1-plugins-bad-free / etc (2023-6a4aea6d13),Critical,9.8,"CVE-2023-44429, CVE-2023-44446",Fedora,freshly installed,Server,Nessus
+Fedora 39 : gst-devtools / gstreamer1 / gstreamer1-doc / python-gstreamer1 (2023-1661e0af22),Critical,9.8,CVE-2023-44429,Fedora,freshly installed,Server,Nessus
+Fedora 39 : firefox (2023-2bd5892754),High,8.8,"CVE-2023-6204, CVE-2023-6205, CVE-2023-6206, CVE-2023-6207, CVE-2023-6208, CVE-2023-6209, CVE-2023-6210, CVE-2023-6211, CVE-2023-6212, CVE-2023-6213",Fedora,freshly installed,Server,Nessus
+Fedora 39 : openvpn (2023-d9d55a0bfc),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Fedora,freshly installed,Server,Nessus
+Fedora 39 : libcap (2023-ad944c2d34),High,7.8,"CVE-2023-2602, CVE-2023-2603",Fedora,freshly installed,Server,Nessus
+Fedora 39 : gnutls (2023-e075ac32be),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel / kernel-headers / kernel-tools (2023-a7b89262c6),High,7.8,CVE-2023-6111,Fedora,freshly installed,Server,Nessus
+Fedora 39 : bluez (2023-6a3fe615d3),Medium,6.3,CVE-2023-45866,Fedora,freshly installed,Server,Nessus
+Fedora 39 : curl (2023-9de8973300),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2023-4df366ee80),Medium,5.5,CVE-2023-6560,Fedora,freshly installed,Server,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2023-93940b58fd),High,7.8,"CVE-2023-6377, CVE-2023-6478",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2023-26ffe7d3c7),Medium,5.5,CVE-2023-6622,Fedora,freshly installed,Server,Nessus
+Fedora 39 : libssh (2023-0733306be9),Medium,5.9,"CVE-2023-48795, CVE-2023-6004, CVE-2023-6918",Fedora,freshly installed,Server,Nessus
+Fedora 39 : opensc (2023-a854153d7a),Medium,6.6,"CVE-2023-40660, CVE-2023-40661, CVE-2023-4535",Fedora,freshly installed,Server,Nessus
+Fedora 39 : firefox / nss (2023-9de52d46bd),High,8.8,"CVE-2023-6135, CVE-2023-6856, CVE-2023-6857, CVE-2023-6858, CVE-2023-6859, CVE-2023-6860, CVE-2023-6861, CVE-2023-6863, CVE-2023-6864, CVE-2023-6865, CVE-2023-6866, CVE-2023-6867, CVE-2023-6868, CVE-2023-6869, CVE-2023-6870, CVE-2023-6871, CVE-2023-6872, CVE-2023-6873",Fedora,freshly installed,Server,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Fedora,freshly installed,Server,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Server,Nessus
+Fedora 39 : podman (2024-3bb23c77f3),Medium,5.9,CVE-2023-48795,Fedora,freshly installed,Server,Nessus
+Fedora 39 : espeak-ng (2024-5661c87b25),Medium,5.3,"CVE-2023-49990, CVE-2023-49991, CVE-2023-49992, CVE-2023-49993, CVE-2023-49994",Fedora,freshly installed,Server,Nessus
+Fedora 39 : openssh (2024-7e301327c2),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : xorg-x11-server-Xwayland (2024-da3d410b53),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Fedora,freshly installed,Server,Nessus
+Fedora 39 : systemd (2024-b8312ca5b3),Medium,5.9,CVE-2023-7008,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : kernel (2024-0eb4a61f45),Medium,5.5,"CVE-2023-6915, CVE-2023-7042",Fedora,freshly installed,Server,Nessus
+Fedora 39 : ImageMagick (2024-6f8c1d9005),High,7.1,"CVE-2022-48541, CVE-2023-5341",Fedora,freshly installed,Server,Nessus
+Fedora 39 : coreutils (2024-6b85e8848f),Medium,5.5,CVE-2024-0684,Fedora,freshly installed,Server,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",Fedora,freshly installed,Server,Nessus
+Fedora 39 : systemd (2024-b8312ca5b3),Medium,5.9,CVE-2023-7008,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : firefox (2024-14dea9640b),High,8.8,"CVE-2024-0741, CVE-2024-0742, CVE-2024-0743, CVE-2024-0744, CVE-2024-0745, CVE-2024-0746, CVE-2024-0747, CVE-2024-0748, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0752, CVE-2024-0753, CVE-2024-0754, CVE-2024-0755",Fedora,freshly installed,Server,Nessus
+Fedora 39 : systemd (2024-b8312ca5b3),Medium,5.9,CVE-2023-7008,Fedora,freshly installed,Server,Nessus
+Fedora 39 : gnutls (2024-80428c408c),High,7.5,"CVE-2023-5981, CVE-2024-0553, CVE-2024-0567",Fedora,freshly installed,Server,Nessus
+Fedora 39 : dnsmasq (2024-b359bbdf87),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : wpa_supplicant (2024-a95bdde55b),Medium,6.5,CVE-2023-52160,Fedora,freshly installed,Laptop,Nessus
+Fedora 39 : glibc (2024-aec80d6e8a),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-50ab089b1d),High,7.5,"CVE-2023-46838, CVE-2023-6356, CVE-2023-6535, CVE-2023-6536",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel / kernel-headers (2024-2116a8468b),High,7.8,"CVE-2023-6679, CVE-2024-1086, CVE-2024-23849",Fedora,freshly installed,Server,Nessus
+Fedora 39 : firecracker / libkrun / rust-event-manager / rust-kvm-bindings / etc (2024-04877592b7),Critical,9.8,CVE-2023-50711,Fedora,freshly installed,Server,Nessus
+Fedora 39 : mbedtls (2024-bfd98be425),Medium,5.5,"CVE-2024-23170, CVE-2024-23775",Fedora,freshly installed,Server,Nessus
+Fedora 39 : expat (2024-269826c2b3),High,7,,Fedora,freshly installed,Server,Nessus
+Fedora 39 : wpa_supplicant (2024-a95bdde55b),Medium,6.5,CVE-2023-52160,Fedora,freshly installed,Desktop,Nessus
+Fedora 39 : dnsmasq (2024-e24211eff0),High,7.5,"CVE-2023-50387, CVE-2023-50868",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-88847bc77a),Medium,5.5,"CVE-2023-52429, CVE-2024-1151",Fedora,freshly installed,Server,Nessus
+Fedora 39 : firefox (2024-bc8ea2c2cb),High,7.5,"CVE-2024-1546, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550, CVE-2024-1551, CVE-2024-1552, CVE-2024-1553, CVE-2024-1554, CVE-2024-1555, CVE-2024-1556, CVE-2024-1557",Fedora,freshly installed,Server,Nessus
+Fedora 39 : wpa_supplicant (2024-a95bdde55b),Medium,6.5,CVE-2023-52160,Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-d16d94b00d),High,7.8,"CVE-2023-52437, CVE-2024-23850, CVE-2024-23851, CVE-2024-26582, CVE-2024-26583, CVE-2024-26584, CVE-2024-26585, CVE-2024-26593, CVE-2024-26603, CVE-2024-26604, CVE-2024-26606",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-f797f1540e),Medium,5.5,"CVE-2024-22099, CVE-2024-26622",Fedora,freshly installed,Server,Nessus
+Fedora 39 : opensc (2024-6460a03e29),Medium,5.9,"CVE-2023-5992, CVE-2024-1454",Fedora,freshly installed,Server,Nessus
+Fedora 39 : firefox (2024-113454b56b),Medium,6.5,"CVE-2023-5388, CVE-2024-2605, CVE-2024-2606, CVE-2024-2607, CVE-2024-2608, CVE-2024-2609, CVE-2024-2610, CVE-2024-2611, CVE-2024-2612, CVE-2024-2613, CVE-2024-2614, CVE-2024-2615",Fedora,freshly installed,Server,Nessus
+Fedora 39 : gnutls (2024-0459dcd356),Medium,5.3,"CVE-2024-28834, CVE-2024-28835",Fedora,freshly installed,Server,Nessus
+Fedora 39 : firefox (2024-c8549a8c75),Critical,9.8,"CVE-2024-29943, CVE-2024-29944",Fedora,freshly installed,Server,Nessus
+Fedora 39 : kernel (2024-2fcce4ffb7),Critical,9.8,CVE-2024-26651,Fedora,freshly installed,Server,Nessus
+Fedora 39 : podman (2024-dd32f390b3),High,8.6,CVE-2024-1753,Fedora,freshly installed,Server,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Kali Linux,freshly installed,Laptop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Kali Linux,freshly installed,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Kali Linux,freshly installed,Desktop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Kali Linux,freshly installed,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Kali Linux,freshly installed,Server,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Kali Linux,freshly installed,Server,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Manjaro,freshly installed,Laptop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Manjaro,freshly installed,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Manjaro,freshly installed,Desktop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Manjaro,freshly installed,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Manjaro,freshly installed,Server,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Manjaro,freshly installed,Server,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",OpenSUSE,freshly installed,Laptop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,OpenSUSE,freshly installed,Laptop,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",OpenSUSE,freshly installed,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",OpenSUSE,freshly installed,Desktop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,OpenSUSE,freshly installed,Desktop,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",OpenSUSE,freshly installed,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",OpenSUSE,freshly installed,Server,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,OpenSUSE,freshly installed,Server,Nessus
+OpenJDK 8 <= 8u392 / 11.0.0 <= 11.0.21 / 17.0.0 <= 17.0.9 / 21.0.0 <= 21.0.1 Multiple Vulnerabilities (2024-01-16,High,7.5,"CVE-2024-20918, CVE-2024-20919, CVE-2024-20921, CVE-2024-20926, CVE-2024-20932, CVE-2024-20945, CVE-2024-20952",OpenSUSE,freshly installed,Server,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Red Hat Enterprise Linux,fully updated,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Red Hat Enterprise Linux,fully updated,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Red Hat Enterprise Linux,fully updated,Server,Nessus
+RHEL 8 / 9 : texlive (RHSA-2023:3661),High,7.8,CVE-2023-32700,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : nghttp2 (RHSA-2023:5838),High,7.5,CVE-2023-44487,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : firefox (RHSA-2023:6188),Critical,9.8,"CVE-2023-44488, CVE-2023-5721, CVE-2023-5724, CVE-2023-5725, CVE-2023-5728, CVE-2023-5730, CVE-2023-5732",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : nghttp2 (RHSA-2023:6746),High,7.5,CVE-2023-44487,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : ghostscript (RHSA-2023:6732),High,8.8,CVE-2023-43115,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : curl (RHSA-2023:6745),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : samba (RHSA-2023:6744),Critical,9.8,"CVE-2023-3961, CVE-2023-4091, CVE-2023-42669",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : open-vm-tools (RHSA-2023:7277),High,7.5,"CVE-2023-34058, CVE-2023-34059",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : firefox (RHSA-2023:7507),High,8.8,"CVE-2023-6204, CVE-2023-6205, CVE-2023-6206, CVE-2023-6207, CVE-2023-6208, CVE-2023-6209, CVE-2023-6212",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : webkit2gtk3 (RHSA-2023:7715),High,8.8,CVE-2023-42917,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : tracker-miners (RHSA-2023:7712),High,7.7,CVE-2023-5557,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : libxml2 (RHSA-2023:7747),Medium,6.5,CVE-2023-39615,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : pixman (RHSA-2023:7754),High,8.8,CVE-2022-44638,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : gstreamer1-plugins-bad-free (RHSA-2023:7791),High,8.8,"CVE-2023-44429, CVE-2023-44446",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : firefox (RHSA-2024:0025),High,8.8,"CVE-2023-6856, CVE-2023-6857, CVE-2023-6858, CVE-2023-6859, CVE-2023-6860, CVE-2023-6861, CVE-2023-6862, CVE-2023-6863, CVE-2023-6864, CVE-2023-6865, CVE-2023-6867",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : nss (RHSA-2024:0108),Medium,6.5,CVE-2023-5388,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : openssl (RHSA-2024:0310),High,7.5,CVE-2023-5363,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : sqlite (RHSA-2024:0465),High,7.3,CVE-2023-7104,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : python3.9 (RHSA-2024:0466),Medium,5.3,CVE-2023-27043,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : rpm (RHSA-2024:0463),Medium,6.7,"CVE-2021-35937, CVE-2021-35938, CVE-2021-35939",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : grub2 (RHSA-2024:0468),Medium,6.8,CVE-2023-4001,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : python-urllib3 (RHSA-2024:0464),High,8.1,"CVE-2023-43804, CVE-2023-45803",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : gnutls (RHSA-2024:0533),High,7.5,"CVE-2023-5981, CVE-2024-0553, CVE-2024-0567",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : firefox (RHSA-2024:0603),High,8.8,"CVE-2024-0741, CVE-2024-0742, CVE-2024-0746, CVE-2024-0747, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0753, CVE-2024-0755",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : nss (RHSA-2024:0790),Medium,4.3,CVE-2023-6135,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 8 / 9 : sudo (RHSA-2024:0811),High,7,"CVE-2023-28486, CVE-2023-28487, CVE-2023-42465",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : firefox (RHSA-2024:0952),High,7.5,"CVE-2024-1546, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550, CVE-2024-1551, CVE-2024-1552, CVE-2024-1553",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : openssh (RHSA-2024:1130),Medium,6.5,"CVE-2023-48795, CVE-2023-51385",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : curl (RHSA-2024:1129),Medium,6.5,CVE-2023-46218,Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : dnsmasq (RHSA-2024:1334),High,7.5,"CVE-2023-50387, CVE-2023-50868",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : firefox (RHSA-2024:1485),High,7.5,"CVE-2023-5388, CVE-2024-0743, CVE-2024-2607, CVE-2024-2608, CVE-2024-2610, CVE-2024-2611, CVE-2024-2612, CVE-2024-2614, CVE-2024-2616, CVE-2024-29944",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 9 : expat (RHSA-2024:1530),High,7.5,"CVE-2023-52425, CVE-2024-28757",Red Hat Enterprise Linux,freshly installed,Laptop,Nessus
+RHEL 8 / 9 : texlive (RHSA-2023:3661),High,7.8,CVE-2023-32700,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : nghttp2 (RHSA-2023:5838),High,7.5,CVE-2023-44487,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : firefox (RHSA-2023:6188),Critical,9.8,"CVE-2023-44488, CVE-2023-5721, CVE-2023-5724, CVE-2023-5725, CVE-2023-5728, CVE-2023-5730, CVE-2023-5732",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : nghttp2 (RHSA-2023:6746),High,7.5,CVE-2023-44487,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : ghostscript (RHSA-2023:6732),High,8.8,CVE-2023-43115,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : curl (RHSA-2023:6745),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : samba (RHSA-2023:6744),Critical,9.8,"CVE-2023-3961, CVE-2023-4091, CVE-2023-42669",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : open-vm-tools (RHSA-2023:7277),High,7.5,"CVE-2023-34058, CVE-2023-34059",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : firefox (RHSA-2023:7507),High,8.8,"CVE-2023-6204, CVE-2023-6205, CVE-2023-6206, CVE-2023-6207, CVE-2023-6208, CVE-2023-6209, CVE-2023-6212",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : webkit2gtk3 (RHSA-2023:7715),High,8.8,CVE-2023-42917,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : tracker-miners (RHSA-2023:7712),High,7.7,CVE-2023-5557,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : libxml2 (RHSA-2023:7747),Medium,6.5,CVE-2023-39615,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : pixman (RHSA-2023:7754),High,8.8,CVE-2022-44638,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : gstreamer1-plugins-bad-free (RHSA-2023:7791),High,8.8,"CVE-2023-44429, CVE-2023-44446",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : firefox (RHSA-2024:0025),High,8.8,"CVE-2023-6856, CVE-2023-6857, CVE-2023-6858, CVE-2023-6859, CVE-2023-6860, CVE-2023-6861, CVE-2023-6862, CVE-2023-6863, CVE-2023-6864, CVE-2023-6865, CVE-2023-6867",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : nss (RHSA-2024:0108),Medium,6.5,CVE-2023-5388,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : openssl (RHSA-2024:0310),High,7.5,CVE-2023-5363,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : sqlite (RHSA-2024:0465),High,7.3,CVE-2023-7104,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : python3.9 (RHSA-2024:0466),Medium,5.3,CVE-2023-27043,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : rpm (RHSA-2024:0463),Medium,6.7,"CVE-2021-35937, CVE-2021-35938, CVE-2021-35939",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : grub2 (RHSA-2024:0468),Medium,6.8,CVE-2023-4001,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : python-urllib3 (RHSA-2024:0464),High,8.1,"CVE-2023-43804, CVE-2023-45803",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : gnutls (RHSA-2024:0533),High,7.5,"CVE-2023-5981, CVE-2024-0553, CVE-2024-0567",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : firefox (RHSA-2024:0603),High,8.8,"CVE-2024-0741, CVE-2024-0742, CVE-2024-0746, CVE-2024-0747, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0753, CVE-2024-0755",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : nss (RHSA-2024:0790),Medium,4.3,CVE-2023-6135,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 8 / 9 : sudo (RHSA-2024:0811),High,7,"CVE-2023-28486, CVE-2023-28487, CVE-2023-42465",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : firefox (RHSA-2024:0952),High,7.5,"CVE-2024-1546, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550, CVE-2024-1551, CVE-2024-1552, CVE-2024-1553",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : openssh (RHSA-2024:1130),Medium,6.5,"CVE-2023-48795, CVE-2023-51385",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : curl (RHSA-2024:1129),Medium,6.5,CVE-2023-46218,Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : dnsmasq (RHSA-2024:1334),High,7.5,"CVE-2023-50387, CVE-2023-50868",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : firefox (RHSA-2024:1485),High,7.5,"CVE-2023-5388, CVE-2024-0743, CVE-2024-2607, CVE-2024-2608, CVE-2024-2610, CVE-2024-2611, CVE-2024-2612, CVE-2024-2614, CVE-2024-2616, CVE-2024-29944",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 9 : expat (RHSA-2024:1530),High,7.5,"CVE-2023-52425, CVE-2024-28757",Red Hat Enterprise Linux,freshly installed,Desktop,Nessus
+RHEL 8 / 9 : texlive (RHSA-2023:3661),High,7.8,CVE-2023-32700,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : nghttp2 (RHSA-2023:5838),High,7.5,CVE-2023-44487,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : firefox (RHSA-2023:6188),Critical,9.8,"CVE-2023-44488, CVE-2023-5721, CVE-2023-5724, CVE-2023-5725, CVE-2023-5728, CVE-2023-5730, CVE-2023-5732",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : nghttp2 (RHSA-2023:6746),High,7.5,CVE-2023-44487,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : ghostscript (RHSA-2023:6732),High,8.8,CVE-2023-43115,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : curl (RHSA-2023:6745),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : samba (RHSA-2023:6744),Critical,9.8,"CVE-2023-3961, CVE-2023-4091, CVE-2023-42669",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : open-vm-tools (RHSA-2023:7277),High,7.5,"CVE-2023-34058, CVE-2023-34059",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : firefox (RHSA-2023:7507),High,8.8,"CVE-2023-6204, CVE-2023-6205, CVE-2023-6206, CVE-2023-6207, CVE-2023-6208, CVE-2023-6209, CVE-2023-6212",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : webkit2gtk3 (RHSA-2023:7715),High,8.8,CVE-2023-42917,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : tracker-miners (RHSA-2023:7712),High,7.7,CVE-2023-5557,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : libxml2 (RHSA-2023:7747),Medium,6.5,CVE-2023-39615,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : pixman (RHSA-2023:7754),High,8.8,CVE-2022-44638,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : gstreamer1-plugins-bad-free (RHSA-2023:7791),High,8.8,"CVE-2023-44429, CVE-2023-44446",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+OpenSSH < 9.6 Multiple Vulnerabilities,Medium,6.5,"CVE-2023-48795, CVE-2023-51384, CVE-2023-51385",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+SSH Terrapin Prefix Truncation Weakness (CVE-2023-48795),Medium,5.9,CVE-2023-48795,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : firefox (RHSA-2024:0025),High,8.8,"CVE-2023-6856, CVE-2023-6857, CVE-2023-6858, CVE-2023-6859, CVE-2023-6860, CVE-2023-6861, CVE-2023-6862, CVE-2023-6863, CVE-2023-6864, CVE-2023-6865, CVE-2023-6867",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : nss (RHSA-2024:0108),Medium,6.5,CVE-2023-5388,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : openssl (RHSA-2024:0310),High,7.5,CVE-2023-5363,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : sqlite (RHSA-2024:0465),High,7.3,CVE-2023-7104,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : python3.9 (RHSA-2024:0466),Medium,5.3,CVE-2023-27043,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : rpm (RHSA-2024:0463),Medium,6.7,"CVE-2021-35937, CVE-2021-35938, CVE-2021-35939",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : grub2 (RHSA-2024:0468),Medium,6.8,CVE-2023-4001,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : python-urllib3 (RHSA-2024:0464),High,8.1,"CVE-2023-43804, CVE-2023-45803",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : gnutls (RHSA-2024:0533),High,7.5,"CVE-2023-5981, CVE-2024-0553, CVE-2024-0567",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : firefox (RHSA-2024:0603),High,8.8,"CVE-2024-0741, CVE-2024-0742, CVE-2024-0746, CVE-2024-0747, CVE-2024-0749, CVE-2024-0750, CVE-2024-0751, CVE-2024-0753, CVE-2024-0755",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : nss (RHSA-2024:0790),Medium,4.3,CVE-2023-6135,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 8 / 9 : sudo (RHSA-2024:0811),High,7,"CVE-2023-28486, CVE-2023-28487, CVE-2023-42465",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : firefox (RHSA-2024:0952),High,7.5,"CVE-2024-1546, CVE-2024-1547, CVE-2024-1548, CVE-2024-1549, CVE-2024-1550, CVE-2024-1551, CVE-2024-1552, CVE-2024-1553",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : openssh (RHSA-2024:1130),Medium,6.5,"CVE-2023-48795, CVE-2023-51385",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : curl (RHSA-2024:1129),Medium,6.5,CVE-2023-46218,Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : dnsmasq (RHSA-2024:1334),High,7.5,"CVE-2023-50387, CVE-2023-50868",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : firefox (RHSA-2024:1485),High,7.5,"CVE-2023-5388, CVE-2024-0743, CVE-2024-2607, CVE-2024-2608, CVE-2024-2610, CVE-2024-2611, CVE-2024-2612, CVE-2024-2614, CVE-2024-2616, CVE-2024-29944",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+RHEL 9 : expat (RHSA-2024:1530),High,7.5,"CVE-2023-52425, CVE-2024-28757",Red Hat Enterprise Linux,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Ghostscript vulnerability (USN-6433-1),High,8.8,CVE-2023-43115,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 23.10 : curl vulnerabilities (USN-6429-3),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 23.10 : Samba vulnerabilities (USN-6425-3),Medium,6.5,"CVE-2023-4091, CVE-2023-4154, CVE-2023-42669, CVE-2023-42670",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 23.10 : CUE vulnerability (USN-6423-2),High,8.8,CVE-2023-43641,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : OpenSSL vulnerabilities (USN-6450-1),High,7.5,"CVE-2023-2975, CVE-2023-3446, CVE-2023-3817, CVE-2023-5363",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6453-1),High,7.8,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Vim vulnerabilities (USN-6452-1),High,7.8,"CVE-2023-3896, CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4751, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : libsndfile vulnerability (USN-6471-1),High,7.8,CVE-2022-33065,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : urllib3 vulnerabilities (USN-6473-1),High,8.1,"CVE-2018-25091, CVE-2023-43804, CVE-2023-45803",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : procps-ng vulnerability (USN-6477-1),Low,3.3,CVE-2023-4016,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 23.04 / 23.10 : OpenVPN vulnerabilities (USN-6484-1),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Intel Microcode vulnerability (USN-6485-1),High,7.8,CVE-2023-23583,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerabilities (USN-6490-1),High,8.8,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Avahi vulnerabilities (USN-6487-1),Medium,5.5,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GnuTLS vulnerability (USN-6499-1),Medium,5.9,CVE-2023-5981,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : nghttp2 vulnerability (USN-6505-1),High,7.5,CVE-2023-44487,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : tracker-miners vulnerability (USN-6504-1),High,7.7,CVE-2023-5557,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Perl vulnerabilities (USN-6517-1),Critical,9.8,"CVE-2022-48522, CVE-2023-47038",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : FreeRDP vulnerabilities (USN-6522-1),Critical,9.8,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : curl vulnerabilities (USN-6535-1),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : python-cryptography vulnerabilities (USN-6539-1),Medium,6.5,"CVE-2023-23931, CVE-2023-49083",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : BlueZ vulnerability (USN-6540-1),Medium,6.3,CVE-2023-45866,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GNU Tar vulnerability (USN-6543-1),High,7.5,CVE-2023-39804,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerabilities (USN-6545-1),High,8.8,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : Ghostscript vulnerability (USN-6551-1),High,7.5,CVE-2023-46751,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GNOME Settings vulnerability (USN-6554-1),High,7.5,CVE-2023-5616,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6555-1),High,7.8,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Vim vulnerabilities (USN-6557-1),High,7.8,"CVE-2022-1725, CVE-2022-1771, CVE-2022-1886, CVE-2022-1897, CVE-2022-2000, CVE-2022-2042, CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : SQLite vulnerabilities (USN-6566-1),High,7.3,"CVE-2022-46908, CVE-2023-7104",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerability (USN-6582-1),Medium,5.5,CVE-2023-42883,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6587-1),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : PAM vulnerability (USN-6588-1),Medium,5.5,CVE-2024-22365,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GnuTLS vulnerabilities (USN-6593-1),High,7.5,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.10 : Jinja2 vulnerabilities (USN-6599-1),Medium,6.1,"CVE-2020-28493, CVE-2024-22195",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : Pillow vulnerabilities (USN-6618-1),High,8.1,"CVE-2023-44271, CVE-2023-50447",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 23.10 : GNU C Library vulnerabilities (USN-6620-1),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : OpenSSL vulnerabilities (USN-6622-1),Medium,6.5,"CVE-2023-5678, CVE-2023-6129, CVE-2023-6237, CVE-2024-0727",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.10 : WebKitGTK vulnerabilities (USN-6631-1),High,8.8,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.10 : Bind vulnerabilities (USN-6633-1),High,7.5,"CVE-2023-4408, CVE-2023-50387, CVE-2023-50868, CVE-2023-5517, CVE-2023-5679",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : shadow vulnerability (USN-6640-1),Medium,5.5,CVE-2023-4641,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 23.10 : LibTIFF vulnerabilities (USN-6644-1),High,7.5,"CVE-2023-52356, CVE-2023-6228, CVE-2023-6277",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.10 : Linux kernel vulnerabilities (USN-6651-1),High,7.8,"CVE-2023-51780, CVE-2023-51781, CVE-2023-6915, CVE-2024-0565, CVE-2024-0582, CVE-2024-0646",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : libxml2 vulnerability (USN-6658-1),High,7.5,CVE-2024-25062,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : Dnsmasq vulnerabilities (USN-6657-1),High,7.5,"CVE-2023-28450, CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : less vulnerability (USN-6664-1),Critical,9.8,CVE-2022-48624,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : libuv vulnerability (USN-6666-1),High,7.3,CVE-2024-24806,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : python-cryptography vulnerabilities (USN-6673-1),High,7.5,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : c-ares vulnerability (USN-6676-1),Medium,4.4,CVE-2024-25629,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 22.04 LTS / 23.10 : Expat vulnerabilities (USN-6694-1),High,7.5,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : TeX Live vulnerabilities (USN-6695-1),Critical,9.8,"CVE-2019-18604, CVE-2023-32668, CVE-2024-25262",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : Vim vulnerability (USN-6698-1),High,7.8,CVE-2024-22667,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 23.10 : QPDF vulnerability (USN-6713-1),Medium,5.5,CVE-2024-24246,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : curl vulnerabilities (USN-6718-1),High,7.5,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : util-linux vulnerability (USN-6719-1),High,8.8,CVE-2024-28085,Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : X.Org X Server vulnerabilities (USN-6721-1),High,7.3,"CVE-2024-31080, CVE-2024-31081, CVE-2024-31082, CVE-2024-31083",Ubuntu,freshly installed,Laptop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Ghostscript vulnerability (USN-6433-1),High,8.8,CVE-2023-43115,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 23.10 : curl vulnerabilities (USN-6429-3),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 23.10 : Samba vulnerabilities (USN-6425-3),Medium,6.5,"CVE-2023-4091, CVE-2023-4154, CVE-2023-42669, CVE-2023-42670",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 23.10 : CUE vulnerability (USN-6423-2),High,8.8,CVE-2023-43641,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : OpenSSL vulnerabilities (USN-6450-1),High,7.5,"CVE-2023-2975, CVE-2023-3446, CVE-2023-3817, CVE-2023-5363",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6453-1),High,7.8,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Vim vulnerabilities (USN-6452-1),High,7.8,"CVE-2023-3896, CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4751, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : libsndfile vulnerability (USN-6471-1),High,7.8,CVE-2022-33065,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : urllib3 vulnerabilities (USN-6473-1),High,8.1,"CVE-2018-25091, CVE-2023-43804, CVE-2023-45803",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : procps-ng vulnerability (USN-6477-1),Low,3.3,CVE-2023-4016,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 23.04 / 23.10 : OpenVPN vulnerabilities (USN-6484-1),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Intel Microcode vulnerability (USN-6485-1),High,7.8,CVE-2023-23583,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerabilities (USN-6490-1),High,8.8,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Avahi vulnerabilities (USN-6487-1),Medium,5.5,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GnuTLS vulnerability (USN-6499-1),Medium,5.9,CVE-2023-5981,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : nghttp2 vulnerability (USN-6505-1),High,7.5,CVE-2023-44487,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : tracker-miners vulnerability (USN-6504-1),High,7.7,CVE-2023-5557,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Perl vulnerabilities (USN-6517-1),Critical,9.8,"CVE-2022-48522, CVE-2023-47038",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : FreeRDP vulnerabilities (USN-6522-1),Critical,9.8,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : curl vulnerabilities (USN-6535-1),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : python-cryptography vulnerabilities (USN-6539-1),Medium,6.5,"CVE-2023-23931, CVE-2023-49083",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : BlueZ vulnerability (USN-6540-1),Medium,6.3,CVE-2023-45866,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GNU Tar vulnerability (USN-6543-1),High,7.5,CVE-2023-39804,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerabilities (USN-6545-1),High,8.8,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : Ghostscript vulnerability (USN-6551-1),High,7.5,CVE-2023-46751,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GNOME Settings vulnerability (USN-6554-1),High,7.5,CVE-2023-5616,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6555-1),High,7.8,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Vim vulnerabilities (USN-6557-1),High,7.8,"CVE-2022-1725, CVE-2022-1771, CVE-2022-1886, CVE-2022-1897, CVE-2022-2000, CVE-2022-2042, CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : SQLite vulnerabilities (USN-6566-1),High,7.3,"CVE-2022-46908, CVE-2023-7104",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerability (USN-6582-1),Medium,5.5,CVE-2023-42883,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6587-1),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : PAM vulnerability (USN-6588-1),Medium,5.5,CVE-2024-22365,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GnuTLS vulnerabilities (USN-6593-1),High,7.5,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.10 : Jinja2 vulnerabilities (USN-6599-1),Medium,6.1,"CVE-2020-28493, CVE-2024-22195",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : Pillow vulnerabilities (USN-6618-1),High,8.1,"CVE-2023-44271, CVE-2023-50447",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 23.10 : GNU C Library vulnerabilities (USN-6620-1),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : OpenSSL vulnerabilities (USN-6622-1),Medium,6.5,"CVE-2023-5678, CVE-2023-6129, CVE-2023-6237, CVE-2024-0727",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.10 : WebKitGTK vulnerabilities (USN-6631-1),High,8.8,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.10 : Bind vulnerabilities (USN-6633-1),High,7.5,"CVE-2023-4408, CVE-2023-50387, CVE-2023-50868, CVE-2023-5517, CVE-2023-5679",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : shadow vulnerability (USN-6640-1),Medium,5.5,CVE-2023-4641,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 23.10 : LibTIFF vulnerabilities (USN-6644-1),High,7.5,"CVE-2023-52356, CVE-2023-6228, CVE-2023-6277",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.10 : Linux kernel vulnerabilities (USN-6651-1),High,7.8,"CVE-2023-51780, CVE-2023-51781, CVE-2023-6915, CVE-2024-0565, CVE-2024-0582, CVE-2024-0646",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : libxml2 vulnerability (USN-6658-1),High,7.5,CVE-2024-25062,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : Dnsmasq vulnerabilities (USN-6657-1),High,7.5,"CVE-2023-28450, CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : less vulnerability (USN-6664-1),Critical,9.8,CVE-2022-48624,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : libuv vulnerability (USN-6666-1),High,7.3,CVE-2024-24806,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : python-cryptography vulnerabilities (USN-6673-1),High,7.5,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : c-ares vulnerability (USN-6676-1),Medium,4.4,CVE-2024-25629,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 22.04 LTS / 23.10 : Expat vulnerabilities (USN-6694-1),High,7.5,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : TeX Live vulnerabilities (USN-6695-1),Critical,9.8,"CVE-2019-18604, CVE-2023-32668, CVE-2024-25262",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : Vim vulnerability (USN-6698-1),High,7.8,CVE-2024-22667,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 23.10 : QPDF vulnerability (USN-6713-1),Medium,5.5,CVE-2024-24246,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : curl vulnerabilities (USN-6718-1),High,7.5,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : util-linux vulnerability (USN-6719-1),High,8.8,CVE-2024-28085,Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : X.Org X Server vulnerabilities (USN-6721-1),High,7.3,"CVE-2024-31080, CVE-2024-31081, CVE-2024-31082, CVE-2024-31083",Ubuntu,freshly installed,Desktop,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Ghostscript vulnerability (USN-6433-1),High,8.8,CVE-2023-43115,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 23.10 : curl vulnerabilities (USN-6429-3),Critical,9.8,"CVE-2023-38545, CVE-2023-38546",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 23.10 : Samba vulnerabilities (USN-6425-3),Medium,6.5,"CVE-2023-4091, CVE-2023-4154, CVE-2023-42669, CVE-2023-42670",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 23.10 : CUE vulnerability (USN-6423-2),High,8.8,CVE-2023-43641,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : OpenSSL vulnerabilities (USN-6450-1),High,7.5,"CVE-2023-2975, CVE-2023-3446, CVE-2023-3817, CVE-2023-5363",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6453-1),High,7.8,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Vim vulnerabilities (USN-6452-1),High,7.8,"CVE-2023-3896, CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4751, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : libsndfile vulnerability (USN-6471-1),High,7.8,CVE-2022-33065,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : urllib3 vulnerabilities (USN-6473-1),High,8.1,"CVE-2018-25091, CVE-2023-43804, CVE-2023-45803",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : procps-ng vulnerability (USN-6477-1),Low,3.3,CVE-2023-4016,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 23.04 / 23.10 : OpenVPN vulnerabilities (USN-6484-1),Critical,9.8,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Intel Microcode vulnerability (USN-6485-1),High,7.8,CVE-2023-23583,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerabilities (USN-6490-1),High,8.8,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Avahi vulnerabilities (USN-6487-1),Medium,5.5,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GnuTLS vulnerability (USN-6499-1),Medium,5.9,CVE-2023-5981,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : nghttp2 vulnerability (USN-6505-1),High,7.5,CVE-2023-44487,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : tracker-miners vulnerability (USN-6504-1),High,7.7,CVE-2023-5557,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Perl vulnerabilities (USN-6517-1),Critical,9.8,"CVE-2022-48522, CVE-2023-47038",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : FreeRDP vulnerabilities (USN-6522-1),Critical,9.8,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : curl vulnerabilities (USN-6535-1),Medium,6.5,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : python-cryptography vulnerabilities (USN-6539-1),Medium,6.5,"CVE-2023-23931, CVE-2023-49083",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : BlueZ vulnerability (USN-6540-1),Medium,6.3,CVE-2023-45866,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GNU Tar vulnerability (USN-6543-1),High,7.5,CVE-2023-39804,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerabilities (USN-6545-1),High,8.8,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : Ghostscript vulnerability (USN-6551-1),High,7.5,CVE-2023-46751,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GNOME Settings vulnerability (USN-6554-1),High,7.5,CVE-2023-5616,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6555-1),High,7.8,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : Vim vulnerabilities (USN-6557-1),High,7.8,"CVE-2022-1725, CVE-2022-1771, CVE-2022-1886, CVE-2022-1897, CVE-2022-2000, CVE-2022-2042, CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : SQLite vulnerabilities (USN-6566-1),High,7.3,"CVE-2022-46908, CVE-2023-7104",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.04 / 23.10 : WebKitGTK vulnerability (USN-6582-1),Medium,5.5,CVE-2023-42883,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : X.Org X Server vulnerabilities (USN-6587-1),Critical,9.8,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : PAM vulnerability (USN-6588-1),Medium,5.5,CVE-2024-22365,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.04 / 23.10 : GnuTLS vulnerabilities (USN-6593-1),High,7.5,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 ESM / 18.04 ESM / 20.04 LTS / 22.04 LTS / 23.10 : Jinja2 vulnerabilities (USN-6599-1),Medium,6.1,"CVE-2020-28493, CVE-2024-22195",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : Pillow vulnerabilities (USN-6618-1),High,8.1,"CVE-2023-44271, CVE-2023-50447",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 23.10 : GNU C Library vulnerabilities (USN-6620-1),High,7.8,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : OpenSSL vulnerabilities (USN-6622-1),Medium,6.5,"CVE-2023-5678, CVE-2023-6129, CVE-2023-6237, CVE-2024-0727",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.10 : WebKitGTK vulnerabilities (USN-6631-1),High,8.8,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.10 : Bind vulnerabilities (USN-6633-1),High,7.5,"CVE-2023-4408, CVE-2023-50387, CVE-2023-50868, CVE-2023-5517, CVE-2023-5679",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : shadow vulnerability (USN-6640-1),Medium,5.5,CVE-2023-4641,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 23.10 : LibTIFF vulnerabilities (USN-6644-1),High,7.5,"CVE-2023-52356, CVE-2023-6228, CVE-2023-6277",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.10 : Linux kernel vulnerabilities (USN-6651-1),High,7.8,"CVE-2023-51780, CVE-2023-51781, CVE-2023-6915, CVE-2024-0565, CVE-2024-0582, CVE-2024-0646",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : libxml2 vulnerability (USN-6658-1),High,7.5,CVE-2024-25062,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : Dnsmasq vulnerabilities (USN-6657-1),High,7.5,"CVE-2023-28450, CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : less vulnerability (USN-6664-1),Critical,9.8,CVE-2022-48624,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : libuv vulnerability (USN-6666-1),High,7.3,CVE-2024-24806,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : python-cryptography vulnerabilities (USN-6673-1),High,7.5,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : c-ares vulnerability (USN-6676-1),Medium,4.4,CVE-2024-25629,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 22.04 LTS / 23.10 : Expat vulnerabilities (USN-6694-1),High,7.5,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : TeX Live vulnerabilities (USN-6695-1),Critical,9.8,"CVE-2019-18604, CVE-2023-32668, CVE-2024-25262",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : Vim vulnerability (USN-6698-1),High,7.8,CVE-2024-22667,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 23.10 : QPDF vulnerability (USN-6713-1),Medium,5.5,CVE-2024-24246,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : curl vulnerabilities (USN-6718-1),High,7.5,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Server,Nessus
+Ubuntu 20.04 LTS / 22.04 LTS / 23.10 : util-linux vulnerability (USN-6719-1),High,8.8,CVE-2024-28085,Ubuntu,freshly installed,Server,Nessus
+Ubuntu 14.04 LTS / 16.04 LTS / 18.04 LTS / 20.04 LTS / 22.04 LTS / 23.10 : X.Org X Server vulnerabilities (USN-6721-1),High,7.3,"CVE-2024-31080, CVE-2024-31081, CVE-2024-31082, CVE-2024-31083",Ubuntu,freshly installed,Server,Nessus
+ICMP redirection enabled,High,7,,Fedora,fully updated,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,Fedora,fully updated,Laptop,Nexpose
+User home directory mode unsafe,Low,2,,Fedora,fully updated,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Fedora,fully updated,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Fedora,fully updated,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,Fedora,fully updated,Desktop,Nexpose
+User home directory mode unsafe,Low,2,,Fedora,fully updated,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Fedora,fully updated,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,Fedora,fully updated,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Fedora,fully updated,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Fedora,fully updated,Server,Nexpose
+User home directory mode unsafe,Low,2,,Fedora,fully updated,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Fedora,fully updated,Server,Nexpose
+User umask value is unsafe,Medium,4,,Fedora,fully updated,Server,Nexpose
+ICMP redirection enabled,High,7,,Fedora,freshly installed,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,Fedora,freshly installed,Laptop,Nexpose
+User home directory mode unsafe,Low,2,,Fedora,freshly installed,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Fedora,freshly installed,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Fedora,freshly installed,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Fedora,freshly installed,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,Fedora,freshly installed,Desktop,Nexpose
+User home directory mode unsafe,Low,2,,Fedora,freshly installed,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Fedora,freshly installed,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,Fedora,freshly installed,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Fedora,freshly installed,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Fedora,freshly installed,Server,Nexpose
+User home directory mode unsafe,Low,2,,Fedora,freshly installed,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Fedora,freshly installed,Server,Nexpose
+User umask value is unsafe,Medium,4,,Fedora,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,Kali Linux,fully updated,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Kali Linux,fully updated,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Kali Linux,fully updated,Laptop,Nexpose
+No password for Grub,Medium,5,,Kali Linux,fully updated,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Kali Linux,fully updated,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,Kali Linux,fully updated,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Kali Linux,fully updated,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,Kali Linux,fully updated,Desktop,Nexpose
+No password for Grub,Medium,5,,Kali Linux,fully updated,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Kali Linux,fully updated,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Kali Linux,fully updated,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Kali Linux,fully updated,Server,Nexpose
+User umask value is unsafe,Medium,4,,Kali Linux,fully updated,Server,Nexpose
+No password for Grub,Medium,5,,Kali Linux,fully updated,Server,Nexpose
+ICMP redirection enabled,High,7,,Kali Linux,freshly installed,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Kali Linux,freshly installed,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Kali Linux,freshly installed,Laptop,Nexpose
+No password for Grub,Medium,5,,Kali Linux,freshly installed,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Kali Linux,freshly installed,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,Kali Linux,freshly installed,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Kali Linux,freshly installed,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,Kali Linux,freshly installed,Desktop,Nexpose
+No password for Grub,Medium,5,,Kali Linux,freshly installed,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Kali Linux,freshly installed,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Kali Linux,freshly installed,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Kali Linux,freshly installed,Server,Nexpose
+User umask value is unsafe,Medium,4,,Kali Linux,freshly installed,Server,Nexpose
+No password for Grub,Medium,5,,Kali Linux,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,Manjaro,fully updated,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Manjaro,fully updated,Laptop,Nexpose
+No password for Grub,Medium,5,,Manjaro,fully updated,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Manjaro,fully updated,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Manjaro,fully updated,Desktop,Nexpose
+No password for Grub,Medium,5,,Manjaro,fully updated,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Manjaro,fully updated,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Manjaro,fully updated,Server,Nexpose
+No password for Grub,Medium,5,,Manjaro,fully updated,Server,Nexpose
+ICMP redirection enabled,High,7,,Manjaro,freshly installed,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Manjaro,freshly installed,Laptop,Nexpose
+No password for Grub,Medium,5,,Manjaro,freshly installed,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Manjaro,freshly installed,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Manjaro,freshly installed,Desktop,Nexpose
+No password for Grub,Medium,5,,Manjaro,freshly installed,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Manjaro,freshly installed,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Manjaro,freshly installed,Server,Nexpose
+No password for Grub,Medium,5,,Manjaro,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,OpenSUSE,fully updated,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,OpenSUSE,fully updated,Laptop,Nexpose
+User home directory mode unsafe,Low,2,,OpenSUSE,fully updated,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,OpenSUSE,fully updated,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,OpenSUSE,fully updated,Laptop,Nexpose
+No password for Grub,Medium,5,,OpenSUSE,fully updated,Laptop,Nexpose
+ICMP redirection enabled,High,7,,OpenSUSE,fully updated,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,OpenSUSE,fully updated,Desktop,Nexpose
+User home directory mode unsafe,Low,2,,OpenSUSE,fully updated,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,OpenSUSE,fully updated,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,OpenSUSE,fully updated,Desktop,Nexpose
+No password for Grub,Medium,5,,OpenSUSE,fully updated,Desktop,Nexpose
+ICMP redirection enabled,High,7,,OpenSUSE,fully updated,Server,Nexpose
+Partition Mounting Weakness,Low,2,,OpenSUSE,fully updated,Server,Nexpose
+User home directory mode unsafe,Low,2,,OpenSUSE,fully updated,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,OpenSUSE,fully updated,Server,Nexpose
+User umask value is unsafe,Medium,4,,OpenSUSE,fully updated,Server,Nexpose
+No password for Grub,Medium,5,,OpenSUSE,fully updated,Server,Nexpose
+Partition Mounting Weakness,Low,2,,OpenSUSE,freshly installed,Laptop,Nexpose
+ICMP redirection enabled,High,7,,OpenSUSE,freshly installed,Laptop,Nexpose
+User home directory mode unsafe,Low,2,,OpenSUSE,freshly installed,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,OpenSUSE,freshly installed,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,OpenSUSE,freshly installed,Laptop,Nexpose
+No password for Grub,Medium,5,,OpenSUSE,freshly installed,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,OpenSUSE,freshly installed,Desktop,Nexpose
+ICMP redirection enabled,High,7,,OpenSUSE,freshly installed,Desktop,Nexpose
+User home directory mode unsafe,Low,2,,OpenSUSE,freshly installed,Desktop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,OpenSUSE,freshly installed,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,OpenSUSE,freshly installed,Desktop,Nexpose
+No password for Grub,Medium,5,,OpenSUSE,freshly installed,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,OpenSUSE,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,OpenSUSE,freshly installed,Server,Nexpose
+User home directory mode unsafe,Low,2,,OpenSUSE,freshly installed,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,OpenSUSE,freshly installed,Server,Nexpose
+User umask value is unsafe,Medium,4,,OpenSUSE,freshly installed,Server,Nexpose
+No password for Grub,Medium,5,,OpenSUSE,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+User home directory mode unsafe,Low,2,,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+No password for Grub,Medium,5,,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Red Hat Enterprise Linux,fully updated,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Red Hat Enterprise Linux,fully updated,Desktop,Nexpose
+User home directory mode unsafe,Low,2,,Red Hat Enterprise Linux,fully updated,Desktop,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Red Hat Enterprise Linux,fully updated,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+User home directory mode unsafe,Low,2,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+SSH Weak Message Authentication Code Algorithms,Medium,4,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+TCP timestamp response,Low,1,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+No password for Grub,Medium,5,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+User umask value is unsafe,Medium,4,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Red Hat Enterprise Linux,fully updated,Server,Nexpose
+ICMP redirection enabled,High,7,,Red Hat Enterprise Linux,freshly installed,Server,Nexpose
+User home directory mode unsafe,Low,2,,Red Hat Enterprise Linux,freshly installed,Server,Nexpose
+No password for Grub,Medium,5,,Red Hat Enterprise Linux,freshly installed,Server,Nexpose
+User umask value is unsafe,Medium,4,,Red Hat Enterprise Linux,freshly installed,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Red Hat Enterprise Linux,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,Red Hat Enterprise Linux,freshly installed,Laptop,Nexpose
+User home directory mode unsafe,Low,2,,Red Hat Enterprise Linux,freshly installed,Laptop,Nexpose
+No password for Grub,Medium,5,,Red Hat Enterprise Linux,freshly installed,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Red Hat Enterprise Linux,freshly installed,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,Red Hat Enterprise Linux,freshly installed,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Ubuntu,freshly installed,Desktop,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Ubuntu,freshly installed,Desktop,Nexpose
+No password for Grub,Medium,5,,Ubuntu,freshly installed,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,Ubuntu,freshly installed,Desktop,Nexpose
+TCP timestamp response,Low,1,,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6423-2): CUE vulnerability,Medium,4,CVE-2023-43641,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6429-3): curl vulnerabilities,Medium,4,CVE-2023-38546,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6433-1): Ghostscript vulnerability,Medium,4,CVE-2023-43115,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6450-1): OpenSSL vulnerabilities,Medium,4,CVE-2023-5363,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6452-1): Vim vulnerabilities,Medium,4,"CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6453-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6471-1): libsndfile vulnerability,Medium,4,CVE-2022-33065,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6473-1): urllib3 vulnerabilities,Medium,4,"CVE-2023-45803, CVE-2023-43804",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6477-1): procps-ng vulnerability,Medium,4,CVE-2023-4016,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6484-1): OpenVPN vulnerabilities,Medium,4,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6485-1): Intel Microcode vulnerability,Medium,4,CVE-2023-23583,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6487-1): Avahi vulnerabilities,Medium,4,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6490-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6499-1): GnuTLS vulnerability,Medium,4,CVE-2023-5981,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6504-1): tracker-miners vulnerability,Medium,4,CVE-2023-5557,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6505-1): .NET vulnerability,Medium,4,CVE-2023-44487,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6517-1): Perl vulnerabilities,Medium,4,CVE-2023-47038,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6522-1): FreeRDP vulnerabilities,Medium,4,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6535-1): curl vulnerabilities,Medium,4,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6539-1): python-cryptography vulnerabilities,Medium,4,CVE-2023-49083,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6540-1): BlueZ vulnerability,Medium,4,CVE-2023-45866,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6543-1): GNU Tar vulnerability,Medium,4,CVE-2023-39804,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6545-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6551-1): Ghostscript vulnerability,Medium,4,CVE-2023-46751,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6554-1): GNOME Settings vulnerability,Medium,4,CVE-2023-5616,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6555-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6557-1): Vim vulnerabilities,Medium,4,"CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6566-1): SQLite vulnerabilities,Medium,4,CVE-2023-7104,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6582-1): WebKitGTK vulnerability,Medium,4,CVE-2023-42883,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6587-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6588-1): PAM vulnerability,Medium,4,CVE-2024-22365,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6593-1): GnuTLS vulnerabilities,Medium,4,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6599-1): Jinja2 vulnerabilities,Medium,4,CVE-2024-22195,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6618-1): Pillow vulnerabilities,Medium,4,CVE-2023-50447,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6620-1): GNU C Library vulnerabilities,Medium,4,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6622-1): OpenSSL vulnerabilities,Medium,4,"CVE-2023-5678, CVE-2024-0727",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6631-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6633-1): Bind vulnerabilities,Medium,4,"CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6640-1): shadow vulnerability,Medium,4,CVE-2023-4641,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6644-1): LibTIFF vulnerabilities,Medium,4,"CVE-2023-6228, CVE-2023-6277, CVE-2023-52356,",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6657-1): Dnsmasq vulnerability,Medium,4,CVE-2023-28450,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6658-1): libxml2 vulnerability,Medium,4,CVE-2024-25062,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6664-1): less vulnerability,Medium,4,CVE-2022-48624,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6666-1): libuv vulnerability,Medium,4,CVE-2024-24806,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6673-1): python-cryptography vulnerabilities,Medium,4,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6676-1): c-ares vulnerability,Medium,4,CVE-2024-25629,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6694-1): Expat vulnerabilities,Medium,4,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6713-1): QPDF vulnerability,Medium,4,CVE-2024-24246,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6718-1): curl vulnerabilities,Medium,4,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6719-1): util-linux vulnerability,Medium,4,CVE-2024-28085,Ubuntu,freshly installed,Desktop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6721-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2024-31080, CVE-2024-31081, CVE-2024-31082, CVE-2024-31083",Ubuntu,freshly installed,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,Ubuntu,freshly installed,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Ubuntu,freshly installed,Laptop,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Ubuntu,freshly installed,Laptop,Nexpose
+No password for Grub,Medium,5,,Ubuntu,freshly installed,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6423-2): CUE vulnerability,Medium,4,CVE-2023-43641,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6429-3): curl vulnerabilities,Medium,4,CVE-2023-38546,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6433-1): Ghostscript vulnerability,Medium,4,CVE-2023-43115,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6450-1): OpenSSL vulnerabilities,Medium,4,CVE-2023-5363,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6452-1): Vim vulnerabilities,Medium,4,"CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6453-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6471-1): libsndfile vulnerability,Medium,4,CVE-2022-33065,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6473-1): urllib3 vulnerabilities,Medium,4,"CVE-2023-45803, CVE-2023-43804",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6477-1): procps-ng vulnerability,Medium,4,CVE-2023-4016,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6484-1): OpenVPN vulnerabilities,Medium,4,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6485-1): Intel Microcode vulnerability,Medium,4,CVE-2023-23583,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6487-1): Avahi vulnerabilities,Medium,4,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6490-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6499-1): GnuTLS vulnerability,Medium,4,CVE-2023-5981,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6504-1): tracker-miners vulnerability,Medium,4,CVE-2023-5557,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6505-1): .NET vulnerability,Medium,4,CVE-2023-44487,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6517-1): Perl vulnerabilities,Medium,4,CVE-2023-47038,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6522-1): FreeRDP vulnerabilities,Medium,4,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6535-1): curl vulnerabilities,Medium,4,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6539-1): python-cryptography vulnerabilities,Medium,4,CVE-2023-49083,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6540-1): BlueZ vulnerability,Medium,4,CVE-2023-45866,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6543-1): GNU Tar vulnerability,Medium,4,CVE-2023-39804,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6545-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6551-1): Ghostscript vulnerability,Medium,4,CVE-2023-46751,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6554-1): GNOME Settings vulnerability,Medium,4,CVE-2023-5616,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6555-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6557-1): Vim vulnerabilities,Medium,4,"CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6566-1): SQLite vulnerabilities,Medium,4,CVE-2023-7104,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6582-1): WebKitGTK vulnerability,Medium,4,CVE-2023-42883,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6587-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6588-1): PAM vulnerability,Medium,4,CVE-2024-22365,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6593-1): GnuTLS vulnerabilities,Medium,4,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6599-1): Jinja2 vulnerabilities,Medium,4,CVE-2024-22195,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6618-1): Pillow vulnerabilities,Medium,4,CVE-2023-50447,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6620-1): GNU C Library vulnerabilities,Medium,4,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6622-1): OpenSSL vulnerabilities,Medium,4,"CVE-2023-5678, CVE-2024-0727",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6631-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6633-1): Bind vulnerabilities,Medium,4,"CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6640-1): shadow vulnerability,Medium,4,CVE-2023-4641,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6644-1): LibTIFF vulnerabilities,Medium,4,"CVE-2023-6228, CVE-2023-6277, CVE-2023-52356,",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6657-1): Dnsmasq vulnerability,Medium,4,CVE-2023-28450,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6658-1): libxml2 vulnerability,Medium,4,CVE-2024-25062,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6664-1): less vulnerability,Medium,4,CVE-2022-48624,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6666-1): libuv vulnerability,Medium,4,CVE-2024-24806,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6673-1): python-cryptography vulnerabilities,Medium,4,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6676-1): c-ares vulnerability,Medium,4,CVE-2024-25629,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6694-1): Expat vulnerabilities,Medium,4,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6713-1): QPDF vulnerability,Medium,4,CVE-2024-24246,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6718-1): curl vulnerabilities,Medium,4,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6719-1): util-linux vulnerability,Medium,4,CVE-2024-28085,Ubuntu,freshly installed,Laptop,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6721-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2024-31080, CVE-2024-31081, CVE-2024-31082, CVE-2024-31083",Ubuntu,freshly installed,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Ubuntu,freshly installed,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Ubuntu,freshly installed,Server,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Ubuntu,freshly installed,Server,Nexpose
+No password for Grub,Medium,5,,Ubuntu,freshly installed,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6423-2): CUE vulnerability,Medium,4,CVE-2023-43641,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6429-3): curl vulnerabilities,Medium,4,CVE-2023-38546,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6433-1): Ghostscript vulnerability,Medium,4,CVE-2023-43115,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6450-1): OpenSSL vulnerabilities,Medium,4,CVE-2023-5363,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6452-1): Vim vulnerabilities,Medium,4,"CVE-2023-4733, CVE-2023-4734, CVE-2023-4735, CVE-2023-4738, CVE-2023-4750, CVE-2023-4752, CVE-2023-4781, CVE-2023-5344, CVE-2023-5441, CVE-2023-5535",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6453-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-5367, CVE-2023-5380",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6471-1): libsndfile vulnerability,Medium,4,CVE-2022-33065,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6473-1): urllib3 vulnerabilities,Medium,4,"CVE-2023-45803, CVE-2023-43804",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6477-1): procps-ng vulnerability,Medium,4,CVE-2023-4016,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6484-1): OpenVPN vulnerabilities,Medium,4,"CVE-2023-46849, CVE-2023-46850",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6485-1): Intel Microcode vulnerability,Medium,4,CVE-2023-23583,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6487-1): Avahi vulnerabilities,Medium,4,"CVE-2023-38469, CVE-2023-38470, CVE-2023-38471, CVE-2023-38472, CVE-2023-38473",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6490-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2023-41983, CVE-2023-42852",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6499-1): GnuTLS vulnerability,Medium,4,CVE-2023-5981,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6504-1): tracker-miners vulnerability,Medium,4,CVE-2023-5557,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6505-1): .NET vulnerability,Medium,4,CVE-2023-44487,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6517-1): Perl vulnerabilities,Medium,4,CVE-2023-47038,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6522-1): FreeRDP vulnerabilities,Medium,4,"CVE-2022-41877, CVE-2023-39352, CVE-2023-39356",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6535-1): curl vulnerabilities,Medium,4,"CVE-2023-46218, CVE-2023-46219",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6539-1): python-cryptography vulnerabilities,Medium,4,CVE-2023-49083,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6540-1): BlueZ vulnerability,Medium,4,CVE-2023-45866,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6543-1): GNU Tar vulnerability,Medium,4,CVE-2023-39804,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6545-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2023-42916, CVE-2023-42917",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6551-1): Ghostscript vulnerability,Medium,4,CVE-2023-46751,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6554-1): GNOME Settings vulnerability,Medium,4,CVE-2023-5616,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6555-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-6377, CVE-2023-6478",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6557-1): Vim vulnerabilities,Medium,4,"CVE-2023-46246, CVE-2023-48231, CVE-2023-48232, CVE-2023-48233, CVE-2023-48234, CVE-2023-48235, CVE-2023-48236, CVE-2023-48237, CVE-2023-48706",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6566-1): SQLite vulnerabilities,Medium,4,CVE-2023-7104,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6582-1): WebKitGTK vulnerability,Medium,4,CVE-2023-42883,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6587-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2023-6816, CVE-2024-0229, CVE-2024-0408, CVE-2024-0409, CVE-2024-21885, CVE-2024-21886",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6588-1): PAM vulnerability,Medium,4,CVE-2024-22365,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6593-1): GnuTLS vulnerabilities,Medium,4,"CVE-2024-0553, CVE-2024-0567",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6599-1): Jinja2 vulnerabilities,Medium,4,CVE-2024-22195,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6618-1): Pillow vulnerabilities,Medium,4,CVE-2023-50447,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6620-1): GNU C Library vulnerabilities,Medium,4,"CVE-2023-6246, CVE-2023-6779, CVE-2023-6780",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6622-1): OpenSSL vulnerabilities,Medium,4,"CVE-2023-5678, CVE-2024-0727",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6631-1): WebKitGTK vulnerabilities,Medium,4,"CVE-2024-23206, CVE-2024-23213, CVE-2024-23222",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6633-1): Bind vulnerabilities,Medium,4,"CVE-2023-50387, CVE-2023-50868",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6640-1): shadow vulnerability,Medium,4,CVE-2023-4641,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6644-1): LibTIFF vulnerabilities,Medium,4,"CVE-2023-6228, CVE-2023-6277, CVE-2023-52356,",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6657-1): Dnsmasq vulnerability,Medium,4,CVE-2023-28450,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6658-1): libxml2 vulnerability,Medium,4,CVE-2024-25062,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6664-1): less vulnerability,Medium,4,CVE-2022-48624,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6666-1): libuv vulnerability,Medium,4,CVE-2024-24806,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6673-1): python-cryptography vulnerabilities,Medium,4,"CVE-2023-50782, CVE-2024-26130",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6676-1): c-ares vulnerability,Medium,4,CVE-2024-25629,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6694-1): Expat vulnerabilities,Medium,4,"CVE-2023-52425, CVE-2024-28757",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6713-1): QPDF vulnerability,Medium,4,CVE-2024-24246,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6718-1): curl vulnerabilities,Medium,4,"CVE-2024-2004, CVE-2024-2398",Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6719-1): util-linux vulnerability,Medium,4,CVE-2024-28085,Ubuntu,freshly installed,Server,Nexpose
+Ubuntu: (Multiple Advisories) (USN-6721-1): X.Org X Server vulnerabilities,Medium,4,"CVE-2024-31080, CVE-2024-31081, CVE-2024-31082, CVE-2024-31083",Ubuntu,freshly installed,Server,Nexpose
+User umask value is unsafe,Medium,4,,Ubuntu,freshly installed,Server,Nexpose
+ICMP redirection enabled,High,7,,Ubuntu,fully updated,Desktop,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Ubuntu,fully updated,Desktop,Nexpose
+No password for Grub,Medium,5,,Ubuntu,fully updated,Desktop,Nexpose
+Partition Mounting Weakness,Low,2,,Ubuntu,fully updated,Desktop,Nexpose
+User umask value is unsafe,Medium,4,,Ubuntu,fully updated,Desktop,Nexpose
+ICMP redirection enabled,High,7,,Ubuntu,fully updated,Laptop,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Ubuntu,fully updated,Laptop,Nexpose
+No password for Grub,Medium,5,,Ubuntu,fully updated,Laptop,Nexpose
+Partition Mounting Weakness,Low,2,,Ubuntu,fully updated,Laptop,Nexpose
+TCP timestamp response,Low,1,,Ubuntu,fully updated,Laptop,Nexpose
+User umask value is unsafe,Medium,4,,Ubuntu,fully updated,Laptop,Nexpose
+ICMP redirection enabled,High,7,,Ubuntu,fully updated,Server,Nexpose
+ICMP timestamp response,Low,1,CVE-1999-0524,Ubuntu,fully updated,Server,Nexpose
+No password for Grub,Medium,5,,Ubuntu,fully updated,Server,Nexpose
+Partition Mounting Weakness,Low,2,,Ubuntu,fully updated,Server,Nexpose
+TCP timestamp response,Low,1,,Ubuntu,fully updated,Server,Nexpose
+User umask value is unsafe,Medium,4,,Ubuntu,fully updated,Server,Nexpose

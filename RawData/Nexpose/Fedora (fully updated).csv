@@ -1,0 +1,30 @@
+Asset IP Address,Service Port,Vulnerability Test Result Code,Vulnerability ID,Vulnerability CVE IDs,Vulnerability Severity Level,Vulnerability Title,Distribution,State
+Laptop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Fedora,fully updated
+Laptop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Fedora,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Laptop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Laptop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Fedora,fully updated
+Desktop,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Fedora,fully updated
+Desktop,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Fedora,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Desktop,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Desktop,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Fedora,fully updated
+Desktop,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Fedora,fully updated
+Server,0,ve,linux-icmp-redirect,,7,ICMP redirection enabled,Fedora,fully updated
+Server,0,ve,unix-partition-mounting-weakness,,2,Partition Mounting Weakness,Fedora,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Server,0,vv,unix-user-home-dir-mode,,2,User home directory mode unsafe,Fedora,fully updated
+Server,22,vv,ssh-weak-message-authentication-code-algorithms,,4,SSH Weak Message Authentication Code Algorithms,Fedora,fully updated
+Server,0,ve,unix-umask-unsafe,,4,User umask value is unsafe,Fedora,fully updated
